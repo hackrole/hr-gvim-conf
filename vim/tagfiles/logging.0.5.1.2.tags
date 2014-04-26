@@ -1,0 +1,380 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BASIC_FORMAT	/usr/lib/python2.7/logging/__init__.py	/^BASIC_FORMAT = "%(levelname)s:%(name)s:%(message)s"$/;"	v
+BaseConfigurator	/usr/lib/python2.7/logging/config.py	/^class BaseConfigurator(object):$/;"	c
+BaseRotatingHandler	/usr/lib/python2.7/logging/handlers.py	/^class BaseRotatingHandler(logging.FileHandler):$/;"	c
+BufferingFormatter	/usr/lib/python2.7/logging/__init__.py	/^class BufferingFormatter(object):$/;"	c
+BufferingHandler	/usr/lib/python2.7/logging/handlers.py	/^class BufferingHandler(logging.Handler):$/;"	c
+CONVERT_PATTERN	/usr/lib/python2.7/logging/config.py	/^    CONVERT_PATTERN = re.compile(r'^(?P<prefix>[a-z]+):\/\/(?P<suffix>.*)$')$/;"	v	class:BaseConfigurator
+CRITICAL	/usr/lib/python2.7/logging/__init__.py	/^CRITICAL = 50$/;"	v
+ConfigParser	/usr/lib/python2.7/logging/config.py	/^    import ConfigParser$/;"	i
+ConfigSocketReceiver	/usr/lib/python2.7/logging/config.py	/^    class ConfigSocketReceiver(ThreadingTCPServer):$/;"	c	function:listen
+ConfigStreamHandler	/usr/lib/python2.7/logging/config.py	/^    class ConfigStreamHandler(StreamRequestHandler):$/;"	c	function:listen
+ConvertingDict	/usr/lib/python2.7/logging/config.py	/^class ConvertingDict(dict):$/;"	c
+ConvertingList	/usr/lib/python2.7/logging/config.py	/^class ConvertingList(list):$/;"	c
+ConvertingTuple	/usr/lib/python2.7/logging/config.py	/^class ConvertingTuple(tuple):$/;"	c
+DEBUG	/usr/lib/python2.7/logging/__init__.py	/^DEBUG = 10$/;"	v
+DEFAULT_HTTP_LOGGING_PORT	/usr/lib/python2.7/logging/handlers.py	/^DEFAULT_HTTP_LOGGING_PORT   = 9022$/;"	v
+DEFAULT_LOGGING_CONFIG_PORT	/usr/lib/python2.7/logging/config.py	/^DEFAULT_LOGGING_CONFIG_PORT = 9030$/;"	v
+DEFAULT_SOAP_LOGGING_PORT	/usr/lib/python2.7/logging/handlers.py	/^DEFAULT_SOAP_LOGGING_PORT   = 9023$/;"	v
+DEFAULT_TCP_LOGGING_PORT	/usr/lib/python2.7/logging/handlers.py	/^DEFAULT_TCP_LOGGING_PORT    = 9020$/;"	v
+DEFAULT_UDP_LOGGING_PORT	/usr/lib/python2.7/logging/handlers.py	/^DEFAULT_UDP_LOGGING_PORT    = 9021$/;"	v
+DIGIT_PATTERN	/usr/lib/python2.7/logging/config.py	/^    DIGIT_PATTERN = re.compile(r'^\\d+$')$/;"	v	class:BaseConfigurator
+DOT_PATTERN	/usr/lib/python2.7/logging/config.py	/^    DOT_PATTERN = re.compile(r'^\\.\\s*(\\w+)\\s*')$/;"	v	class:BaseConfigurator
+DatagramHandler	/usr/lib/python2.7/logging/handlers.py	/^class DatagramHandler(SocketHandler):$/;"	c
+DictConfigurator	/usr/lib/python2.7/logging/config.py	/^class DictConfigurator(BaseConfigurator):$/;"	c
+ERROR	/usr/lib/python2.7/logging/__init__.py	/^ERROR = 40$/;"	v
+FATAL	/usr/lib/python2.7/logging/__init__.py	/^FATAL = CRITICAL$/;"	v
+FileHandler	/usr/lib/python2.7/logging/__init__.py	/^class FileHandler(StreamHandler):$/;"	c
+Filter	/usr/lib/python2.7/logging/__init__.py	/^class Filter(object):$/;"	c
+Filterer	/usr/lib/python2.7/logging/__init__.py	/^class Filterer(object):$/;"	c
+Formatter	/usr/lib/python2.7/logging/__init__.py	/^class Formatter(object):$/;"	c
+HTTPHandler	/usr/lib/python2.7/logging/handlers.py	/^class HTTPHandler(logging.Handler):$/;"	c
+Handler	/usr/lib/python2.7/logging/__init__.py	/^class Handler(Filterer):$/;"	c
+IDENTIFIER	/usr/lib/python2.7/logging/config.py	/^IDENTIFIER = re.compile('^[a-z_][a-z0-9_]*$', re.I)$/;"	v
+INDEX_PATTERN	/usr/lib/python2.7/logging/config.py	/^    INDEX_PATTERN = re.compile(r'^\\[\\s*(\\w+)\\s*\\]\\s*')$/;"	v	class:BaseConfigurator
+INFO	/usr/lib/python2.7/logging/__init__.py	/^INFO = 20$/;"	v
+LOG_ALERT	/usr/lib/python2.7/logging/handlers.py	/^    LOG_ALERT     = 1       #  action must be taken immediately$/;"	v	class:SysLogHandler
+LOG_AUTH	/usr/lib/python2.7/logging/handlers.py	/^    LOG_AUTH      = 4       #  security\/authorization messages$/;"	v	class:SysLogHandler
+LOG_AUTHPRIV	/usr/lib/python2.7/logging/handlers.py	/^    LOG_AUTHPRIV  = 10      #  security\/authorization messages (private)$/;"	v	class:SysLogHandler
+LOG_CRIT	/usr/lib/python2.7/logging/handlers.py	/^    LOG_CRIT      = 2       #  critical conditions$/;"	v	class:SysLogHandler
+LOG_CRON	/usr/lib/python2.7/logging/handlers.py	/^    LOG_CRON      = 9       #  clock daemon$/;"	v	class:SysLogHandler
+LOG_DAEMON	/usr/lib/python2.7/logging/handlers.py	/^    LOG_DAEMON    = 3       #  system daemons$/;"	v	class:SysLogHandler
+LOG_DEBUG	/usr/lib/python2.7/logging/handlers.py	/^    LOG_DEBUG     = 7       #  debug-level messages$/;"	v	class:SysLogHandler
+LOG_EMERG	/usr/lib/python2.7/logging/handlers.py	/^    LOG_EMERG     = 0       #  system is unusable$/;"	v	class:SysLogHandler
+LOG_ERR	/usr/lib/python2.7/logging/handlers.py	/^    LOG_ERR       = 3       #  error conditions$/;"	v	class:SysLogHandler
+LOG_FTP	/usr/lib/python2.7/logging/handlers.py	/^    LOG_FTP       = 11      #  FTP daemon$/;"	v	class:SysLogHandler
+LOG_INFO	/usr/lib/python2.7/logging/handlers.py	/^    LOG_INFO      = 6       #  informational$/;"	v	class:SysLogHandler
+LOG_KERN	/usr/lib/python2.7/logging/handlers.py	/^    LOG_KERN      = 0       #  kernel messages$/;"	v	class:SysLogHandler
+LOG_LOCAL0	/usr/lib/python2.7/logging/handlers.py	/^    LOG_LOCAL0    = 16      #  reserved for local use$/;"	v	class:SysLogHandler
+LOG_LOCAL1	/usr/lib/python2.7/logging/handlers.py	/^    LOG_LOCAL1    = 17      #  reserved for local use$/;"	v	class:SysLogHandler
+LOG_LOCAL2	/usr/lib/python2.7/logging/handlers.py	/^    LOG_LOCAL2    = 18      #  reserved for local use$/;"	v	class:SysLogHandler
+LOG_LOCAL3	/usr/lib/python2.7/logging/handlers.py	/^    LOG_LOCAL3    = 19      #  reserved for local use$/;"	v	class:SysLogHandler
+LOG_LOCAL4	/usr/lib/python2.7/logging/handlers.py	/^    LOG_LOCAL4    = 20      #  reserved for local use$/;"	v	class:SysLogHandler
+LOG_LOCAL5	/usr/lib/python2.7/logging/handlers.py	/^    LOG_LOCAL5    = 21      #  reserved for local use$/;"	v	class:SysLogHandler
+LOG_LOCAL6	/usr/lib/python2.7/logging/handlers.py	/^    LOG_LOCAL6    = 22      #  reserved for local use$/;"	v	class:SysLogHandler
+LOG_LOCAL7	/usr/lib/python2.7/logging/handlers.py	/^    LOG_LOCAL7    = 23      #  reserved for local use$/;"	v	class:SysLogHandler
+LOG_LPR	/usr/lib/python2.7/logging/handlers.py	/^    LOG_LPR       = 6       #  line printer subsystem$/;"	v	class:SysLogHandler
+LOG_MAIL	/usr/lib/python2.7/logging/handlers.py	/^    LOG_MAIL      = 2       #  mail system$/;"	v	class:SysLogHandler
+LOG_NEWS	/usr/lib/python2.7/logging/handlers.py	/^    LOG_NEWS      = 7       #  network news subsystem$/;"	v	class:SysLogHandler
+LOG_NOTICE	/usr/lib/python2.7/logging/handlers.py	/^    LOG_NOTICE    = 5       #  normal but significant condition$/;"	v	class:SysLogHandler
+LOG_SYSLOG	/usr/lib/python2.7/logging/handlers.py	/^    LOG_SYSLOG    = 5       #  messages generated internally by syslogd$/;"	v	class:SysLogHandler
+LOG_USER	/usr/lib/python2.7/logging/handlers.py	/^    LOG_USER      = 1       #  random user-level messages$/;"	v	class:SysLogHandler
+LOG_UUCP	/usr/lib/python2.7/logging/handlers.py	/^    LOG_UUCP      = 8       #  UUCP subsystem$/;"	v	class:SysLogHandler
+LOG_WARNING	/usr/lib/python2.7/logging/handlers.py	/^    LOG_WARNING   = 4       #  warning conditions$/;"	v	class:SysLogHandler
+LogRecord	/usr/lib/python2.7/logging/__init__.py	/^class LogRecord(object):$/;"	c
+Logger	/usr/lib/python2.7/logging/__init__.py	/^class Logger(Filterer):$/;"	c
+LoggerAdapter	/usr/lib/python2.7/logging/__init__.py	/^class LoggerAdapter(object):$/;"	c
+Manager	/usr/lib/python2.7/logging/__init__.py	/^class Manager(object):$/;"	c
+MemoryHandler	/usr/lib/python2.7/logging/handlers.py	/^class MemoryHandler(BufferingHandler):$/;"	c
+NOTSET	/usr/lib/python2.7/logging/__init__.py	/^NOTSET = 0$/;"	v
+NTEventLogHandler	/usr/lib/python2.7/logging/handlers.py	/^class NTEventLogHandler(logging.Handler):$/;"	c
+NullHandler	/usr/lib/python2.7/logging/__init__.py	/^class NullHandler(Handler):$/;"	c
+PlaceHolder	/usr/lib/python2.7/logging/__init__.py	/^class PlaceHolder(object):$/;"	c
+RESET_ERROR	/usr/lib/python2.7/logging/config.py	/^    RESET_ERROR = 10054   #WSAECONNRESET$/;"	v
+RESET_ERROR	/usr/lib/python2.7/logging/config.py	/^    RESET_ERROR = 104     #ECONNRESET$/;"	v
+RootLogger	/usr/lib/python2.7/logging/__init__.py	/^class RootLogger(Logger):$/;"	c
+RotatingFileHandler	/usr/lib/python2.7/logging/handlers.py	/^class RotatingFileHandler(BaseRotatingHandler):$/;"	c
+SMTPHandler	/usr/lib/python2.7/logging/handlers.py	/^class SMTPHandler(logging.Handler):$/;"	c
+ST_DEV	/usr/lib/python2.7/logging/handlers.py	/^from stat import ST_DEV, ST_INO, ST_MTIME$/;"	i
+ST_INO	/usr/lib/python2.7/logging/handlers.py	/^from stat import ST_DEV, ST_INO, ST_MTIME$/;"	i
+ST_MTIME	/usr/lib/python2.7/logging/handlers.py	/^from stat import ST_DEV, ST_INO, ST_MTIME$/;"	i
+SYSLOG_TCP_PORT	/usr/lib/python2.7/logging/handlers.py	/^SYSLOG_TCP_PORT             = 514$/;"	v
+SYSLOG_UDP_PORT	/usr/lib/python2.7/logging/handlers.py	/^SYSLOG_UDP_PORT             = 514$/;"	v
+Server	/usr/lib/python2.7/logging/config.py	/^    class Server(threading.Thread):$/;"	c	function:listen
+SocketHandler	/usr/lib/python2.7/logging/handlers.py	/^class SocketHandler(logging.Handler):$/;"	c
+StreamHandler	/usr/lib/python2.7/logging/__init__.py	/^class StreamHandler(Handler):$/;"	c
+StreamRequestHandler	/usr/lib/python2.7/logging/config.py	/^from SocketServer import ThreadingTCPServer, StreamRequestHandler$/;"	i
+SysLogHandler	/usr/lib/python2.7/logging/handlers.py	/^class SysLogHandler(logging.Handler):$/;"	c
+ThreadingTCPServer	/usr/lib/python2.7/logging/config.py	/^from SocketServer import ThreadingTCPServer, StreamRequestHandler$/;"	i
+TimedRotatingFileHandler	/usr/lib/python2.7/logging/handlers.py	/^class TimedRotatingFileHandler(BaseRotatingHandler):$/;"	c
+WARN	/usr/lib/python2.7/logging/__init__.py	/^WARN = WARNING$/;"	v
+WARNING	/usr/lib/python2.7/logging/__init__.py	/^WARNING = 30$/;"	v
+WORD_PATTERN	/usr/lib/python2.7/logging/config.py	/^    WORD_PATTERN = re.compile(r'^\\s*(\\w+)\\s*')$/;"	v	class:BaseConfigurator
+WatchedFileHandler	/usr/lib/python2.7/logging/handlers.py	/^class WatchedFileHandler(logging.FileHandler):$/;"	c
+_MIDNIGHT	/usr/lib/python2.7/logging/handlers.py	/^_MIDNIGHT = 24 * 60 * 60  # number of seconds in a day$/;"	v
+__all__	/usr/lib/python2.7/logging/__init__.py	/^__all__ = ['BASIC_FORMAT', 'BufferingFormatter', 'CRITICAL', 'DEBUG', 'ERROR',$/;"	v
+__author__	/usr/lib/python2.7/logging/__init__.py	/^__author__  = "Vinay Sajip <vinay_sajip@red-dove.com>"$/;"	v
+__date__	/usr/lib/python2.7/logging/__init__.py	/^__date__    = "07 February 2010"$/;"	v
+__getitem__	/usr/lib/python2.7/logging/config.py	/^    def __getitem__(self, key):$/;"	m	class:ConvertingDict	file:
+__getitem__	/usr/lib/python2.7/logging/config.py	/^    def __getitem__(self, key):$/;"	m	class:ConvertingList	file:
+__getitem__	/usr/lib/python2.7/logging/config.py	/^    def __getitem__(self, key):$/;"	m	class:ConvertingTuple	file:
+__init__	/usr/lib/python2.7/logging/__init__.py	/^    def __init__(self):$/;"	m	class:Filterer
+__init__	/usr/lib/python2.7/logging/__init__.py	/^    def __init__(self, alogger):$/;"	m	class:PlaceHolder
+__init__	/usr/lib/python2.7/logging/__init__.py	/^    def __init__(self, filename, mode='a', encoding=None, delay=0):$/;"	m	class:FileHandler
+__init__	/usr/lib/python2.7/logging/__init__.py	/^    def __init__(self, fmt=None, datefmt=None):$/;"	m	class:Formatter
+__init__	/usr/lib/python2.7/logging/__init__.py	/^    def __init__(self, level):$/;"	m	class:RootLogger
+__init__	/usr/lib/python2.7/logging/__init__.py	/^    def __init__(self, level=NOTSET):$/;"	m	class:Handler
+__init__	/usr/lib/python2.7/logging/__init__.py	/^    def __init__(self, linefmt=None):$/;"	m	class:BufferingFormatter
+__init__	/usr/lib/python2.7/logging/__init__.py	/^    def __init__(self, logger, extra):$/;"	m	class:LoggerAdapter
+__init__	/usr/lib/python2.7/logging/__init__.py	/^    def __init__(self, name, level, pathname, lineno,$/;"	m	class:LogRecord
+__init__	/usr/lib/python2.7/logging/__init__.py	/^    def __init__(self, name, level=NOTSET):$/;"	m	class:Logger
+__init__	/usr/lib/python2.7/logging/__init__.py	/^    def __init__(self, name=''):$/;"	m	class:Filter
+__init__	/usr/lib/python2.7/logging/__init__.py	/^    def __init__(self, rootnode):$/;"	m	class:Manager
+__init__	/usr/lib/python2.7/logging/__init__.py	/^    def __init__(self, stream=None):$/;"	m	class:StreamHandler
+__init__	/usr/lib/python2.7/logging/config.py	/^        def __init__(self, host='localhost', port=DEFAULT_LOGGING_CONFIG_PORT,$/;"	m	class:listen.ConfigSocketReceiver
+__init__	/usr/lib/python2.7/logging/config.py	/^        def __init__(self, rcvr, hdlr, port):$/;"	m	class:listen.Server
+__init__	/usr/lib/python2.7/logging/config.py	/^    def __init__(self, config):$/;"	m	class:BaseConfigurator
+__init__	/usr/lib/python2.7/logging/handlers.py	/^    def __init__(self, address=('localhost', SYSLOG_UDP_PORT),$/;"	m	class:SysLogHandler
+__init__	/usr/lib/python2.7/logging/handlers.py	/^    def __init__(self, appname, dllname=None, logtype="Application"):$/;"	m	class:NTEventLogHandler
+__init__	/usr/lib/python2.7/logging/handlers.py	/^    def __init__(self, capacity):$/;"	m	class:BufferingHandler
+__init__	/usr/lib/python2.7/logging/handlers.py	/^    def __init__(self, capacity, flushLevel=logging.ERROR, target=None):$/;"	m	class:MemoryHandler
+__init__	/usr/lib/python2.7/logging/handlers.py	/^    def __init__(self, filename, mode, encoding=None, delay=0):$/;"	m	class:BaseRotatingHandler
+__init__	/usr/lib/python2.7/logging/handlers.py	/^    def __init__(self, filename, mode='a', encoding=None, delay=0):$/;"	m	class:WatchedFileHandler
+__init__	/usr/lib/python2.7/logging/handlers.py	/^    def __init__(self, filename, mode='a', maxBytes=0, backupCount=0, encoding=None, delay=0):$/;"	m	class:RotatingFileHandler
+__init__	/usr/lib/python2.7/logging/handlers.py	/^    def __init__(self, filename, when='h', interval=1, backupCount=0, encoding=None, delay=False, utc=False):$/;"	m	class:TimedRotatingFileHandler
+__init__	/usr/lib/python2.7/logging/handlers.py	/^    def __init__(self, host, port):$/;"	m	class:DatagramHandler
+__init__	/usr/lib/python2.7/logging/handlers.py	/^    def __init__(self, host, port):$/;"	m	class:SocketHandler
+__init__	/usr/lib/python2.7/logging/handlers.py	/^    def __init__(self, host, url, method="GET"):$/;"	m	class:HTTPHandler
+__init__	/usr/lib/python2.7/logging/handlers.py	/^    def __init__(self, mailhost, fromaddr, toaddrs, subject,$/;"	m	class:SMTPHandler
+__status__	/usr/lib/python2.7/logging/__init__.py	/^__status__  = "production"$/;"	v
+__str__	/usr/lib/python2.7/logging/__init__.py	/^    def __str__(self):$/;"	m	class:LogRecord	file:
+__version__	/usr/lib/python2.7/logging/__init__.py	/^__version__ = "0.5.1.2"$/;"	v
+_acquireLock	/usr/lib/python2.7/logging/__init__.py	/^def _acquireLock():$/;"	f
+_addHandlerRef	/usr/lib/python2.7/logging/__init__.py	/^def _addHandlerRef(handler):$/;"	f
+_checkLevel	/usr/lib/python2.7/logging/__init__.py	/^def _checkLevel(level):$/;"	f
+_connect_unixsocket	/usr/lib/python2.7/logging/handlers.py	/^    def _connect_unixsocket(self, address):$/;"	m	class:SysLogHandler
+_create_formatters	/usr/lib/python2.7/logging/config.py	/^def _create_formatters(cp):$/;"	f
+_defaultFormatter	/usr/lib/python2.7/logging/__init__.py	/^_defaultFormatter = Formatter()$/;"	v
+_encoded	/usr/lib/python2.7/logging/config.py	/^def _encoded(s):$/;"	f
+_fixupChildren	/usr/lib/python2.7/logging/__init__.py	/^    def _fixupChildren(self, ph, alogger):$/;"	m	class:Manager
+_fixupParents	/usr/lib/python2.7/logging/__init__.py	/^    def _fixupParents(self, alogger):$/;"	m	class:Manager
+_handlerList	/usr/lib/python2.7/logging/__init__.py	/^_handlerList = [] # added to allow handlers to be removed in reverse of order initialized$/;"	v
+_handlers	/usr/lib/python2.7/logging/__init__.py	/^_handlers = weakref.WeakValueDictionary()  #map of handler names to handlers$/;"	v
+_install_handlers	/usr/lib/python2.7/logging/config.py	/^def _install_handlers(cp, formatters):$/;"	f
+_install_loggers	/usr/lib/python2.7/logging/config.py	/^def _install_loggers(cp, handlers, disable_existing_loggers):$/;"	f
+_levelNames	/usr/lib/python2.7/logging/__init__.py	/^_levelNames = {$/;"	v
+_listener	/usr/lib/python2.7/logging/config.py	/^_listener = None$/;"	v
+_lock	/usr/lib/python2.7/logging/__init__.py	/^    _lock = None$/;"	v
+_lock	/usr/lib/python2.7/logging/__init__.py	/^    _lock = threading.RLock()$/;"	v
+_log	/usr/lib/python2.7/logging/__init__.py	/^    def _log(self, level, msg, args, exc_info=None, extra=None):$/;"	m	class:Logger
+_loggerClass	/usr/lib/python2.7/logging/__init__.py	/^_loggerClass = Logger$/;"	v
+_loggerClass	/usr/lib/python2.7/logging/__init__.py	/^_loggerClass = None$/;"	v
+_open	/usr/lib/python2.7/logging/__init__.py	/^    def _open(self):$/;"	m	class:FileHandler
+_releaseLock	/usr/lib/python2.7/logging/__init__.py	/^def _releaseLock():$/;"	f
+_removeHandlerRef	/usr/lib/python2.7/logging/__init__.py	/^def _removeHandlerRef(wr):$/;"	f
+_resolve	/usr/lib/python2.7/logging/config.py	/^def _resolve(name):$/;"	f
+_showwarning	/usr/lib/python2.7/logging/__init__.py	/^def _showwarning(message, category, filename, lineno, file=None, line=None):$/;"	f
+_srcfile	/usr/lib/python2.7/logging/__init__.py	/^    _srcfile = "logging%s__init__%s" % (os.sep, __file__[-4:])$/;"	v
+_srcfile	/usr/lib/python2.7/logging/__init__.py	/^    _srcfile = __file__$/;"	v
+_srcfile	/usr/lib/python2.7/logging/__init__.py	/^    _srcfile = __file__[:-4] + '.py'$/;"	v
+_srcfile	/usr/lib/python2.7/logging/__init__.py	/^_srcfile = os.path.normcase(_srcfile)$/;"	v
+_startTime	/usr/lib/python2.7/logging/__init__.py	/^_startTime = time.time()$/;"	v
+_statstream	/usr/lib/python2.7/logging/handlers.py	/^    def _statstream(self):$/;"	m	class:WatchedFileHandler
+_strip_spaces	/usr/lib/python2.7/logging/config.py	/^def _strip_spaces(alist):$/;"	f
+_unicode	/usr/lib/python2.7/logging/__init__.py	/^    _unicode = False$/;"	v
+_unicode	/usr/lib/python2.7/logging/__init__.py	/^    _unicode = True$/;"	v
+_unicode	/usr/lib/python2.7/logging/handlers.py	/^    _unicode = False$/;"	v
+_unicode	/usr/lib/python2.7/logging/handlers.py	/^    _unicode = True$/;"	v
+_warnings_showwarning	/usr/lib/python2.7/logging/__init__.py	/^_warnings_showwarning = None$/;"	v
+acquire	/usr/lib/python2.7/logging/__init__.py	/^    def acquire(self):$/;"	m	class:Handler
+addFilter	/usr/lib/python2.7/logging/__init__.py	/^    def addFilter(self, filter):$/;"	m	class:Filterer
+addHandler	/usr/lib/python2.7/logging/__init__.py	/^    def addHandler(self, hdlr):$/;"	m	class:Logger
+addLevelName	/usr/lib/python2.7/logging/__init__.py	/^def addLevelName(level, levelName):$/;"	f
+add_filters	/usr/lib/python2.7/logging/config.py	/^    def add_filters(self, filterer, filters):$/;"	m	class:DictConfigurator
+add_handlers	/usr/lib/python2.7/logging/config.py	/^    def add_handlers(self, logger, handlers):$/;"	m	class:DictConfigurator
+allow_reuse_address	/usr/lib/python2.7/logging/config.py	/^        allow_reuse_address = 1$/;"	v	class:listen.ConfigSocketReceiver
+append	/usr/lib/python2.7/logging/__init__.py	/^    def append(self, alogger):$/;"	m	class:PlaceHolder
+as_tuple	/usr/lib/python2.7/logging/config.py	/^    def as_tuple(self, value):$/;"	m	class:BaseConfigurator
+atexit	/usr/lib/python2.7/logging/__init__.py	/^import atexit$/;"	i
+basicConfig	/usr/lib/python2.7/logging/__init__.py	/^def basicConfig(**kwargs):$/;"	f
+cPickle	/usr/lib/python2.7/logging/handlers.py	/^import errno, logging, socket, os, cPickle, struct, time, re$/;"	i
+cStringIO	/usr/lib/python2.7/logging/__init__.py	/^import sys, os, time, cStringIO, traceback, warnings, weakref$/;"	i
+cStringIO	/usr/lib/python2.7/logging/config.py	/^import types, cStringIO$/;"	i
+callHandlers	/usr/lib/python2.7/logging/__init__.py	/^    def callHandlers(self, record):$/;"	m	class:Logger
+captureWarnings	/usr/lib/python2.7/logging/__init__.py	/^def captureWarnings(capture):$/;"	f
+cfg_convert	/usr/lib/python2.7/logging/config.py	/^    def cfg_convert(self, value):$/;"	m	class:BaseConfigurator
+close	/usr/lib/python2.7/logging/__init__.py	/^    def close(self):$/;"	m	class:FileHandler
+close	/usr/lib/python2.7/logging/__init__.py	/^    def close(self):$/;"	m	class:Handler
+close	/usr/lib/python2.7/logging/handlers.py	/^    def close (self):$/;"	m	class:SysLogHandler
+close	/usr/lib/python2.7/logging/handlers.py	/^    def close(self):$/;"	m	class:BufferingHandler
+close	/usr/lib/python2.7/logging/handlers.py	/^    def close(self):$/;"	m	class:MemoryHandler
+close	/usr/lib/python2.7/logging/handlers.py	/^    def close(self):$/;"	m	class:NTEventLogHandler
+close	/usr/lib/python2.7/logging/handlers.py	/^    def close(self):$/;"	m	class:SocketHandler
+codecs	/usr/lib/python2.7/logging/__init__.py	/^    codecs = None$/;"	v
+codecs	/usr/lib/python2.7/logging/__init__.py	/^    import codecs$/;"	i
+codecs	/usr/lib/python2.7/logging/handlers.py	/^    codecs = None$/;"	v
+codecs	/usr/lib/python2.7/logging/handlers.py	/^    import codecs$/;"	i
+common_logger_config	/usr/lib/python2.7/logging/config.py	/^    def common_logger_config(self, logger, config, incremental=False):$/;"	m	class:DictConfigurator
+computeRollover	/usr/lib/python2.7/logging/handlers.py	/^    def computeRollover(self, currentTime):$/;"	m	class:TimedRotatingFileHandler
+configure	/usr/lib/python2.7/logging/config.py	/^    def configure(self):$/;"	m	class:DictConfigurator
+configure_custom	/usr/lib/python2.7/logging/config.py	/^    def configure_custom(self, config):$/;"	m	class:BaseConfigurator
+configure_filter	/usr/lib/python2.7/logging/config.py	/^    def configure_filter(self, config):$/;"	m	class:DictConfigurator
+configure_formatter	/usr/lib/python2.7/logging/config.py	/^    def configure_formatter(self, config):$/;"	m	class:DictConfigurator
+configure_handler	/usr/lib/python2.7/logging/config.py	/^    def configure_handler(self, config):$/;"	m	class:DictConfigurator
+configure_logger	/usr/lib/python2.7/logging/config.py	/^    def configure_logger(self, name, config, incremental=False):$/;"	m	class:DictConfigurator
+configure_root	/usr/lib/python2.7/logging/config.py	/^    def configure_root(self, config, incremental=False):$/;"	m	class:DictConfigurator
+convert	/usr/lib/python2.7/logging/config.py	/^    def convert(self, value):$/;"	m	class:BaseConfigurator
+converter	/usr/lib/python2.7/logging/__init__.py	/^    converter = time.localtime$/;"	v	class:Formatter
+createLock	/usr/lib/python2.7/logging/__init__.py	/^    def createLock(self):$/;"	m	class:Handler
+createLock	/usr/lib/python2.7/logging/__init__.py	/^    def createLock(self):$/;"	m	class:NullHandler
+createSocket	/usr/lib/python2.7/logging/handlers.py	/^    def createSocket(self):$/;"	m	class:SocketHandler
+critical	/usr/lib/python2.7/logging/__init__.py	/^    def critical(self, msg, *args, **kwargs):$/;"	m	class:Logger
+critical	/usr/lib/python2.7/logging/__init__.py	/^    def critical(self, msg, *args, **kwargs):$/;"	m	class:LoggerAdapter
+critical	/usr/lib/python2.7/logging/__init__.py	/^def critical(msg, *args, **kwargs):$/;"	f
+currentframe	/usr/lib/python2.7/logging/__init__.py	/^def currentframe():$/;"	f
+debug	/usr/lib/python2.7/logging/__init__.py	/^    def debug(self, msg, *args, **kwargs):$/;"	m	class:Logger
+debug	/usr/lib/python2.7/logging/__init__.py	/^    def debug(self, msg, *args, **kwargs):$/;"	m	class:LoggerAdapter
+debug	/usr/lib/python2.7/logging/__init__.py	/^def debug(msg, *args, **kwargs):$/;"	f
+dictConfig	/usr/lib/python2.7/logging/config.py	/^def dictConfig(config):$/;"	f
+dictConfigClass	/usr/lib/python2.7/logging/config.py	/^dictConfigClass = DictConfigurator$/;"	v
+disable	/usr/lib/python2.7/logging/__init__.py	/^def disable(level):$/;"	f
+doRollover	/usr/lib/python2.7/logging/handlers.py	/^    def doRollover(self):$/;"	m	class:RotatingFileHandler
+doRollover	/usr/lib/python2.7/logging/handlers.py	/^    def doRollover(self):$/;"	m	class:TimedRotatingFileHandler
+emit	/usr/lib/python2.7/logging/__init__.py	/^    def emit(self, record):$/;"	m	class:FileHandler
+emit	/usr/lib/python2.7/logging/__init__.py	/^    def emit(self, record):$/;"	m	class:Handler
+emit	/usr/lib/python2.7/logging/__init__.py	/^    def emit(self, record):$/;"	m	class:NullHandler
+emit	/usr/lib/python2.7/logging/__init__.py	/^    def emit(self, record):$/;"	m	class:StreamHandler
+emit	/usr/lib/python2.7/logging/handlers.py	/^    def emit(self, record):$/;"	m	class:BaseRotatingHandler
+emit	/usr/lib/python2.7/logging/handlers.py	/^    def emit(self, record):$/;"	m	class:BufferingHandler
+emit	/usr/lib/python2.7/logging/handlers.py	/^    def emit(self, record):$/;"	m	class:HTTPHandler
+emit	/usr/lib/python2.7/logging/handlers.py	/^    def emit(self, record):$/;"	m	class:NTEventLogHandler
+emit	/usr/lib/python2.7/logging/handlers.py	/^    def emit(self, record):$/;"	m	class:SMTPHandler
+emit	/usr/lib/python2.7/logging/handlers.py	/^    def emit(self, record):$/;"	m	class:SocketHandler
+emit	/usr/lib/python2.7/logging/handlers.py	/^    def emit(self, record):$/;"	m	class:SysLogHandler
+emit	/usr/lib/python2.7/logging/handlers.py	/^    def emit(self, record):$/;"	m	class:WatchedFileHandler
+encodePriority	/usr/lib/python2.7/logging/handlers.py	/^    def encodePriority(self, facility, priority):$/;"	m	class:SysLogHandler
+errno	/usr/lib/python2.7/logging/handlers.py	/^import errno, logging, socket, os, cPickle, struct, time, re$/;"	i
+error	/usr/lib/python2.7/logging/__init__.py	/^    def error(self, msg, *args, **kwargs):$/;"	m	class:Logger
+error	/usr/lib/python2.7/logging/__init__.py	/^    def error(self, msg, *args, **kwargs):$/;"	m	class:LoggerAdapter
+error	/usr/lib/python2.7/logging/__init__.py	/^def error(msg, *args, **kwargs):$/;"	f
+exception	/usr/lib/python2.7/logging/__init__.py	/^    def exception(self, msg, *args, **kwargs):$/;"	m	class:Logger
+exception	/usr/lib/python2.7/logging/__init__.py	/^    def exception(self, msg, *args, **kwargs):$/;"	m	class:LoggerAdapter
+exception	/usr/lib/python2.7/logging/__init__.py	/^def exception(msg, *args, **kwargs):$/;"	f
+ext_convert	/usr/lib/python2.7/logging/config.py	/^    def ext_convert(self, value):$/;"	m	class:BaseConfigurator
+facility_names	/usr/lib/python2.7/logging/handlers.py	/^    facility_names = {$/;"	v	class:SysLogHandler
+fatal	/usr/lib/python2.7/logging/__init__.py	/^    fatal = critical$/;"	v	class:Logger
+fatal	/usr/lib/python2.7/logging/__init__.py	/^fatal = critical$/;"	v
+fileConfig	/usr/lib/python2.7/logging/config.py	/^def fileConfig(fname, defaults=None, disable_existing_loggers=True):$/;"	f
+filter	/usr/lib/python2.7/logging/__init__.py	/^    def filter(self, record):$/;"	m	class:Filter
+filter	/usr/lib/python2.7/logging/__init__.py	/^    def filter(self, record):$/;"	m	class:Filterer
+findCaller	/usr/lib/python2.7/logging/__init__.py	/^    def findCaller(self):$/;"	m	class:Logger
+flush	/usr/lib/python2.7/logging/__init__.py	/^    def flush(self):$/;"	m	class:Handler
+flush	/usr/lib/python2.7/logging/__init__.py	/^    def flush(self):$/;"	m	class:StreamHandler
+flush	/usr/lib/python2.7/logging/handlers.py	/^    def flush(self):$/;"	m	class:BufferingHandler
+flush	/usr/lib/python2.7/logging/handlers.py	/^    def flush(self):$/;"	m	class:MemoryHandler
+format	/usr/lib/python2.7/logging/__init__.py	/^    def format(self, record):$/;"	m	class:Formatter
+format	/usr/lib/python2.7/logging/__init__.py	/^    def format(self, record):$/;"	m	class:Handler
+format	/usr/lib/python2.7/logging/__init__.py	/^    def format(self, records):$/;"	m	class:BufferingFormatter
+formatException	/usr/lib/python2.7/logging/__init__.py	/^    def formatException(self, ei):$/;"	m	class:Formatter
+formatFooter	/usr/lib/python2.7/logging/__init__.py	/^    def formatFooter(self, records):$/;"	m	class:BufferingFormatter
+formatHeader	/usr/lib/python2.7/logging/__init__.py	/^    def formatHeader(self, records):$/;"	m	class:BufferingFormatter
+formatTime	/usr/lib/python2.7/logging/__init__.py	/^    def formatTime(self, record, datefmt=None):$/;"	m	class:Formatter
+formatdate	/usr/lib/python2.7/logging/handlers.py	/^            from email.utils import formatdate$/;"	i
+get	/usr/lib/python2.7/logging/config.py	/^    def get(self, key, default=None):$/;"	m	class:ConvertingDict
+getChild	/usr/lib/python2.7/logging/__init__.py	/^    def getChild(self, suffix):$/;"	m	class:Logger
+getEffectiveLevel	/usr/lib/python2.7/logging/__init__.py	/^    def getEffectiveLevel(self):$/;"	m	class:Logger
+getEventCategory	/usr/lib/python2.7/logging/handlers.py	/^    def getEventCategory(self, record):$/;"	m	class:NTEventLogHandler
+getEventType	/usr/lib/python2.7/logging/handlers.py	/^    def getEventType(self, record):$/;"	m	class:NTEventLogHandler
+getFilesToDelete	/usr/lib/python2.7/logging/handlers.py	/^    def getFilesToDelete(self):$/;"	m	class:TimedRotatingFileHandler
+getLevelName	/usr/lib/python2.7/logging/__init__.py	/^def getLevelName(level):$/;"	f
+getLogger	/usr/lib/python2.7/logging/__init__.py	/^    def getLogger(self, name):$/;"	m	class:Manager
+getLogger	/usr/lib/python2.7/logging/__init__.py	/^def getLogger(name=None):$/;"	f
+getLoggerClass	/usr/lib/python2.7/logging/__init__.py	/^def getLoggerClass():$/;"	f
+getMessage	/usr/lib/python2.7/logging/__init__.py	/^    def getMessage(self):$/;"	m	class:LogRecord
+getMessageID	/usr/lib/python2.7/logging/handlers.py	/^    def getMessageID(self, record):$/;"	m	class:NTEventLogHandler
+getSubject	/usr/lib/python2.7/logging/handlers.py	/^    def getSubject(self, record):$/;"	m	class:SMTPHandler
+get_name	/usr/lib/python2.7/logging/__init__.py	/^    def get_name(self):$/;"	m	class:Handler
+handle	/usr/lib/python2.7/logging/__init__.py	/^    def handle(self, record):$/;"	m	class:Handler
+handle	/usr/lib/python2.7/logging/__init__.py	/^    def handle(self, record):$/;"	m	class:Logger
+handle	/usr/lib/python2.7/logging/__init__.py	/^    def handle(self, record):$/;"	m	class:NullHandler
+handle	/usr/lib/python2.7/logging/config.py	/^        def handle(self):$/;"	m	class:listen.ConfigStreamHandler
+handleError	/usr/lib/python2.7/logging/__init__.py	/^    def handleError(self, record):$/;"	m	class:Handler
+handleError	/usr/lib/python2.7/logging/handlers.py	/^    def handleError(self, record):$/;"	m	class:SocketHandler
+handlers	/usr/lib/python2.7/logging/config.py	/^import sys, logging, logging.handlers, socket, struct, os, traceback, re$/;"	i
+httplib	/usr/lib/python2.7/logging/handlers.py	/^            import httplib, urllib$/;"	i
+importer	/usr/lib/python2.7/logging/config.py	/^    importer = __import__$/;"	v	class:BaseConfigurator
+info	/usr/lib/python2.7/logging/__init__.py	/^    def info(self, msg, *args, **kwargs):$/;"	m	class:Logger
+info	/usr/lib/python2.7/logging/__init__.py	/^    def info(self, msg, *args, **kwargs):$/;"	m	class:LoggerAdapter
+info	/usr/lib/python2.7/logging/__init__.py	/^def info(msg, *args, **kwargs):$/;"	f
+isEnabledFor	/usr/lib/python2.7/logging/__init__.py	/^    def isEnabledFor(self, level):$/;"	m	class:Logger
+isEnabledFor	/usr/lib/python2.7/logging/__init__.py	/^    def isEnabledFor(self, level):$/;"	m	class:LoggerAdapter
+json	/usr/lib/python2.7/logging/config.py	/^                        import json$/;"	i
+listen	/usr/lib/python2.7/logging/config.py	/^def listen(port=DEFAULT_LOGGING_CONFIG_PORT):$/;"	f
+log	/usr/lib/python2.7/logging/__init__.py	/^    def log(self, level, msg, *args, **kwargs):$/;"	m	class:Logger
+log	/usr/lib/python2.7/logging/__init__.py	/^    def log(self, level, msg, *args, **kwargs):$/;"	m	class:LoggerAdapter
+log	/usr/lib/python2.7/logging/__init__.py	/^def log(level, msg, *args, **kwargs):$/;"	f
+logMultiprocessing	/usr/lib/python2.7/logging/__init__.py	/^logMultiprocessing = 1$/;"	v
+logProcesses	/usr/lib/python2.7/logging/__init__.py	/^logProcesses = 1$/;"	v
+logThreads	/usr/lib/python2.7/logging/__init__.py	/^logThreads = 1$/;"	v
+log_format_string	/usr/lib/python2.7/logging/handlers.py	/^    log_format_string = '<%d>%s\\000'$/;"	v	class:SysLogHandler
+logging	/usr/lib/python2.7/logging/config.py	/^import sys, logging, logging.handlers, socket, struct, os, traceback, re$/;"	i
+logging	/usr/lib/python2.7/logging/handlers.py	/^import errno, logging, socket, os, cPickle, struct, time, re$/;"	i
+makeLogRecord	/usr/lib/python2.7/logging/__init__.py	/^def makeLogRecord(dict):$/;"	f
+makePickle	/usr/lib/python2.7/logging/handlers.py	/^    def makePickle(self, record):$/;"	m	class:SocketHandler
+makeRecord	/usr/lib/python2.7/logging/__init__.py	/^    def makeRecord(self, name, level, fn, lno, msg, args, exc_info, func=None, extra=None):$/;"	m	class:Logger
+makeSocket	/usr/lib/python2.7/logging/handlers.py	/^    def makeSocket(self):$/;"	m	class:DatagramHandler
+makeSocket	/usr/lib/python2.7/logging/handlers.py	/^    def makeSocket(self, timeout=1):$/;"	m	class:SocketHandler
+mapLogRecord	/usr/lib/python2.7/logging/handlers.py	/^    def mapLogRecord(self, record):$/;"	m	class:HTTPHandler
+mapPriority	/usr/lib/python2.7/logging/handlers.py	/^    def mapPriority(self, levelName):$/;"	m	class:SysLogHandler
+name	/usr/lib/python2.7/logging/__init__.py	/^    name = property(get_name, set_name)$/;"	v	class:Handler
+os	/usr/lib/python2.7/logging/__init__.py	/^import sys, os, time, cStringIO, traceback, warnings, weakref$/;"	i
+os	/usr/lib/python2.7/logging/config.py	/^import sys, logging, logging.handlers, socket, struct, os, traceback, re$/;"	i
+os	/usr/lib/python2.7/logging/handlers.py	/^import errno, logging, socket, os, cPickle, struct, time, re$/;"	i
+pop	/usr/lib/python2.7/logging/config.py	/^    def pop(self, idx=-1):$/;"	m	class:ConvertingList
+pop	/usr/lib/python2.7/logging/config.py	/^    def pop(self, key, default=None):$/;"	m	class:ConvertingDict
+priority_map	/usr/lib/python2.7/logging/handlers.py	/^    priority_map = {$/;"	v	class:SysLogHandler
+priority_names	/usr/lib/python2.7/logging/handlers.py	/^    priority_names = {$/;"	v	class:SysLogHandler
+process	/usr/lib/python2.7/logging/__init__.py	/^    def process(self, msg, kwargs):$/;"	m	class:LoggerAdapter
+raiseExceptions	/usr/lib/python2.7/logging/__init__.py	/^raiseExceptions = 1$/;"	v
+re	/usr/lib/python2.7/logging/config.py	/^import sys, logging, logging.handlers, socket, struct, os, traceback, re$/;"	i
+re	/usr/lib/python2.7/logging/handlers.py	/^import errno, logging, socket, os, cPickle, struct, time, re$/;"	i
+release	/usr/lib/python2.7/logging/__init__.py	/^    def release(self):$/;"	m	class:Handler
+removeFilter	/usr/lib/python2.7/logging/__init__.py	/^    def removeFilter(self, filter):$/;"	m	class:Filterer
+removeHandler	/usr/lib/python2.7/logging/__init__.py	/^    def removeHandler(self, hdlr):$/;"	m	class:Logger
+resolve	/usr/lib/python2.7/logging/config.py	/^    def resolve(self, s):$/;"	m	class:BaseConfigurator
+root	/usr/lib/python2.7/logging/__init__.py	/^root = RootLogger(WARNING)$/;"	v
+run	/usr/lib/python2.7/logging/config.py	/^        def run(self):$/;"	m	class:listen.Server
+select	/usr/lib/python2.7/logging/config.py	/^            import select$/;"	i
+send	/usr/lib/python2.7/logging/handlers.py	/^    def send(self, s):$/;"	m	class:DatagramHandler
+send	/usr/lib/python2.7/logging/handlers.py	/^    def send(self, s):$/;"	m	class:SocketHandler
+serve_until_stopped	/usr/lib/python2.7/logging/config.py	/^        def serve_until_stopped(self):$/;"	m	class:listen.ConfigSocketReceiver
+setFormatter	/usr/lib/python2.7/logging/__init__.py	/^    def setFormatter(self, fmt):$/;"	m	class:Handler
+setLevel	/usr/lib/python2.7/logging/__init__.py	/^    def setLevel(self, level):$/;"	m	class:Handler
+setLevel	/usr/lib/python2.7/logging/__init__.py	/^    def setLevel(self, level):$/;"	m	class:Logger
+setLoggerClass	/usr/lib/python2.7/logging/__init__.py	/^    def setLoggerClass(self, klass):$/;"	m	class:Manager
+setLoggerClass	/usr/lib/python2.7/logging/__init__.py	/^def setLoggerClass(klass):$/;"	f
+setTarget	/usr/lib/python2.7/logging/handlers.py	/^    def setTarget(self, target):$/;"	m	class:MemoryHandler
+set_name	/usr/lib/python2.7/logging/__init__.py	/^    def set_name(self, name):$/;"	m	class:Handler
+shouldFlush	/usr/lib/python2.7/logging/handlers.py	/^    def shouldFlush(self, record):$/;"	m	class:BufferingHandler
+shouldFlush	/usr/lib/python2.7/logging/handlers.py	/^    def shouldFlush(self, record):$/;"	m	class:MemoryHandler
+shouldRollover	/usr/lib/python2.7/logging/handlers.py	/^    def shouldRollover(self, record):$/;"	m	class:RotatingFileHandler
+shouldRollover	/usr/lib/python2.7/logging/handlers.py	/^    def shouldRollover(self, record):$/;"	m	class:TimedRotatingFileHandler
+shutdown	/usr/lib/python2.7/logging/__init__.py	/^def shutdown(handlerList=_handlerList):$/;"	f
+smtplib	/usr/lib/python2.7/logging/handlers.py	/^            import smtplib$/;"	i
+socket	/usr/lib/python2.7/logging/config.py	/^import sys, logging, logging.handlers, socket, struct, os, traceback, re$/;"	i
+socket	/usr/lib/python2.7/logging/handlers.py	/^import errno, logging, socket, os, cPickle, struct, time, re$/;"	i
+stopListening	/usr/lib/python2.7/logging/config.py	/^def stopListening():$/;"	f
+struct	/usr/lib/python2.7/logging/config.py	/^import sys, logging, logging.handlers, socket, struct, os, traceback, re$/;"	i
+struct	/usr/lib/python2.7/logging/handlers.py	/^import errno, logging, socket, os, cPickle, struct, time, re$/;"	i
+sys	/usr/lib/python2.7/logging/__init__.py	/^import sys, os, time, cStringIO, traceback, warnings, weakref$/;"	i
+sys	/usr/lib/python2.7/logging/config.py	/^import sys, logging, logging.handlers, socket, struct, os, traceback, re$/;"	i
+tempfile	/usr/lib/python2.7/logging/config.py	/^            import tempfile$/;"	i
+thread	/usr/lib/python2.7/logging/__init__.py	/^    import thread$/;"	i
+thread	/usr/lib/python2.7/logging/__init__.py	/^    thread = None$/;"	v
+thread	/usr/lib/python2.7/logging/config.py	/^    import thread$/;"	i
+thread	/usr/lib/python2.7/logging/config.py	/^    thread = None$/;"	v
+threading	/usr/lib/python2.7/logging/__init__.py	/^    import threading$/;"	i
+threading	/usr/lib/python2.7/logging/config.py	/^    import threading$/;"	i
+time	/usr/lib/python2.7/logging/__init__.py	/^import sys, os, time, cStringIO, traceback, warnings, weakref$/;"	i
+time	/usr/lib/python2.7/logging/handlers.py	/^import errno, logging, socket, os, cPickle, struct, time, re$/;"	i
+traceback	/usr/lib/python2.7/logging/__init__.py	/^import sys, os, time, cStringIO, traceback, warnings, weakref$/;"	i
+traceback	/usr/lib/python2.7/logging/config.py	/^import sys, logging, logging.handlers, socket, struct, os, traceback, re$/;"	i
+types	/usr/lib/python2.7/logging/config.py	/^import types, cStringIO$/;"	i
+urllib	/usr/lib/python2.7/logging/handlers.py	/^            import httplib, urllib$/;"	i
+usesTime	/usr/lib/python2.7/logging/__init__.py	/^    def usesTime(self):$/;"	m	class:Formatter
+valid_ident	/usr/lib/python2.7/logging/config.py	/^def valid_ident(s):$/;"	f
+value_converters	/usr/lib/python2.7/logging/config.py	/^    value_converters = {$/;"	v	class:BaseConfigurator
+warn	/usr/lib/python2.7/logging/__init__.py	/^    warn = warning$/;"	v	class:Logger
+warn	/usr/lib/python2.7/logging/__init__.py	/^warn = warning$/;"	v
+warning	/usr/lib/python2.7/logging/__init__.py	/^    def warning(self, msg, *args, **kwargs):$/;"	m	class:Logger
+warning	/usr/lib/python2.7/logging/__init__.py	/^    def warning(self, msg, *args, **kwargs):$/;"	m	class:LoggerAdapter
+warning	/usr/lib/python2.7/logging/__init__.py	/^def warning(msg, *args, **kwargs):$/;"	f
+warnings	/usr/lib/python2.7/logging/__init__.py	/^import sys, os, time, cStringIO, traceback, warnings, weakref$/;"	i
+weakref	/usr/lib/python2.7/logging/__init__.py	/^import sys, os, time, cStringIO, traceback, warnings, weakref$/;"	i
+win32evtlog	/usr/lib/python2.7/logging/handlers.py	/^            import win32evtlogutil, win32evtlog$/;"	i
+win32evtlogutil	/usr/lib/python2.7/logging/handlers.py	/^            import win32evtlogutil, win32evtlog$/;"	i

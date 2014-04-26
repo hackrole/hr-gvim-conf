@@ -1,0 +1,158 @@
+# hd
+snippet hd "header for python scripts" !b
+#!/usr/bin/env python
+# encoding: utf-8
+${0}
+endsnippet
+
+# def
+snippet def "def func with docstrings" !
+def ${1:func}(${2}):
+	"""
+    $3
+	"""
+	${0:return {}}
+endsnippet
+
+# django url define tmp
+snippet dut "django urls" !
+(r'^${1}$', ${2}),$0
+endsnippet
+
+snippet defs "def func(self,) with doc" !
+def ${1:func}(self${2}):
+	"""
+	"""
+	${0:pass}
+endsnippet
+
+snippet defc "def func(cls,) with doc" !
+@classmethod
+def ${1:func}(cls${2}):
+	"""
+	"""
+	${0:pass}
+endsnippet
+
+# class
+snippet cl "class with docstrings" !b
+class ${1:MyC}(${2:object}):
+	"""
+	"""
+	${0:pass}
+endsnippet
+
+# sqlalchemy
+
+# scrapy
+snippet hs "hxs.select(..)"
+hxs.select('${1}')${0}
+endsnippet
+
+snippet hse "hxs.select(..).extract()"
+hxs.select('${1}').extract()${0}
+endsnippet
+
+snippet jhse "join hxs.select(..).extract()"
+'${1}'.join(hxs.select('${2}').extract())${0}
+endsnippet
+
+snippet fd "fd = Field(..)"
+${1} = Field(${2})
+${0}
+endsnippet
+
+snippet item "class ..Item().."
+class ${1}Item(Item):
+	"""
+	"""
+	${0:pass}
+endsnippet
+
+snippet item2 "class ..Item().."
+class ${1}Item(Item):
+	"""
+	"""
+	${0:pass}
+
+	def _sql_save(self):
+		pass
+endsnippet
+
+snippet parse "def parse_..() .."
+def parse_${1}(self, response):
+	"""
+	${2: docstring for parse_$1}
+	"""
+	hxs = HtmlXPathSelector(response)
+	meta = response.meta
+	results = []
+	${0}
+	return results
+endsnippet
+
+snippet parse2 "def parse_..() .."
+def parse_${1}(self, response):
+	"""
+	${2: docstring for parse_${1}}
+	>>> check option
+	@url [url]
+	@returns items [min, max]
+	@returns requests [min, max]
+	@scrapyes [fields,]
+	"""
+	hxs = HtmlXPathSelector(response)
+	meta = response.meta
+	results = []
+	${0}
+endsnippet
+
+# sqlalchemy
+snippet sbm "class ..(Base): ..Column"
+class ${1:Model}(Base):
+    """
+    $1 model class for $2
+    """
+    __tablename__ = '${2:tablename}'
+    __table_args__ = {
+        'mysql_charset': 'utf8',
+        'mysql_engine': 'InnoDB',
+    }
+
+    $0
+
+    def __repr__(self):
+        return '${3:$1}'
+endsnippet
+
+snippet sbc ".. = Column"
+$1 = Column($2)$0
+endsnippet
+
+snippet sbpk ".. = Column(.. primary_key)"
+$1 = Column($2, primary_key=True)$0
+endsnippet
+
+snippet sbfk ".. = Column(.. ForeignKey())"
+$1 = Column($2, ForeignKey('$3'))$0
+endsnippet
+
+snippet sbrs ".. = relationship(..)"
+$1 = relationship('$2')
+endsnippet
+
+# others
+snippet init "def __init__()"
+def __init__(self${1}):
+	${0:pass}
+endsnippet
+
+# dd temp
+snippet p1 "request.POST.get"
+$1 = request.POST.get("$1")$0
+endsnippet
+
+snippet c1 "carpool.xx = xx"
+carpool.$1 = $2
+endsnippet
+

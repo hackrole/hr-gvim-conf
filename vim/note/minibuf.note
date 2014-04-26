@@ -1,0 +1,11 @@
+# keys
+\mt toggle
+\mm open and force
+\mu update
+
+# 注意
++ 终端下禁用
++ 最大3行
++ 总在top/left打开
++ 超过15个才显示(手动显示更多)
++ 不重复打开buffer

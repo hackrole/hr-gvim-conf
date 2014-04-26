@@ -1,0 +1,721 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALL	/usr/local/lib/python2.7/dist-packages/pymongo/__init__.py	/^ALL = 2$/;"	v
+ALL_UUID_SUBTYPES	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^from bson.binary import ALL_UUID_SUBTYPES, OLD_UUID_SUBTYPE$/;"	i
+ASCENDING	/usr/local/lib/python2.7/dist-packages/pymongo/__init__.py	/^ASCENDING = 1$/;"	v
+AutoReconnect	/usr/local/lib/python2.7/dist-packages/pymongo/errors.py	/^class AutoReconnect(ConnectionFailure):$/;"	c
+AutoReconnect	/usr/local/lib/python2.7/dist-packages/pymongo/helpers.py	/^from pymongo.errors import (AutoReconnect,$/;"	i
+AutoReconnect	/usr/local/lib/python2.7/dist-packages/pymongo/master_slave_connection.py	/^from pymongo.errors import AutoReconnect$/;"	i
+AutoReconnect	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^from pymongo.errors import (AutoReconnect,$/;"	i
+AutoReconnect	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^from pymongo.errors import (AutoReconnect,$/;"	i
+AutoReference	/usr/local/lib/python2.7/dist-packages/pymongo/son_manipulator.py	/^class AutoReference(SONManipulator):$/;"	c
+BaseObject	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^class BaseObject(object):$/;"	c
+BaseObject	/usr/local/lib/python2.7/dist-packages/pymongo/master_slave_connection.py	/^from pymongo.common import BaseObject$/;"	i
+BatchCursorManager	/usr/local/lib/python2.7/dist-packages/pymongo/cursor_manager.py	/^class BatchCursorManager(CursorManager):$/;"	c
+CertificateError	/usr/local/lib/python2.7/dist-packages/pymongo/errors.py	/^    from pymongo.ssl_match_hostname import CertificateError$/;"	i
+CertificateError	/usr/local/lib/python2.7/dist-packages/pymongo/errors.py	/^    from ssl import CertificateError$/;"	i
+CertificateError	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^from pymongo.errors import (CertificateError, ConnectionFailure,$/;"	i
+CertificateError	/usr/local/lib/python2.7/dist-packages/pymongo/ssl_match_hostname.py	/^class CertificateError(ValueError):$/;"	c
+Code	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^from bson.code import Code$/;"	i
+Code	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^from bson.code import Code$/;"	i
+Code	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^from bson.code import Code$/;"	i
+Collection	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^class Collection(common.BaseObject):$/;"	c
+Collection	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^from pymongo.collection import Collection$/;"	i
+CollectionInvalid	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^from pymongo.errors import (CollectionInvalid,$/;"	i
+CollectionInvalid	/usr/local/lib/python2.7/dist-packages/pymongo/errors.py	/^class CollectionInvalid(PyMongoError):$/;"	c
+ConfigurationError	/usr/local/lib/python2.7/dist-packages/pymongo/auth.py	/^from pymongo.errors import ConfigurationError, OperationFailure$/;"	i
+ConfigurationError	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^from pymongo.errors import ConfigurationError, InvalidName$/;"	i
+ConfigurationError	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^from pymongo.errors import ConfigurationError$/;"	i
+ConfigurationError	/usr/local/lib/python2.7/dist-packages/pymongo/connection.py	/^from pymongo.errors import ConfigurationError$/;"	i
+ConfigurationError	/usr/local/lib/python2.7/dist-packages/pymongo/errors.py	/^class ConfigurationError(PyMongoError):$/;"	c
+ConfigurationError	/usr/local/lib/python2.7/dist-packages/pymongo/read_preferences.py	/^from pymongo.errors import ConfigurationError$/;"	i
+ConfigurationError	/usr/local/lib/python2.7/dist-packages/pymongo/replica_set_connection.py	/^from pymongo.errors import ConfigurationError$/;"	i
+ConfigurationError	/usr/local/lib/python2.7/dist-packages/pymongo/uri_parser.py	/^from pymongo.errors import (ConfigurationError,$/;"	i
+Connection	/usr/local/lib/python2.7/dist-packages/pymongo/__init__.py	/^from pymongo.connection import Connection$/;"	i
+Connection	/usr/local/lib/python2.7/dist-packages/pymongo/connection.py	/^class Connection(MongoClient):$/;"	c
+ConnectionFailure	/usr/local/lib/python2.7/dist-packages/pymongo/errors.py	/^class ConnectionFailure(PyMongoError):$/;"	c
+ConnectionFailure	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^from pymongo.errors import (CertificateError, ConnectionFailure,$/;"	i
+Counter	/usr/local/lib/python2.7/dist-packages/pymongo/thread_util.py	/^class Counter(object):$/;"	c
+Cursor	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^from pymongo.cursor import Cursor$/;"	i
+Cursor	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^class Cursor(object):$/;"	c
+CursorManager	/usr/local/lib/python2.7/dist-packages/pymongo/cursor_manager.py	/^class CursorManager(object):$/;"	c
+CursorManager	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^from pymongo.cursor_manager import CursorManager$/;"	i
+DBRef	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^from bson.dbref import DBRef$/;"	i
+DBRef	/usr/local/lib/python2.7/dist-packages/pymongo/son_manipulator.py	/^from bson.dbref import DBRef$/;"	i
+DEFAULT_PORT	/usr/local/lib/python2.7/dist-packages/pymongo/uri_parser.py	/^DEFAULT_PORT = 27017$/;"	v
+DESCENDING	/usr/local/lib/python2.7/dist-packages/pymongo/__init__.py	/^DESCENDING = -1$/;"	v
+Database	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^class Database(common.BaseObject):$/;"	c
+Database	/usr/local/lib/python2.7/dist-packages/pymongo/master_slave_connection.py	/^from pymongo.database import Database$/;"	i
+DuplicateKeyError	/usr/local/lib/python2.7/dist-packages/pymongo/errors.py	/^class DuplicateKeyError(OperationFailure):$/;"	c
+EMPTY	/usr/local/lib/python2.7/dist-packages/pymongo/message.py	/^EMPTY  = b("")$/;"	v
+EMPTY	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^EMPTY = b("")$/;"	v
+EMPTY	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^EMPTY = b("")$/;"	v
+Event	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    from gevent.event import Event$/;"	i
+GEO2D	/usr/local/lib/python2.7/dist-packages/pymongo/__init__.py	/^GEO2D = "2d"$/;"	v
+GEOHAYSTACK	/usr/local/lib/python2.7/dist-packages/pymongo/__init__.py	/^GEOHAYSTACK = "geoHaystack"$/;"	v
+GEOSPHERE	/usr/local/lib/python2.7/dist-packages/pymongo/__init__.py	/^GEOSPHERE = "2dsphere"$/;"	v
+Greenlet	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    from gevent import Greenlet$/;"	i
+GreenletIdent	/usr/local/lib/python2.7/dist-packages/pymongo/thread_util.py	/^class GreenletIdent(Ident):$/;"	c
+HASHED	/usr/local/lib/python2.7/dist-packages/pymongo/__init__.py	/^HASHED = "hashed"$/;"	v
+HAS_SSL	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^    HAS_SSL = False$/;"	v
+HAS_SSL	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^HAS_SSL = True$/;"	v
+HAS_SSL	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^from pymongo.common import HAS_SSL$/;"	i
+HAS_SSL	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^from pymongo.common import HAS_SSL$/;"	i
+HAVE_KERBEROS	/usr/local/lib/python2.7/dist-packages/pymongo/auth.py	/^    HAVE_KERBEROS = False$/;"	v
+HAVE_KERBEROS	/usr/local/lib/python2.7/dist-packages/pymongo/auth.py	/^HAVE_KERBEROS = True$/;"	v
+HOST	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    HOST = "localhost"$/;"	v	class:MongoClient
+Ident	/usr/local/lib/python2.7/dist-packages/pymongo/thread_util.py	/^class Ident(object):$/;"	c
+InvalidName	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^from pymongo.errors import ConfigurationError, InvalidName$/;"	i
+InvalidName	/usr/local/lib/python2.7/dist-packages/pymongo/errors.py	/^class InvalidName(PyMongoError):$/;"	c
+InvalidOperation	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^from pymongo.errors import (InvalidOperation,$/;"	i
+InvalidOperation	/usr/local/lib/python2.7/dist-packages/pymongo/errors.py	/^class InvalidOperation(PyMongoError):$/;"	c
+InvalidOperation	/usr/local/lib/python2.7/dist-packages/pymongo/message.py	/^from pymongo.errors import InvalidOperation$/;"	i
+InvalidURI	/usr/local/lib/python2.7/dist-packages/pymongo/errors.py	/^class InvalidURI(ConfigurationError):$/;"	c
+MAX_BSON_SIZE	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^MAX_BSON_SIZE = 4 * 1024 * 1024$/;"	v
+MAX_INT32	/usr/local/lib/python2.7/dist-packages/pymongo/message.py	/^MAX_INT32 = 2147483647$/;"	v
+MAX_RETRY	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^MAX_RETRY = 3$/;"	v
+MECHANISMS	/usr/local/lib/python2.7/dist-packages/pymongo/auth.py	/^MECHANISMS = ('MONGODB-CR', 'GSSAPI')$/;"	v
+MECHANISMS	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^from pymongo.auth import MECHANISMS$/;"	i
+MIN_INT32	/usr/local/lib/python2.7/dist-packages/pymongo/message.py	/^MIN_INT32 = -2147483648$/;"	v
+MONITORS	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^MONITORS = set()$/;"	v
+MasterSlaveConnection	/usr/local/lib/python2.7/dist-packages/pymongo/master_slave_connection.py	/^class MasterSlaveConnection(BaseObject):$/;"	c
+Member	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^class Member(object):$/;"	c
+MongoClient	/usr/local/lib/python2.7/dist-packages/pymongo/__init__.py	/^from pymongo.mongo_client import MongoClient$/;"	i
+MongoClient	/usr/local/lib/python2.7/dist-packages/pymongo/connection.py	/^from pymongo.mongo_client import MongoClient$/;"	i
+MongoClient	/usr/local/lib/python2.7/dist-packages/pymongo/master_slave_connection.py	/^from pymongo.mongo_client import MongoClient$/;"	i
+MongoClient	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^class MongoClient(common.BaseObject):$/;"	c
+MongoReplicaSetClient	/usr/local/lib/python2.7/dist-packages/pymongo/__init__.py	/^from pymongo.mongo_replica_set_client import MongoReplicaSetClient$/;"	i
+MongoReplicaSetClient	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^class MongoReplicaSetClient(common.BaseObject):$/;"	c
+MongoReplicaSetClient	/usr/local/lib/python2.7/dist-packages/pymongo/replica_set_connection.py	/^from pymongo.mongo_replica_set_client import MongoReplicaSetClient$/;"	i
+Monitor	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^class Monitor(object):$/;"	c
+MonitorGreenlet	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    class MonitorGreenlet(Monitor, Greenlet):$/;"	c
+MonitorThread	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^class MonitorThread(Monitor, threading.Thread):$/;"	c
+MovingAverage	/usr/local/lib/python2.7/dist-packages/pymongo/read_preferences.py	/^class MovingAverage(object):$/;"	c
+NEAREST	/usr/local/lib/python2.7/dist-packages/pymongo/read_preferences.py	/^    NEAREST             = ReadPreference.NEAREST$/;"	v
+NEAREST	/usr/local/lib/python2.7/dist-packages/pymongo/read_preferences.py	/^    NEAREST = 4$/;"	v	class:ReadPreference
+NO_REQUEST	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^NO_REQUEST = None$/;"	v
+NO_SOCKET_YET	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^NO_SOCKET_YET = -1$/;"	v
+NamespaceInjector	/usr/local/lib/python2.7/dist-packages/pymongo/son_manipulator.py	/^class NamespaceInjector(SONManipulator):$/;"	c
+OFF	/usr/local/lib/python2.7/dist-packages/pymongo/__init__.py	/^OFF = 0$/;"	v
+OLD_UUID_SUBTYPE	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^from bson.binary import ALL_UUID_SUBTYPES, OLD_UUID_SUBTYPE$/;"	i
+OLD_UUID_SUBTYPE	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^from bson.binary import OLD_UUID_SUBTYPE$/;"	i
+OLD_UUID_SUBTYPE	/usr/local/lib/python2.7/dist-packages/pymongo/helpers.py	/^from bson.binary import OLD_UUID_SUBTYPE$/;"	i
+OLD_UUID_SUBTYPE	/usr/local/lib/python2.7/dist-packages/pymongo/message.py	/^from bson.binary import OLD_UUID_SUBTYPE$/;"	i
+OTHER	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^OTHER = 3$/;"	v
+ObjectId	/usr/local/lib/python2.7/dist-packages/pymongo/son_manipulator.py	/^from bson.objectid import ObjectId$/;"	i
+ObjectIdInjector	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^from pymongo.son_manipulator import ObjectIdInjector$/;"	i
+ObjectIdInjector	/usr/local/lib/python2.7/dist-packages/pymongo/son_manipulator.py	/^class ObjectIdInjector(SONManipulator):$/;"	c
+ObjectIdShuffler	/usr/local/lib/python2.7/dist-packages/pymongo/son_manipulator.py	/^class ObjectIdShuffler(SONManipulator):$/;"	c
+OperationFailure	/usr/local/lib/python2.7/dist-packages/pymongo/auth.py	/^from pymongo.errors import ConfigurationError, OperationFailure$/;"	i
+OperationFailure	/usr/local/lib/python2.7/dist-packages/pymongo/errors.py	/^class OperationFailure(PyMongoError):$/;"	c
+OrderedDict	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    from collections import OrderedDict$/;"	i
+PORT	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    PORT = 27017$/;"	v	class:MongoClient
+PRIMARY	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^PRIMARY = 1$/;"	v
+PRIMARY	/usr/local/lib/python2.7/dist-packages/pymongo/read_preferences.py	/^    PRIMARY             = ReadPreference.PRIMARY$/;"	v
+PRIMARY	/usr/local/lib/python2.7/dist-packages/pymongo/read_preferences.py	/^    PRIMARY = 0$/;"	v	class:ReadPreference
+PRIMARY_PREFERRED	/usr/local/lib/python2.7/dist-packages/pymongo/read_preferences.py	/^    PRIMARY_PREFERRED   = ReadPreference.PRIMARY_PREFERRED$/;"	v
+PRIMARY_PREFERRED	/usr/local/lib/python2.7/dist-packages/pymongo/read_preferences.py	/^    PRIMARY_PREFERRED = 1$/;"	v	class:ReadPreference
+Pool	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^class Pool:$/;"	c
+PyMongoError	/usr/local/lib/python2.7/dist-packages/pymongo/errors.py	/^class PyMongoError(Exception):$/;"	c
+RE_TYPE	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^from bson import RE_TYPE$/;"	i
+RSState	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^class RSState(object):$/;"	c
+ReadPreference	/usr/local/lib/python2.7/dist-packages/pymongo/__init__.py	/^from pymongo.read_preferences import ReadPreference$/;"	i
+ReadPreference	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^from pymongo.read_preferences import ReadPreference$/;"	i
+ReadPreference	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^from pymongo.read_preferences import ReadPreference, secondary_ok_commands$/;"	i
+ReadPreference	/usr/local/lib/python2.7/dist-packages/pymongo/master_slave_connection.py	/^from pymongo import ReadPreference$/;"	i
+ReadPreference	/usr/local/lib/python2.7/dist-packages/pymongo/read_preferences.py	/^class ReadPreference:$/;"	c
+ReplicaSetConnection	/usr/local/lib/python2.7/dist-packages/pymongo/__init__.py	/^from pymongo.replica_set_connection import ReplicaSetConnection$/;"	i
+ReplicaSetConnection	/usr/local/lib/python2.7/dist-packages/pymongo/replica_set_connection.py	/^class ReplicaSetConnection(MongoReplicaSetClient):$/;"	c
+Request	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^class Request(object):$/;"	c
+SAFE_OPTIONS	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^SAFE_OPTIONS = frozenset([$/;"	v
+SCHEME	/usr/local/lib/python2.7/dist-packages/pymongo/uri_parser.py	/^SCHEME = 'mongodb:\/\/'$/;"	v
+SCHEME_LEN	/usr/local/lib/python2.7/dist-packages/pymongo/uri_parser.py	/^SCHEME_LEN = len(SCHEME)$/;"	v
+SECONDARY	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^SECONDARY = 2$/;"	v
+SECONDARY	/usr/local/lib/python2.7/dist-packages/pymongo/read_preferences.py	/^    SECONDARY           = ReadPreference.SECONDARY$/;"	v
+SECONDARY	/usr/local/lib/python2.7/dist-packages/pymongo/read_preferences.py	/^    SECONDARY = 2$/;"	v	class:ReadPreference
+SECONDARY_ONLY	/usr/local/lib/python2.7/dist-packages/pymongo/read_preferences.py	/^    SECONDARY_ONLY = 2$/;"	v	class:ReadPreference
+SECONDARY_PREFERRED	/usr/local/lib/python2.7/dist-packages/pymongo/read_preferences.py	/^    SECONDARY_PREFERRED = 3$/;"	v	class:ReadPreference
+SECONDARY_PREFERRED	/usr/local/lib/python2.7/dist-packages/pymongo/read_preferences.py	/^    SECONDARY_PREFERRED = ReadPreference.SECONDARY_PREFERRED$/;"	v
+SLOW_ONLY	/usr/local/lib/python2.7/dist-packages/pymongo/__init__.py	/^SLOW_ONLY = 1$/;"	v
+SON	/usr/local/lib/python2.7/dist-packages/pymongo/auth.py	/^from bson.son import SON$/;"	i
+SON	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^from bson.son import SON$/;"	i
+SON	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^from bson.son import SON$/;"	i
+SON	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^from bson.son import SON$/;"	i
+SON	/usr/local/lib/python2.7/dist-packages/pymongo/helpers.py	/^from bson.son import SON$/;"	i
+SON	/usr/local/lib/python2.7/dist-packages/pymongo/message.py	/^from bson.son import SON$/;"	i
+SON	/usr/local/lib/python2.7/dist-packages/pymongo/son_manipulator.py	/^from bson.son import SON$/;"	i
+SONManipulator	/usr/local/lib/python2.7/dist-packages/pymongo/son_manipulator.py	/^class SONManipulator(object):$/;"	c
+SocketInfo	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^class SocketInfo(object):$/;"	c
+SystemJS	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^class SystemJS(object):$/;"	c
+ThreadIdent	/usr/local/lib/python2.7/dist-packages/pymongo/thread_util.py	/^class ThreadIdent(Ident):$/;"	c
+ThreadVigil	/usr/local/lib/python2.7/dist-packages/pymongo/thread_util.py	/^    class ThreadVigil(object):$/;"	c	class:ThreadIdent
+TimeoutError	/usr/local/lib/python2.7/dist-packages/pymongo/errors.py	/^class TimeoutError(OperationFailure):$/;"	c
+UnsupportedOption	/usr/local/lib/python2.7/dist-packages/pymongo/errors.py	/^class UnsupportedOption(ConfigurationError):$/;"	c
+VALIDATORS	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^VALIDATORS = {$/;"	v
+WriteConcern	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^class WriteConcern(dict):$/;"	c
+_DummyLock	/usr/local/lib/python2.7/dist-packages/pymongo/thread_util.py	/^    class _DummyLock(object):$/;"	c	class:ThreadIdent
+_MD5	/usr/local/lib/python2.7/dist-packages/pymongo/auth.py	/^    _MD5 = hashlib.md5$/;"	v
+_MD5	/usr/local/lib/python2.7/dist-packages/pymongo/auth.py	/^    _MD5 = md5.new$/;"	v
+_QUERY_OPTIONS	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^_QUERY_OPTIONS = {$/;"	v
+__ZERO	/usr/local/lib/python2.7/dist-packages/pymongo/message.py	/^__ZERO = b("\\x00\\x00\\x00\\x00")$/;"	v
+__call__	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    def __call__(self, *args, **kwargs):$/;"	m	class:Collection	file:
+__call__	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def __call__(self, *args, **kwargs):$/;"	m	class:Database	file:
+__check_auth	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def __check_auth(self, sock_info):$/;"	m	class:MongoClient	file:
+__check_auth	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def __check_auth(self, sock_info):$/;"	m	class:MongoReplicaSetClient	file:
+__check_bson_size	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def __check_bson_size(self, message):$/;"	m	class:MongoClient	file:
+__check_bson_size	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def __check_bson_size(self, msg, max_size):$/;"	m	class:MongoReplicaSetClient	file:
+__check_okay_to_chain	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^    def __check_okay_to_chain(self):$/;"	m	class:Cursor	file:
+__check_response_to_last_error	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def __check_response_to_last_error(self, response):$/;"	m	class:MongoClient	file:
+__check_response_to_last_error	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def __check_response_to_last_error(self, response):$/;"	m	class:MongoReplicaSetClient	file:
+__clone	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^    def __clone(self, deepcopy=True):$/;"	m	class:Cursor	file:
+__copy__	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^    def __copy__(self):$/;"	m	class:Cursor	file:
+__create	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    def __create(self, options):$/;"	m	class:Collection	file:
+__deepcopy	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^    def __deepcopy(self, x, memo=None):$/;"	m	class:Cursor	file:
+__deepcopy__	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^    def __deepcopy__(self, memo):$/;"	m	class:Cursor	file:
+__del__	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^    def __del__(self):$/;"	m	class:Cursor	file:
+__del__	/usr/local/lib/python2.7/dist-packages/pymongo/cursor_manager.py	/^    def __del__(self):$/;"	m	class:BatchCursorManager	file:
+__del__	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^    def __del__(self):$/;"	m	class:Pool	file:
+__delattr__	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def __delattr__(self, name):$/;"	m	class:SystemJS	file:
+__delitem__	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def __delitem__(self, name):$/;"	m	class:SystemJS	file:
+__die	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^    def __die(self):$/;"	m	class:Cursor	file:
+__enter__	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^    def __enter__(self):$/;"	m	class:Cursor	file:
+__enter__	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def __enter__(self):$/;"	m	class:MongoClient	file:
+__enter__	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^    def __enter__(self):$/;"	m	class:Request	file:
+__eq__	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    def __eq__(self, other):$/;"	m	class:Collection	file:
+__eq__	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def __eq__(self, other):$/;"	m	class:Database	file:
+__eq__	/usr/local/lib/python2.7/dist-packages/pymongo/master_slave_connection.py	/^    def __eq__(self, other):$/;"	m	class:MasterSlaveConnection	file:
+__eq__	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def __eq__(self, other):$/;"	m	class:MongoClient	file:
+__eq__	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def __eq__(self, other):$/;"	m	class:MongoReplicaSetClient	file:
+__eq__	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^    def __eq__(self, other):$/;"	m	class:SocketInfo	file:
+__exit__	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^    def __exit__(self, exc_type, exc_val, exc_tb):$/;"	m	class:Cursor	file:
+__exit__	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def __exit__(self, exc_type, exc_val, exc_tb):$/;"	m	class:MongoClient	file:
+__exit__	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^    def __exit__(self, exc_type, exc_val, exc_tb):$/;"	m	class:Request	file:
+__find_node	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def __find_node(self, seeds=None):$/;"	m	class:MongoClient	file:
+__find_primary	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def __find_primary(self):$/;"	m	class:MongoReplicaSetClient	file:
+__get_acceptable_latency	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^    def __get_acceptable_latency(self):$/;"	m	class:BaseObject	file:
+__get_read_pref	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^    def __get_read_pref(self):$/;"	m	class:BaseObject	file:
+__get_safe	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^    def __get_safe(self):$/;"	m	class:BaseObject	file:
+__get_slave_okay	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^    def __get_slave_okay(self):$/;"	m	class:BaseObject	file:
+__get_tag_sets	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^    def __get_tag_sets(self):$/;"	m	class:BaseObject	file:
+__get_uuid_subtype	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    def __get_uuid_subtype(self):$/;"	m	class:Collection	file:
+__get_write_concern	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^    def __get_write_concern(self):$/;"	m	class:BaseObject	file:
+__getattr__	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    def __getattr__(self, name):$/;"	m	class:Collection	file:
+__getattr__	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def __getattr__(self, name):$/;"	m	class:Database	file:
+__getattr__	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def __getattr__(self, name):$/;"	m	class:SystemJS	file:
+__getattr__	/usr/local/lib/python2.7/dist-packages/pymongo/master_slave_connection.py	/^    def __getattr__(self, name):$/;"	m	class:MasterSlaveConnection	file:
+__getattr__	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def __getattr__(self, name):$/;"	m	class:MongoClient	file:
+__getattr__	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def __getattr__(self, name):$/;"	m	class:MongoReplicaSetClient	file:
+__getitem__	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    def __getitem__(self, name):$/;"	m	class:Collection	file:
+__getitem__	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^    def __getitem__(self, index):$/;"	m	class:Cursor	file:
+__getitem__	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def __getitem__(self, name):$/;"	m	class:Database	file:
+__getitem__	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def __getitem__(self, name):$/;"	m	class:SystemJS	file:
+__getitem__	/usr/local/lib/python2.7/dist-packages/pymongo/master_slave_connection.py	/^    def __getitem__(self, name):$/;"	m	class:MasterSlaveConnection	file:
+__getitem__	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def __getitem__(self, name):$/;"	m	class:MongoClient	file:
+__getitem__	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def __getitem__(self, name):$/;"	m	class:MongoReplicaSetClient	file:
+__hash__	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^    def __hash__(self):$/;"	m	class:SocketInfo	file:
+__init__	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    def __init__(self, database, name, create=False, **kwargs):$/;"	m	class:Collection
+__init__	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^    def __init__(self, **options):$/;"	m	class:BaseObject
+__init__	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:WriteConcern
+__init__	/usr/local/lib/python2.7/dist-packages/pymongo/connection.py	/^    def __init__(self, host=None, port=None, max_pool_size=10,$/;"	m	class:Connection
+__init__	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^    def __init__(self, collection, spec=None, fields=None, skip=0, limit=0,$/;"	m	class:Cursor
+__init__	/usr/local/lib/python2.7/dist-packages/pymongo/cursor_manager.py	/^    def __init__(self, connection):$/;"	m	class:BatchCursorManager
+__init__	/usr/local/lib/python2.7/dist-packages/pymongo/cursor_manager.py	/^    def __init__(self, connection):$/;"	m	class:CursorManager
+__init__	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def __init__(self, connection, name):$/;"	m	class:Database
+__init__	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def __init__(self, database):$/;"	m	class:SystemJS
+__init__	/usr/local/lib/python2.7/dist-packages/pymongo/errors.py	/^    def __init__(self, error, code=None):$/;"	m	class:OperationFailure
+__init__	/usr/local/lib/python2.7/dist-packages/pymongo/errors.py	/^    def __init__(self, message='', errors=None):$/;"	m	class:AutoReconnect
+__init__	/usr/local/lib/python2.7/dist-packages/pymongo/master_slave_connection.py	/^    def __init__(self, master, slaves=[], document_class=dict, tz_aware=False):$/;"	m	class:MasterSlaveConnection
+__init__	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def __init__(self, host=None, port=None, max_pool_size=10,$/;"	m	class:MongoClient
+__init__	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^        def __init__(self, rsc):$/;"	m	class:.MonitorGreenlet
+__init__	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def __init__($/;"	m	class:RSState
+__init__	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def __init__(self, host, connection_pool, ismaster_response, ping_time, up):$/;"	m	class:Member
+__init__	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def __init__(self, hosts_or_uri=None, max_pool_size=10,$/;"	m	class:MongoReplicaSetClient
+__init__	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def __init__(self, rsc):$/;"	m	class:MonitorThread
+__init__	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def __init__(self, rsc, event_class):$/;"	m	class:Monitor
+__init__	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^    def __init__(self, connection):$/;"	m	class:Request
+__init__	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^    def __init__(self, pair, max_size, net_timeout, conn_timeout, use_ssl,$/;"	m	class:Pool
+__init__	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^    def __init__(self, sock, pool_id, host=None):$/;"	m	class:SocketInfo
+__init__	/usr/local/lib/python2.7/dist-packages/pymongo/read_preferences.py	/^    def __init__(self, samples):$/;"	m	class:MovingAverage
+__init__	/usr/local/lib/python2.7/dist-packages/pymongo/replica_set_connection.py	/^    def __init__(self, hosts_or_uri=None, max_pool_size=10,$/;"	m	class:ReplicaSetConnection
+__init__	/usr/local/lib/python2.7/dist-packages/pymongo/son_manipulator.py	/^    def __init__(self, db):$/;"	m	class:AutoReference
+__init__	/usr/local/lib/python2.7/dist-packages/pymongo/thread_util.py	/^    def __init__(self):$/;"	m	class:Ident
+__init__	/usr/local/lib/python2.7/dist-packages/pymongo/thread_util.py	/^    def __init__(self):$/;"	m	class:ThreadIdent
+__init__	/usr/local/lib/python2.7/dist-packages/pymongo/thread_util.py	/^    def __init__(self, use_greenlets):$/;"	m	class:Counter
+__is_master	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def __is_master(self, host):$/;"	m	class:MongoReplicaSetClient	file:
+__iter__	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    def __iter__(self):$/;"	m	class:Collection	file:
+__iter__	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^    def __iter__(self):$/;"	m	class:Cursor	file:
+__iter__	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def __iter__(self):$/;"	m	class:Database	file:
+__iter__	/usr/local/lib/python2.7/dist-packages/pymongo/master_slave_connection.py	/^    def __iter__(self):$/;"	m	class:MasterSlaveConnection	file:
+__iter__	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def __iter__(self):$/;"	m	class:MongoClient	file:
+__last_error	/usr/local/lib/python2.7/dist-packages/pymongo/message.py	/^def __last_error(namespace, args):$/;"	f	file:
+__make_threadlocal	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def __make_threadlocal(self):$/;"	m	class:MongoReplicaSetClient	file:
+__max_bson_size	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    __max_bson_size = 4 * 1024 * 1024$/;"	v	class:MongoClient
+__ne__	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    def __ne__(self, other):$/;"	m	class:Collection	file:
+__ne__	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def __ne__(self, other):$/;"	m	class:Database	file:
+__ne__	/usr/local/lib/python2.7/dist-packages/pymongo/master_slave_connection.py	/^    def __ne__(self, other):$/;"	m	class:MasterSlaveConnection	file:
+__ne__	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def __ne__(self, other):$/;"	m	class:MongoClient	file:
+__ne__	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def __ne__(self, other):$/;"	m	class:MongoReplicaSetClient	file:
+__ne__	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^    def __ne__(self, other):$/;"	m	class:SocketInfo	file:
+__pack_message	/usr/local/lib/python2.7/dist-packages/pymongo/message.py	/^def __pack_message(operation, data):$/;"	f	file:
+__pick_nearest	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def __pick_nearest(self, candidates):$/;"	m	class:MongoClient	file:
+__query_options	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^    def __query_options(self):$/;"	m	class:Cursor	file:
+__query_spec	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^    def __query_spec(self):$/;"	m	class:Cursor	file:
+__receive_data_on_socket	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def __receive_data_on_socket(self, length, sock_info):$/;"	m	class:MongoClient	file:
+__receive_message_on_socket	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def __receive_message_on_socket(self, operation, request_id, sock_info):$/;"	m	class:MongoClient	file:
+__recv_data	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def __recv_data(self, length, sock_info):$/;"	m	class:MongoReplicaSetClient	file:
+__recv_msg	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def __recv_msg(self, operation, request_id, sock):$/;"	m	class:MongoReplicaSetClient	file:
+__repr__	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    def __repr__(self):$/;"	m	class:Collection	file:
+__repr__	/usr/local/lib/python2.7/dist-packages/pymongo/connection.py	/^    def __repr__(self):$/;"	m	class:Connection	file:
+__repr__	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def __repr__(self):$/;"	m	class:Database	file:
+__repr__	/usr/local/lib/python2.7/dist-packages/pymongo/master_slave_connection.py	/^    def __repr__(self):$/;"	m	class:MasterSlaveConnection	file:
+__repr__	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def __repr__(self):$/;"	m	class:MongoClient	file:
+__repr__	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def __repr__(self):$/;"	m	class:MongoReplicaSetClient	file:
+__repr__	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^    def __repr__(self):$/;"	m	class:SocketInfo	file:
+__repr__	/usr/local/lib/python2.7/dist-packages/pymongo/replica_set_connection.py	/^    def __repr__(self):$/;"	m	class:ReplicaSetConnection	file:
+__schedule_refresh	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def __schedule_refresh(self, sync=False):$/;"	m	class:MongoReplicaSetClient	file:
+__send_and_receive	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def __send_and_receive(self, message, sock_info):$/;"	m	class:MongoClient	file:
+__send_and_receive	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def __send_and_receive(self, member, msg, **kwargs):$/;"	m	class:MongoReplicaSetClient	file:
+__send_message	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^    def __send_message(self, message):$/;"	m	class:Cursor	file:
+__set_acceptable_latency	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^    def __set_acceptable_latency(self, value):$/;"	m	class:BaseObject	file:
+__set_options	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^    def __set_options(self, options):$/;"	m	class:BaseObject	file:
+__set_read_pref	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^    def __set_read_pref(self, value):$/;"	m	class:BaseObject	file:
+__set_safe	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^    def __set_safe(self, value):$/;"	m	class:BaseObject	file:
+__set_safe_option	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^    def __set_safe_option(self, option, value):$/;"	m	class:BaseObject	file:
+__set_slave_okay	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^    def __set_slave_okay(self, value):$/;"	m	class:BaseObject	file:
+__set_tag_sets	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^    def __set_tag_sets(self, value):$/;"	m	class:BaseObject	file:
+__set_uuid_subtype	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    def __set_uuid_subtype(self, subtype):$/;"	m	class:Collection	file:
+__set_write_concern	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^    def __set_write_concern(self, value):$/;"	m	class:BaseObject	file:
+__setattr__	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def __setattr__(self, name, code):$/;"	m	class:SystemJS	file:
+__setitem__	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^    def __setitem__(self, key, value):$/;"	m	class:WriteConcern	file:
+__setitem__	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def __setitem__(self, name, code):$/;"	m	class:SystemJS	file:
+__simple_command	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def __simple_command(self, sock_info, dbname, spec):$/;"	m	class:MongoClient	file:
+__simple_command	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def __simple_command(self, sock_info, dbname, spec):$/;"	m	class:MongoReplicaSetClient	file:
+__socket	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def __socket(self):$/;"	m	class:MongoClient	file:
+__socket	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def __socket(self, member):$/;"	m	class:MongoReplicaSetClient	file:
+__str__	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def __str__(self):$/;"	m	class:Member	file:
+__str__	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def __str__(self):$/;"	m	class:RSState	file:
+__try_node	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def __try_node(self, node):$/;"	m	class:MongoClient	file:
+__try_read	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def __try_read(self, member, msg, **kwargs):$/;"	m	class:MongoReplicaSetClient	file:
+_auth_key	/usr/local/lib/python2.7/dist-packages/pymongo/auth.py	/^def _auth_key(nonce, username, password):$/;"	f
+_authenticate_gssapi	/usr/local/lib/python2.7/dist-packages/pymongo/auth.py	/^def _authenticate_gssapi(username, sock_info, cmd_func):$/;"	f
+_authenticate_mongo_cr	/usr/local/lib/python2.7/dist-packages/pymongo/auth.py	/^def _authenticate_mongo_cr(username, password, source, sock_info, cmd_func):$/;"	f
+_cache_credentials	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def _cache_credentials(self, source, credentials, connect=True):$/;"	m	class:MongoClient
+_cache_credentials	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def _cache_credentials(self, source, credentials, connect=True):$/;"	m	class:MongoReplicaSetClient
+_cache_index	/usr/local/lib/python2.7/dist-packages/pymongo/master_slave_connection.py	/^    def _cache_index(self, database_name, collection_name,$/;"	m	class:MasterSlaveConnection
+_cache_index	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def _cache_index(self, database, collection, index, cache_for):$/;"	m	class:MongoClient
+_cache_index	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def _cache_index(self, dbase, collection, index, cache_for):$/;"	m	class:MongoReplicaSetClient
+_cached	/usr/local/lib/python2.7/dist-packages/pymongo/master_slave_connection.py	/^    def _cached(self, database_name, collection_name, index_name):$/;"	m	class:MasterSlaveConnection
+_cached	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def _cached(self, dbname, coll, index):$/;"	m	class:MongoClient
+_cached	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def _cached(self, dbname, coll, index):$/;"	m	class:MongoReplicaSetClient
+_check	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^    def _check(self, sock_info, pair):$/;"	m	class:Pool
+_check_command_response	/usr/local/lib/python2.7/dist-packages/pymongo/helpers.py	/^def _check_command_response(response, reset, msg="%s", allowable_errors=[]):$/;"	f
+_check_name	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^def _check_name(name):$/;"	f
+_closed	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^def _closed(sock):$/;"	f
+_cmessage	/usr/local/lib/python2.7/dist-packages/pymongo/__init__.py	/^        from pymongo import _cmessage$/;"	i
+_cmessage	/usr/local/lib/python2.7/dist-packages/pymongo/message.py	/^    from pymongo import _cmessage$/;"	i
+_dnsname_to_pat	/usr/local/lib/python2.7/dist-packages/pymongo/ssl_match_hostname.py	/^def _dnsname_to_pat(dn):$/;"	f
+_fields_list_to_dict	/usr/local/lib/python2.7/dist-packages/pymongo/helpers.py	/^def _fields_list_to_dict(fields):$/;"	f
+_fix_incoming	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def _fix_incoming(self, son, collection):$/;"	m	class:Database
+_fix_outgoing	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def _fix_outgoing(self, son, collection):$/;"	m	class:Database
+_gen_index_name	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^def _gen_index_name(keys):$/;"	f
+_get_request_state	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^    def _get_request_state(self):$/;"	m	class:Pool
+_get_wc_override	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^    def _get_wc_override(self):$/;"	m	class:BaseObject
+_get_write_mode	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^    def _get_write_mode(self, safe=None, **options):$/;"	m	class:BaseObject
+_host_to_ping_time	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    _host_to_ping_time = {}$/;"	v	class:Member
+_index_document	/usr/local/lib/python2.7/dist-packages/pymongo/helpers.py	/^def _index_document(index_list):$/;"	f
+_index_list	/usr/local/lib/python2.7/dist-packages/pymongo/helpers.py	/^def _index_list(key_or_list, direction=None):$/;"	f
+_make_vigil	/usr/local/lib/python2.7/dist-packages/pymongo/thread_util.py	/^    def _make_vigil(self):$/;"	m	class:ThreadIdent
+_mongos_modes	/usr/local/lib/python2.7/dist-packages/pymongo/read_preferences.py	/^_mongos_modes = [$/;"	v
+_on_monitor_deleted	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^def _on_monitor_deleted(ref):$/;"	f
+_partition	/usr/local/lib/python2.7/dist-packages/pymongo/uri_parser.py	/^def _partition(entity, sep):$/;"	f
+_partition_node	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^def _partition_node(node):$/;"	f
+_partition_node	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^def _partition_node(node):$/;"	f
+_password_digest	/usr/local/lib/python2.7/dist-packages/pymongo/auth.py	/^def _password_digest(username, password):$/;"	f
+_purge_credentials	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def _purge_credentials(self, source):$/;"	m	class:MongoClient
+_purge_credentials	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def _purge_credentials(self, source):$/;"	m	class:MongoReplicaSetClient
+_purge_index	/usr/local/lib/python2.7/dist-packages/pymongo/master_slave_connection.py	/^    def _purge_index(self, database_name,$/;"	m	class:MasterSlaveConnection
+_purge_index	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def _purge_index(self, database_name,$/;"	m	class:MongoClient
+_purge_index	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def _purge_index(self, database_name,$/;"	m	class:MongoReplicaSetClient
+_refresh	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^    def _refresh(self):$/;"	m	class:Cursor
+_refresh_interval	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    _refresh_interval = 30$/;"	v	class:Monitor
+_return_socket	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^    def _return_socket(self, sock_info):$/;"	m	class:Pool
+_rpartition	/usr/local/lib/python2.7/dist-packages/pymongo/uri_parser.py	/^def _rpartition(entity, sep):$/;"	f
+_run	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^        def _run(self):$/;"	m	class:.MonitorGreenlet
+_send_message	/usr/local/lib/python2.7/dist-packages/pymongo/master_slave_connection.py	/^    def _send_message(self, message,$/;"	m	class:MasterSlaveConnection
+_send_message	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def _send_message(self, message, with_last_error=False, check_primary=True):$/;"	m	class:MongoClient
+_send_message	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def _send_message(self, msg,$/;"	m	class:MongoReplicaSetClient
+_send_message_with_response	/usr/local/lib/python2.7/dist-packages/pymongo/master_slave_connection.py	/^    def _send_message_with_response(self, message, _connection_to_use=None,$/;"	m	class:MasterSlaveConnection
+_send_message_with_response	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def _send_message_with_response(self, message,$/;"	m	class:MongoClient
+_send_message_with_response	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def _send_message_with_response(self, msg, _connection_to_use=None,$/;"	m	class:MongoReplicaSetClient
+_set_request_state	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^    def _set_request_state(self, sock_info):$/;"	m	class:Pool
+_unpack_response	/usr/local/lib/python2.7/dist-packages/pymongo/helpers.py	/^def _unpack_response(response, cursor_id=None, as_class=dict,$/;"	f
+_use_c	/usr/local/lib/python2.7/dist-packages/pymongo/message.py	/^    _use_c = False$/;"	v
+_use_c	/usr/local/lib/python2.7/dist-packages/pymongo/message.py	/^    _use_c = True$/;"	v
+acquire	/usr/local/lib/python2.7/dist-packages/pymongo/thread_util.py	/^        def acquire(self):$/;"	m	class:ThreadIdent._DummyLock
+add_option	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^    def add_option(self, mask):$/;"	m	class:Cursor
+add_son_manipulator	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def add_son_manipulator(self, manipulator):$/;"	m	class:Database
+add_user	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def add_user(self, name, password=None, read_only=None, **kwargs):$/;"	m	class:Database
+aggregate	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    def aggregate(self, pipeline):$/;"	m	class:Collection
+alive	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^    def alive(self):$/;"	m	class:Cursor
+alive	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def alive(self):$/;"	m	class:MongoClient
+alive	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def alive(self):$/;"	m	class:MongoReplicaSetClient
+arbiters	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def arbiters(self):$/;"	m	class:MongoReplicaSetClient
+arbiters	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def arbiters(self):$/;"	m	class:RSState
+atexit	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^import atexit$/;"	i
+auth	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^from pymongo import auth, common, helpers$/;"	i
+auth	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^from pymongo import (auth,$/;"	i
+auth	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^from pymongo import (auth,$/;"	i
+authenticate	/usr/local/lib/python2.7/dist-packages/pymongo/auth.py	/^def authenticate(credentials, sock_info, cmd_func):$/;"	f
+authenticate	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def authenticate(self, name, password=None,$/;"	m	class:Database
+auto_start_request	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def auto_start_request(self):$/;"	m	class:MongoClient
+auto_start_request	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def auto_start_request(self):$/;"	m	class:MongoReplicaSetClient
+b	/usr/local/lib/python2.7/dist-packages/pymongo/message.py	/^from bson.py3compat import b$/;"	i
+b	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^from bson.py3compat import b$/;"	i
+b	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^from bson.py3compat import b$/;"	i
+batch_size	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^    def batch_size(self, batch_size):$/;"	m	class:Cursor
+bson	/usr/local/lib/python2.7/dist-packages/pymongo/helpers.py	/^import bson$/;"	i
+bson	/usr/local/lib/python2.7/dist-packages/pymongo/message.py	/^import bson$/;"	i
+candidate	/usr/local/lib/python2.7/dist-packages/pymongo/read_preferences.py	/^            candidate = select_member_with_tags(members, tags, False, latency)$/;"	v
+candidate	/usr/local/lib/python2.7/dist-packages/pymongo/read_preferences.py	/^            candidate = select_member_with_tags(members, tags, True, latency)$/;"	v
+candidate_primary	/usr/local/lib/python2.7/dist-packages/pymongo/read_preferences.py	/^        candidate_primary = select_member(members, PRIMARY, [{}], latency)$/;"	v
+candidate_secondary	/usr/local/lib/python2.7/dist-packages/pymongo/read_preferences.py	/^        candidate_secondary = select_member($/;"	v
+clone	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^    def clone(self):$/;"	m	class:Cursor
+clone_down	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def clone_down(self):$/;"	m	class:Member
+clone_with	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def clone_with(self, ismaster_response, ping_time_sample):$/;"	m	class:Member
+clone_with	/usr/local/lib/python2.7/dist-packages/pymongo/read_preferences.py	/^    def clone_with(self, sample):$/;"	m	class:MovingAverage
+clone_with_host_down	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def clone_with_host_down(self, host, error_message):$/;"	m	class:RSState
+clone_without_writer	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def clone_without_writer(self, threadlocal):$/;"	m	class:RSState
+close	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^    def close(self):$/;"	m	class:Cursor
+close	/usr/local/lib/python2.7/dist-packages/pymongo/cursor_manager.py	/^    def close(self, cursor_id):$/;"	m	class:BatchCursorManager
+close	/usr/local/lib/python2.7/dist-packages/pymongo/cursor_manager.py	/^    def close(self, cursor_id):$/;"	m	class:CursorManager
+close	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def close(self):$/;"	m	class:MongoClient
+close	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def close(self):$/;"	m	class:MongoReplicaSetClient
+close	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^    def close(self):$/;"	m	class:SocketInfo
+close_cursor	/usr/local/lib/python2.7/dist-packages/pymongo/master_slave_connection.py	/^    def close_cursor(self, cursor_id, connection_id):$/;"	m	class:MasterSlaveConnection
+close_cursor	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def close_cursor(self, cursor_id):$/;"	m	class:MongoClient
+close_cursor	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def close_cursor(self, cursor_id, _conn_id):$/;"	m	class:MongoReplicaSetClient
+collection	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^    def collection(self):$/;"	m	class:Cursor
+collection_names	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def collection_names(self):$/;"	m	class:Database
+command	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def command(self, command, value=1,$/;"	m	class:Database
+common	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^from pymongo import (common,$/;"	i
+common	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^from pymongo import auth, common, helpers$/;"	i
+connect	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^    def connect(self, pair):$/;"	m	class:Pool
+connection	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def connection(self):$/;"	m	class:Database
+copy	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^import copy$/;"	i
+copy_database	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def copy_database(self, from_name, to_name,$/;"	m	class:MongoClient
+copy_database	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def copy_database(self, from_name, to_name,$/;"	m	class:MongoReplicaSetClient
+count	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    def count(self):$/;"	m	class:Collection
+count	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^    def count(self, with_limit_and_skip=False):$/;"	m	class:Cursor
+create_collection	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def create_collection(self, name, **kwargs):$/;"	m	class:Database
+create_connection	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^    def create_connection(self, pair):$/;"	m	class:Pool
+create_ident	/usr/local/lib/python2.7/dist-packages/pymongo/thread_util.py	/^def create_ident(use_greenlets):$/;"	f
+create_index	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    def create_index(self, key_or_list, cache_for=300, **kwargs):$/;"	m	class:Collection
+current_op	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def current_op(self, include_all=False):$/;"	m	class:Database
+cursor_id	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^    def cursor_id(self):$/;"	m	class:Cursor
+database	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    def database(self):$/;"	m	class:Collection
+database_names	/usr/local/lib/python2.7/dist-packages/pymongo/master_slave_connection.py	/^    def database_names(self):$/;"	m	class:MasterSlaveConnection
+database_names	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def database_names(self):$/;"	m	class:MongoClient
+database_names	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def database_names(self):$/;"	m	class:MongoReplicaSetClient
+datetime	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^import datetime$/;"	i
+datetime	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^import datetime$/;"	i
+dec	/usr/local/lib/python2.7/dist-packages/pymongo/thread_util.py	/^    def dec(self):$/;"	m	class:Counter
+delete	/usr/local/lib/python2.7/dist-packages/pymongo/message.py	/^def delete(collection_name, spec, safe, last_error_args, uuid_subtype):$/;"	f
+deque	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^from collections import deque$/;"	i
+dereference	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def dereference(self, dbref):$/;"	m	class:Database
+discard_socket	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^    def discard_socket(self, sock_info):$/;"	m	class:Pool
+disconnect	/usr/local/lib/python2.7/dist-packages/pymongo/master_slave_connection.py	/^    def disconnect(self):$/;"	m	class:MasterSlaveConnection
+disconnect	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def disconnect(self):$/;"	m	class:MongoClient
+disconnect	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def disconnect(self):$/;"	m	class:MongoReplicaSetClient
+distinct	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    def distinct(self, key):$/;"	m	class:Collection
+distinct	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^    def distinct(self, key):$/;"	m	class:Cursor
+document_class	/usr/local/lib/python2.7/dist-packages/pymongo/master_slave_connection.py	/^    document_class = property(get_document_class, set_document_class,$/;"	v	class:MasterSlaveConnection
+document_class	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    document_class = property(get_document_class, set_document_class,$/;"	v	class:MongoClient
+document_class	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    document_class = property(get_document_class, set_document_class,$/;"	v	class:MongoReplicaSetClient
+drop	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    def drop(self):$/;"	m	class:Collection
+drop_collection	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def drop_collection(self, name_or_collection):$/;"	m	class:Database
+drop_database	/usr/local/lib/python2.7/dist-packages/pymongo/master_slave_connection.py	/^    def drop_database(self, name_or_database):$/;"	m	class:MasterSlaveConnection
+drop_database	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def drop_database(self, name_or_database):$/;"	m	class:MongoClient
+drop_database	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def drop_database(self, name_or_database):$/;"	m	class:MongoReplicaSetClient
+drop_index	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    def drop_index(self, index_or_name):$/;"	m	class:Collection
+drop_indexes	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    def drop_indexes(self):$/;"	m	class:Collection
+end	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^    def end(self):$/;"	m	class:Request
+end_request	/usr/local/lib/python2.7/dist-packages/pymongo/master_slave_connection.py	/^    def end_request(self):$/;"	m	class:MasterSlaveConnection
+end_request	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def end_request(self):$/;"	m	class:MongoClient
+end_request	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def end_request(self):$/;"	m	class:MongoReplicaSetClient
+end_request	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^    def end_request(self):$/;"	m	class:Pool
+ensure_index	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    def ensure_index(self, key_or_list, cache_for=300, **kwargs):$/;"	m	class:Collection
+error	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def error(self):$/;"	m	class:Database
+error_message	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def error_message(self):$/;"	m	class:RSState
+eval	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def eval(self, code, *args):$/;"	m	class:Database
+explain	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^    def explain(self):$/;"	m	class:Cursor
+find	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    def find(self, *args, **kwargs):$/;"	m	class:Collection
+find_and_modify	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    def find_and_modify(self, query={}, update=None,$/;"	m	class:Collection
+find_one	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    def find_one(self, spec_or_id=None, *args, **kwargs):$/;"	m	class:Collection
+fsync	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def fsync(self, **kwargs):$/;"	m	class:MongoClient
+full_name	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    def full_name(self):$/;"	m	class:Collection
+get	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def get(self, host):$/;"	m	class:RSState
+get	/usr/local/lib/python2.7/dist-packages/pymongo/read_preferences.py	/^    def get(self):$/;"	m	class:MovingAverage
+get	/usr/local/lib/python2.7/dist-packages/pymongo/thread_util.py	/^    def get(self):$/;"	m	class:Counter
+get	/usr/local/lib/python2.7/dist-packages/pymongo/thread_util.py	/^    def get(self):$/;"	m	class:GreenletIdent
+get	/usr/local/lib/python2.7/dist-packages/pymongo/thread_util.py	/^    def get(self):$/;"	m	class:Ident
+get	/usr/local/lib/python2.7/dist-packages/pymongo/thread_util.py	/^    def get(self):$/;"	m	class:ThreadIdent
+get_avg_ping_time	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def get_avg_ping_time(self):$/;"	m	class:Member
+get_document_class	/usr/local/lib/python2.7/dist-packages/pymongo/master_slave_connection.py	/^    def get_document_class(self):$/;"	m	class:MasterSlaveConnection
+get_document_class	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def get_document_class(self):$/;"	m	class:MongoClient
+get_document_class	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def get_document_class(self):$/;"	m	class:MongoReplicaSetClient
+get_lasterror_options	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^    def get_lasterror_options(self):$/;"	m	class:BaseObject
+get_more	/usr/local/lib/python2.7/dist-packages/pymongo/message.py	/^    get_more = _cmessage._get_more_message$/;"	v
+get_more	/usr/local/lib/python2.7/dist-packages/pymongo/message.py	/^def get_more(collection_name, num_to_return, cursor_id):$/;"	f
+get_socket	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^    def get_socket(self, pair=None):$/;"	m	class:Pool
+get_version_string	/usr/local/lib/python2.7/dist-packages/pymongo/__init__.py	/^def get_version_string():$/;"	f
+gevent_local	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    from gevent.local import local as gevent_local$/;"	i
+greenlet	/usr/local/lib/python2.7/dist-packages/pymongo/thread_util.py	/^    import greenlet$/;"	i
+group	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    def group(self, key, condition, initial, reduce, finalize=None):$/;"	m	class:Collection
+has_c	/usr/local/lib/python2.7/dist-packages/pymongo/__init__.py	/^def has_c():$/;"	f
+hashlib	/usr/local/lib/python2.7/dist-packages/pymongo/auth.py	/^    import hashlib$/;"	i
+have_gevent	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    have_gevent = True$/;"	v
+have_gevent	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^have_gevent = False$/;"	v
+have_greenlet	/usr/local/lib/python2.7/dist-packages/pymongo/thread_util.py	/^    have_greenlet = False$/;"	v
+have_greenlet	/usr/local/lib/python2.7/dist-packages/pymongo/thread_util.py	/^have_greenlet = True$/;"	v
+helpers	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^from pymongo import helpers, message, read_preferences$/;"	i
+helpers	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^from pymongo import auth, common, helpers$/;"	i
+helpers	/usr/local/lib/python2.7/dist-packages/pymongo/master_slave_connection.py	/^from pymongo import helpers, thread_util$/;"	i
+hint	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^    def hint(self, index):$/;"	m	class:Cursor
+host	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def host(self):$/;"	m	class:MongoClient
+hosts	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def hosts(self):$/;"	m	class:MongoReplicaSetClient
+hosts	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def hosts(self):$/;"	m	class:RSState
+in_request	/usr/local/lib/python2.7/dist-packages/pymongo/master_slave_connection.py	/^    def in_request(self):$/;"	m	class:MasterSlaveConnection
+in_request	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def in_request(self):$/;"	m	class:MongoClient
+in_request	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def in_request(self):$/;"	m	class:MongoReplicaSetClient
+in_request	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^    def in_request(self):$/;"	m	class:Pool
+inc	/usr/local/lib/python2.7/dist-packages/pymongo/thread_util.py	/^    def inc(self):$/;"	m	class:Counter
+incoming_copying_manipulators	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def incoming_copying_manipulators(self):$/;"	m	class:Database
+incoming_manipulators	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def incoming_manipulators(self):$/;"	m	class:Database
+index_information	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    def index_information(self):$/;"	m	class:Collection
+inline_map_reduce	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    def inline_map_reduce(self, map, reduce, full_response=False, **kwargs):$/;"	m	class:Collection
+insert	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    def insert(self, doc_or_docs, manipulate=True,$/;"	m	class:Collection
+insert	/usr/local/lib/python2.7/dist-packages/pymongo/message.py	/^    insert = _cmessage._insert_message$/;"	v
+insert	/usr/local/lib/python2.7/dist-packages/pymongo/message.py	/^def insert(collection_name, docs, check_keys,$/;"	f
+is_locked	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def is_locked(self):$/;"	m	class:MongoClient
+is_mongos	/usr/local/lib/python2.7/dist-packages/pymongo/master_slave_connection.py	/^    def is_mongos(self):$/;"	m	class:MasterSlaveConnection
+is_mongos	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def is_mongos(self):$/;"	m	class:MongoClient
+is_mongos	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def is_mongos(self):$/;"	m	class:MongoReplicaSetClient
+is_primary	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def is_primary(self):$/;"	m	class:MongoClient
+is_primary	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def is_primary(self):$/;"	m	class:Member
+is_secondary	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def is_secondary(self):$/;"	m	class:Member
+issue1868	/usr/local/lib/python2.7/dist-packages/pymongo/thread_util.py	/^issue1868 = (sys.version_info[:3] <= (2, 7, 0))$/;"	v
+keep_pinned_host	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def keep_pinned_host(self, mode, tag_sets, latency):$/;"	m	class:RSState
+kerberos	/usr/local/lib/python2.7/dist-packages/pymongo/auth.py	/^    import kerberos$/;"	i
+kill_cursors	/usr/local/lib/python2.7/dist-packages/pymongo/message.py	/^def kill_cursors(cursor_ids):$/;"	f
+kill_cursors	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def kill_cursors(self, cursor_ids):$/;"	m	class:MongoClient
+last_status	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def last_status(self):$/;"	m	class:Database
+limit	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^    def limit(self, limit):$/;"	m	class:Cursor
+list	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def list(self):$/;"	m	class:SystemJS
+logout	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def logout(self):$/;"	m	class:Database
+map_reduce	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    def map_reduce(self, map, reduce, out, full_response=False, **kwargs):$/;"	m	class:Collection
+master	/usr/local/lib/python2.7/dist-packages/pymongo/master_slave_connection.py	/^    def master(self):$/;"	m	class:MasterSlaveConnection
+match_hostname	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^    from pymongo.ssl_match_hostname import match_hostname$/;"	i
+match_hostname	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^    from ssl import match_hostname$/;"	i
+match_hostname	/usr/local/lib/python2.7/dist-packages/pymongo/ssl_match_hostname.py	/^def match_hostname(cert, hostname):$/;"	f
+matches_mode	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def matches_mode(self, mode):$/;"	m	class:Member
+matches_tag_sets	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def matches_tag_sets(self, tag_sets):$/;"	m	class:Member
+matches_tags	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def matches_tags(self, tags):$/;"	m	class:Member
+max_bson_size	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def max_bson_size(self):$/;"	m	class:MongoClient
+max_bson_size	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def max_bson_size(self):$/;"	m	class:MongoReplicaSetClient
+max_pool_size	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def max_pool_size(self):$/;"	m	class:MongoClient
+max_pool_size	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def max_pool_size(self):$/;"	m	class:MongoReplicaSetClient
+max_scan	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^    def max_scan(self, max_scan):$/;"	m	class:Cursor
+maybe_return_socket	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^    def maybe_return_socket(self, sock_info):$/;"	m	class:Pool
+md5	/usr/local/lib/python2.7/dist-packages/pymongo/auth.py	/^    import md5$/;"	i
+members	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def members(self):$/;"	m	class:RSState
+message	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^from pymongo import helpers, message, read_preferences$/;"	i
+method_overwritten	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^        def method_overwritten(instance, method):$/;"	f	function:Database.add_son_manipulator
+modes	/usr/local/lib/python2.7/dist-packages/pymongo/read_preferences.py	/^modes = {$/;"	v
+mongos_enum	/usr/local/lib/python2.7/dist-packages/pymongo/read_preferences.py	/^def mongos_enum(enum):$/;"	f
+mongos_mode	/usr/local/lib/python2.7/dist-packages/pymongo/read_preferences.py	/^def mongos_mode(mode):$/;"	f
+monitor	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def monitor(self):$/;"	m	class:Monitor
+name	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    def name(self):$/;"	m	class:Collection
+name	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def name(self):$/;"	m	class:Database
+next	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    def next(self):$/;"	m	class:Collection
+next	/usr/local/lib/python2.7/dist-packages/pymongo/connection.py	/^    def next(self):$/;"	m	class:Connection
+next	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^    def next(self):$/;"	m	class:Cursor
+next	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def next(self):$/;"	m	class:Database
+next	/usr/local/lib/python2.7/dist-packages/pymongo/master_slave_connection.py	/^    def next(self):$/;"	m	class:MasterSlaveConnection
+next	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def next(self):$/;"	m	class:MongoClient
+nodes	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def nodes(self):$/;"	m	class:MongoClient
+on_thread_died	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^                def on_thread_died(ref):$/;"	f	function:Pool._set_request_state
+options	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    def options(self):$/;"	m	class:Collection
+ordered_types	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    ordered_types = (SON, OrderedDict)$/;"	v
+ordered_types	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    ordered_types = SON$/;"	v
+os	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^import os$/;"	i
+outgoing_copying_manipulators	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def outgoing_copying_manipulators(self):$/;"	m	class:Database
+outgoing_manipulators	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def outgoing_manipulators(self):$/;"	m	class:Database
+parse_host	/usr/local/lib/python2.7/dist-packages/pymongo/uri_parser.py	/^def parse_host(entity, default_port=DEFAULT_PORT):$/;"	f
+parse_ipv6_literal_host	/usr/local/lib/python2.7/dist-packages/pymongo/uri_parser.py	/^def parse_ipv6_literal_host(entity, default_port):$/;"	f
+parse_uri	/usr/local/lib/python2.7/dist-packages/pymongo/uri_parser.py	/^def parse_uri(uri, default_port=DEFAULT_PORT):$/;"	f
+parse_userinfo	/usr/local/lib/python2.7/dist-packages/pymongo/uri_parser.py	/^def parse_userinfo(userinfo):$/;"	f
+pin_host	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def pin_host(self, host, mode, tag_sets, latency):$/;"	m	class:RSState
+pinned_host	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def pinned_host(self):$/;"	m	class:RSState
+pop1	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^        def pop1(dct):$/;"	f	function:BaseObject._get_write_mode
+port	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def port(self):$/;"	m	class:MongoClient
+pprint	/usr/local/lib/python2.7/dist-packages/pymongo/uri_parser.py	/^    import pprint$/;"	i
+previous_error	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def previous_error(self):$/;"	m	class:Database
+primary	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def primary(self):$/;"	m	class:MongoReplicaSetClient
+primary_member	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def primary_member(self):$/;"	m	class:RSState
+profiling_info	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def profiling_info(self):$/;"	m	class:Database
+profiling_level	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def profiling_level(self):$/;"	m	class:Database
+pymongo	/usr/local/lib/python2.7/dist-packages/pymongo/helpers.py	/^import pymongo$/;"	i
+query	/usr/local/lib/python2.7/dist-packages/pymongo/message.py	/^    query = _cmessage._query_message$/;"	v
+query	/usr/local/lib/python2.7/dist-packages/pymongo/message.py	/^def query(options, collection_name, num_to_skip,$/;"	f
+raise_config_error	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^def raise_config_error(key, dummy):$/;"	f
+random	/usr/local/lib/python2.7/dist-packages/pymongo/helpers.py	/^import random$/;"	i
+random	/usr/local/lib/python2.7/dist-packages/pymongo/message.py	/^import random$/;"	i
+random	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^import random$/;"	i
+random	/usr/local/lib/python2.7/dist-packages/pymongo/read_preferences.py	/^import random$/;"	i
+re	/usr/local/lib/python2.7/dist-packages/pymongo/ssl_match_hostname.py	/^import re$/;"	i
+read_preference	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^    read_preference = property(__get_read_pref, __set_read_pref)$/;"	v	class:BaseObject
+read_preferences	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^from pymongo import read_preferences$/;"	i
+read_preferences	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^from pymongo import helpers, message, read_preferences$/;"	i
+refresh	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def refresh(self):$/;"	m	class:MongoReplicaSetClient
+register_monitor	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^def register_monitor(monitor):$/;"	f
+reindex	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    def reindex(self):$/;"	m	class:Collection
+release	/usr/local/lib/python2.7/dist-packages/pymongo/thread_util.py	/^        def release(self):$/;"	m	class:ThreadIdent._DummyLock
+remove	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    def remove(self, spec_or_id=None, safe=None, **kwargs):$/;"	m	class:Collection
+remove_option	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^    def remove_option(self, mask):$/;"	m	class:Cursor
+remove_user	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def remove_user(self, name):$/;"	m	class:Database
+rename	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    def rename(self, new_name, **kwargs):$/;"	m	class:Collection
+reset	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^    def reset(self):$/;"	m	class:Pool
+reset_error_history	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def reset_error_history(self):$/;"	m	class:Database
+rewind	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^    def rewind(self):$/;"	m	class:Cursor
+rp	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^from pymongo import read_preferences as rp$/;"	i
+run	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def run(self):$/;"	m	class:MonitorThread
+safe	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^    safe = property(__get_safe, __set_safe)$/;"	v	class:BaseObject
+save	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    def save(self, to_save, manipulate=True,$/;"	m	class:Collection
+schedule_refresh	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def schedule_refresh(self):$/;"	m	class:Monitor
+secondaries	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def secondaries(self):$/;"	m	class:MongoReplicaSetClient
+secondaries	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def secondaries(self):$/;"	m	class:RSState
+secondary_acceptable_latency_ms	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^    secondary_acceptable_latency_ms = property($/;"	v	class:BaseObject
+secondary_ok_commands	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^from pymongo.read_preferences import ReadPreference, secondary_ok_commands$/;"	i
+secondary_ok_commands	/usr/local/lib/python2.7/dist-packages/pymongo/read_preferences.py	/^secondary_ok_commands = frozenset([$/;"	v
+seeds	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def seeds(self):$/;"	m	class:MongoReplicaSetClient
+select	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^    from select import cpython_compatible_select as select$/;"	i
+select	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^    from select import select$/;"	i
+select_member	/usr/local/lib/python2.7/dist-packages/pymongo/read_preferences.py	/^def select_member($/;"	f
+select_member_with_tags	/usr/local/lib/python2.7/dist-packages/pymongo/read_preferences.py	/^def select_member_with_tags(members, tags, secondary_only, latency):$/;"	f
+select_primary	/usr/local/lib/python2.7/dist-packages/pymongo/read_preferences.py	/^def select_primary(members):$/;"	f
+server_info	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def server_info(self):$/;"	m	class:MongoClient
+server_info	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def server_info(self):$/;"	m	class:MongoReplicaSetClient
+set_cursor_manager	/usr/local/lib/python2.7/dist-packages/pymongo/master_slave_connection.py	/^    def set_cursor_manager(self, manager_class):$/;"	m	class:MasterSlaveConnection
+set_cursor_manager	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def set_cursor_manager(self, manager_class):$/;"	m	class:MongoClient
+set_document_class	/usr/local/lib/python2.7/dist-packages/pymongo/master_slave_connection.py	/^    def set_document_class(self, klass):$/;"	m	class:MasterSlaveConnection
+set_document_class	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def set_document_class(self, klass):$/;"	m	class:MongoClient
+set_document_class	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def set_document_class(self, klass):$/;"	m	class:MongoReplicaSetClient
+set_lasterror_options	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^    def set_lasterror_options(self, **kwargs):$/;"	m	class:BaseObject
+set_profiling_level	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def set_profiling_level(self, level, slow_ms=None):$/;"	m	class:Database
+shuffled	/usr/local/lib/python2.7/dist-packages/pymongo/helpers.py	/^def shuffled(sequence):$/;"	f
+shutdown	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def shutdown(self, dummy=None):$/;"	m	class:Monitor
+shutdown_monitors	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^def shutdown_monitors():$/;"	f
+skip	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^    def skip(self, skip):$/;"	m	class:Cursor
+slave_okay	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^    slave_okay = property(__get_slave_okay, __set_slave_okay)$/;"	v	class:BaseObject
+slaves	/usr/local/lib/python2.7/dist-packages/pymongo/master_slave_connection.py	/^    def slaves(self):$/;"	m	class:MasterSlaveConnection
+socket	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^import socket$/;"	i
+socket	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^import socket$/;"	i
+socket	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^import socket$/;"	i
+sort	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^    def sort(self, key_or_list, direction=None):$/;"	m	class:Cursor
+split_hosts	/usr/local/lib/python2.7/dist-packages/pymongo/uri_parser.py	/^def split_hosts(hosts, default_port=DEFAULT_PORT):$/;"	f
+split_options	/usr/local/lib/python2.7/dist-packages/pymongo/uri_parser.py	/^def split_options(opts):$/;"	f
+ssl	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^    import ssl$/;"	i
+ssl	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^    import ssl$/;"	i
+start	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def start(self):$/;"	m	class:MonitorThread
+start_request	/usr/local/lib/python2.7/dist-packages/pymongo/master_slave_connection.py	/^    def start_request(self):$/;"	m	class:MasterSlaveConnection
+start_request	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def start_request(self):$/;"	m	class:MongoClient
+start_request	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def start_request(self):$/;"	m	class:MongoReplicaSetClient
+start_request	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^    def start_request(self):$/;"	m	class:Pool
+struct	/usr/local/lib/python2.7/dist-packages/pymongo/helpers.py	/^import struct$/;"	i
+struct	/usr/local/lib/python2.7/dist-packages/pymongo/message.py	/^import struct$/;"	i
+struct	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^import struct$/;"	i
+struct	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^import struct$/;"	i
+sys	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^import sys$/;"	i
+sys	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^import sys$/;"	i
+sys	/usr/local/lib/python2.7/dist-packages/pymongo/thread_util.py	/^import sys$/;"	i
+sys	/usr/local/lib/python2.7/dist-packages/pymongo/uri_parser.py	/^    import sys$/;"	i
+system_js	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def system_js(self):$/;"	m	class:Database
+tag_sets	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^    tag_sets = property(__get_tag_sets, __set_tag_sets)$/;"	v	class:BaseObject
+tag_sets	/usr/local/lib/python2.7/dist-packages/pymongo/read_preferences.py	/^        tag_sets = [{}]$/;"	v
+thread_util	/usr/local/lib/python2.7/dist-packages/pymongo/master_slave_connection.py	/^from pymongo import helpers, thread_util$/;"	i
+thread_util	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^from pymongo import thread_util$/;"	i
+threading	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^import threading$/;"	i
+threading	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^import threading$/;"	i
+threading	/usr/local/lib/python2.7/dist-packages/pymongo/thread_util.py	/^import threading$/;"	i
+threadlocal	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def threadlocal(self):$/;"	m	class:RSState
+time	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^import time$/;"	i
+time	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^import time$/;"	i
+time	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^import time$/;"	i
+transform_dict	/usr/local/lib/python2.7/dist-packages/pymongo/son_manipulator.py	/^        def transform_dict(object):$/;"	f	function:AutoReference.transform_incoming
+transform_dict	/usr/local/lib/python2.7/dist-packages/pymongo/son_manipulator.py	/^        def transform_dict(object):$/;"	f	function:AutoReference.transform_outgoing
+transform_incoming	/usr/local/lib/python2.7/dist-packages/pymongo/son_manipulator.py	/^    def transform_incoming(self, son, collection):$/;"	m	class:AutoReference
+transform_incoming	/usr/local/lib/python2.7/dist-packages/pymongo/son_manipulator.py	/^    def transform_incoming(self, son, collection):$/;"	m	class:NamespaceInjector
+transform_incoming	/usr/local/lib/python2.7/dist-packages/pymongo/son_manipulator.py	/^    def transform_incoming(self, son, collection):$/;"	m	class:ObjectIdInjector
+transform_incoming	/usr/local/lib/python2.7/dist-packages/pymongo/son_manipulator.py	/^    def transform_incoming(self, son, collection):$/;"	m	class:ObjectIdShuffler
+transform_incoming	/usr/local/lib/python2.7/dist-packages/pymongo/son_manipulator.py	/^    def transform_incoming(self, son, collection):$/;"	m	class:SONManipulator
+transform_outgoing	/usr/local/lib/python2.7/dist-packages/pymongo/son_manipulator.py	/^    def transform_outgoing(self, son, collection):$/;"	m	class:AutoReference
+transform_outgoing	/usr/local/lib/python2.7/dist-packages/pymongo/son_manipulator.py	/^    def transform_outgoing(self, son, collection):$/;"	m	class:SONManipulator
+transform_value	/usr/local/lib/python2.7/dist-packages/pymongo/son_manipulator.py	/^        def transform_value(value):$/;"	f	function:AutoReference.transform_incoming
+transform_value	/usr/local/lib/python2.7/dist-packages/pymongo/son_manipulator.py	/^        def transform_value(value):$/;"	f	function:AutoReference.transform_outgoing
+tz_aware	/usr/local/lib/python2.7/dist-packages/pymongo/master_slave_connection.py	/^    def tz_aware(self):$/;"	m	class:MasterSlaveConnection
+tz_aware	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def tz_aware(self):$/;"	m	class:MongoClient
+tz_aware	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def tz_aware(self):$/;"	m	class:MongoReplicaSetClient
+unlock	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def unlock(self):$/;"	m	class:MongoClient
+unpin_host	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def unpin_host(self):$/;"	m	class:RSState
+unquote_plus	/usr/local/lib/python2.7/dist-packages/pymongo/uri_parser.py	/^from urllib import unquote_plus$/;"	i
+unset_lasterror_options	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^    def unset_lasterror_options(self, *options):$/;"	m	class:BaseObject
+unwatch	/usr/local/lib/python2.7/dist-packages/pymongo/thread_util.py	/^    def unwatch(self):$/;"	m	class:Ident
+update	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    def update(self, spec, document, upsert=False, manipulate=False,$/;"	m	class:Collection
+update	/usr/local/lib/python2.7/dist-packages/pymongo/message.py	/^    update = _cmessage._update_message$/;"	v
+update	/usr/local/lib/python2.7/dist-packages/pymongo/message.py	/^def update(collection_name, upsert, multi,$/;"	f
+use_greenlets	/usr/local/lib/python2.7/dist-packages/pymongo/master_slave_connection.py	/^    def use_greenlets(self):$/;"	m	class:MasterSlaveConnection
+use_greenlets	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^    def use_greenlets(self):$/;"	m	class:MongoClient
+use_greenlets	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def use_greenlets(self):$/;"	m	class:MongoReplicaSetClient
+uuid_subtype	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^    uuid_subtype = property(__get_uuid_subtype, __set_uuid_subtype,$/;"	v	class:Collection
+validate	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^def validate(option, value):$/;"	f
+validate	/usr/local/lib/python2.7/dist-packages/pymongo/uri_parser.py	/^from pymongo.common import validate$/;"	i
+validate_auth_mechanism	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^def validate_auth_mechanism(option, value):$/;"	f
+validate_basestring	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^def validate_basestring(option, value):$/;"	f
+validate_boolean	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^def validate_boolean(option, value):$/;"	f
+validate_cert_reqs	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^def validate_cert_reqs(option, value):$/;"	f
+validate_collection	/usr/local/lib/python2.7/dist-packages/pymongo/database.py	/^    def validate_collection(self, name_or_collection,$/;"	m	class:Database
+validate_int_or_basestring	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^def validate_int_or_basestring(option, value):$/;"	f
+validate_integer	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^def validate_integer(option, value):$/;"	f
+validate_options	/usr/local/lib/python2.7/dist-packages/pymongo/uri_parser.py	/^def validate_options(opts):$/;"	f
+validate_positive_float	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^def validate_positive_float(option, value):$/;"	f
+validate_positive_integer	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^def validate_positive_integer(option, value):$/;"	f
+validate_positive_integer_or_none	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^def validate_positive_integer_or_none(option, value):$/;"	f
+validate_read_preference	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^def validate_read_preference(dummy, value):$/;"	f
+validate_readable	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^def validate_readable(option, value):$/;"	f
+validate_tag_sets	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^def validate_tag_sets(dummy, value):$/;"	f
+validate_timeout_or_none	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^def validate_timeout_or_none(option, value):$/;"	f
+version	/usr/local/lib/python2.7/dist-packages/pymongo/__init__.py	/^version = get_version_string()$/;"	v
+version_tuple	/usr/local/lib/python2.7/dist-packages/pymongo/__init__.py	/^version_tuple = (2, 5, 1)$/;"	v
+wait_for_refresh	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def wait_for_refresh(self, timeout_seconds):$/;"	m	class:Monitor
+warnings	/usr/local/lib/python2.7/dist-packages/pymongo/collection.py	/^import warnings$/;"	i
+warnings	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^import warnings$/;"	i
+warnings	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py	/^import warnings$/;"	i
+warnings	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^import warnings$/;"	i
+watch	/usr/local/lib/python2.7/dist-packages/pymongo/thread_util.py	/^    def watch(self, callback):$/;"	m	class:GreenletIdent
+watch	/usr/local/lib/python2.7/dist-packages/pymongo/thread_util.py	/^    def watch(self, callback):$/;"	m	class:Ident
+watch	/usr/local/lib/python2.7/dist-packages/pymongo/thread_util.py	/^    def watch(self, callback):$/;"	m	class:ThreadIdent
+watching	/usr/local/lib/python2.7/dist-packages/pymongo/thread_util.py	/^    def watching(self):$/;"	m	class:Ident
+weakref	/usr/local/lib/python2.7/dist-packages/pymongo/cursor_manager.py	/^import weakref$/;"	i
+weakref	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^import weakref$/;"	i
+weakref	/usr/local/lib/python2.7/dist-packages/pymongo/pool.py	/^import weakref$/;"	i
+weakref	/usr/local/lib/python2.7/dist-packages/pymongo/thread_util.py	/^import weakref$/;"	i
+where	/usr/local/lib/python2.7/dist-packages/pymongo/cursor.py	/^    def where(self, code):$/;"	m	class:Cursor
+will_copy	/usr/local/lib/python2.7/dist-packages/pymongo/son_manipulator.py	/^    def will_copy(self):$/;"	m	class:AutoReference
+will_copy	/usr/local/lib/python2.7/dist-packages/pymongo/son_manipulator.py	/^    def will_copy(self):$/;"	m	class:ObjectIdShuffler
+will_copy	/usr/local/lib/python2.7/dist-packages/pymongo/son_manipulator.py	/^    def will_copy(self):$/;"	m	class:SONManipulator
+write_concern	/usr/local/lib/python2.7/dist-packages/pymongo/common.py	/^    write_concern = property(__get_write_concern, __set_write_concern)$/;"	v	class:BaseObject
+writer	/usr/local/lib/python2.7/dist-packages/pymongo/mongo_replica_set_client.py	/^    def writer(self):$/;"	m	class:RSState
