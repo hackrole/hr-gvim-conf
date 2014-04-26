@@ -10,7 +10,7 @@
 " --------------------------------------------------
 " [已加载插件说明] {{{1
 " --------------------------------------------------
-"  TODO: 
+"  TODO:
 " 1、VE 目录浏览工具
 " 2、NERDTree 树浏览工具
 " 3、ZenCoding 快速编写html、css代码
@@ -38,25 +38,25 @@ let g:netrw_home = "~/.vim/temp/netrw"
 "  later.
 " 自定义缩写
 let g:user_zen_settings = {
-\	'indentation':'    ',
-\	'lang':'zh-cn',
-\	'html':{
-\		'indentation': '  ',
-\		'snippets':{
-\			'nocache':'<!--[if lte IE 6]><script type="text/javascript"> try{ document.execCommand("BackgroundImageCache", false, true); } catch(e){}; </script><![endif]-->',
-\		}
-\	},
-\	'css':{
-\		'indentation': '  ',
-\		'snippets':{
-\			'bg2':'background:url(|) 0 0;',
-\			'bg3':'background:url(|) 0 0 no-repeat;',
-\			'zo':'_zoom:1;',
-\			'@c':'@charset "|";',
-\			'@c:u':'@charset "utf-8";',
-\			'bgc:t':'background-color:transparent;',
-\		}
-\	},
+\   'indentation':'    ',
+\   'lang':'zh-cn',
+\   'html':{
+\       'indentation': '  ',
+\       'snippets':{
+\           'nocache':'<!--[if lte IE 6]><script type="text/javascript"> try{ document.execCommand("BackgroundImageCache", false, true); } catch(e){}; </script><![endif]-->',
+\       }
+\   },
+\   'css':{
+\       'indentation': '  ',
+\       'snippets':{
+\           'bg2':'background:url(|) 0 0;',
+\           'bg3':'background:url(|) 0 0 no-repeat;',
+\           'zo':'_zoom:1;',
+\           '@c':'@charset "|";',
+\           '@c:u':'@charset "utf-8";',
+\           'bgc:t':'background-color:transparent;',
+\       }
+\   },
 \}
 " ZenCoding展开快键
 "let g:user_zen_loader_key = '<C-y>'
@@ -88,15 +88,13 @@ let g:use_emmet_complete_tag = 1
 " [NERDTree相关配置] {{{1
 " --------------------------------------------------
 " TODO: doc reaad and <f2>
-" TODO: project diff ignore
 " 映射切换按键
-map <silent> <F3> :NERDTreeToggle<CR>:set nu<CR>
+map <silent> <F3> :NERDTreeToggle<CR>
 imap <F3> <ESC>:NERDTreeToggle<CR>
-" nerdTree the current Dirs
-"nn <silent><F2> :exec("NERDTree ".expand('%:h'))<CR>
+nn <silent> <F2> :exec("NERDTree ".expand('%:h'))<CR>
+imap <silent> <F2> :exec("NERDTree ".expand('%:h'))<CR>
 " nerdtree ignore
 let NERDTreeIgnore=['\.o$']
-let NERDTreeIgnore+=['.\+\d\+_\d\+$']
 let NERDTreeIgnore+=['\.pyc$']
 let NERDTreeIgnore+=['\.bak$']
 let NERDTreeIgnore+=['\.elc']
@@ -104,9 +102,18 @@ let NERDTreeIgnore+=['^ctags$']
 let NERDTreeIgnore+=['^etags$']
 let NERDTreeIgnore+=['^filenametags$']
 let NERDTreeIgnore+=['^cscope\.\(files\|in\.out\|out\|po.out\)$']
-
-"let NERDTreeIgnore+=['[^.][^c]$']
-"endif
+" more colourful
+let NERDChristmasTree=1
+" set nerdtree bookmark file path
+let NERDTreeBookmarksFile="~/.vim/temp/nerdtree.bookmarks"
+" show bookmarks on startup
+let NERDTreeShowBookmarks=1
+" not show hidden file on startup
+let NERDTreeShowHidden=0
+" show line number on startup
+let NERDTreeShowLineNumbers=1
+" nerdtree positioin
+let NERDTreeWinPos="left"
 " 1}}}
 " --------------------------------------------------
 " [Conque相关配置] {{{1
@@ -118,27 +125,10 @@ let g:ConqueTerm_StartMessages = 1
 " TODO: setlocal listchars
 " 1}}}
 " --------------------------------------------------
-" [Taglist相关配置] {{{1
-" --------------------------------------------------
-"nn <silent> <F4> :TlistToggle<CR>
-""set tags path to be the correct one
-"let g:Tlist_Ctags_Cmd = "/usr/local/bin/ctags"
-"let s:dir=getcwd()
-"let g:tlist_php_setting='php;f:function'
-"let g:Tlist_Show_One_File=1
-"let Tlist_Exit_OnlyWindow=1
-"let g:Tlist_Use_Right_Window=1
-""let g:Tlist_Display_Prototype=1
-"let g:Tlist_GainFocus_On_ToggleOpen=1
-"let g:Tlist_Display_Tag_Scope=0
-""let g:Tlist_Ctags_Cmd=$VIMFILES.'/bin/ctags.exe'
-"" vim:fdm=marker:fdc=1
-"1}}}
-" --------------------------------------------------
 "  [Tagbar相关配置]{{{1
 " --------------------------------------------------
 " taglist的替代插件
-nmap <F3> :TagbarToggle<CR>
+nmap <F4> :TagbarToggle<CR>
 " Tagbar golang gotags支持
 let g:tagbar_type_go = {
 \   'ctagstype': 'go',
@@ -187,27 +177,27 @@ let g:LookupFile_AlwaysAcceptFirst = 1
 let g:LookupFile_AllowNewFiles = 0
 " 设置tag 文件的名字
 if filereadable("./filenametags")
-	let g:LookupFile_TagExpr = '"./filenametags"'
+    let g:LookupFile_TagExpr = '"./filenametags"'
 endif
 
 " 设置查找忽略大小写
 function! LookupFile_IgnoreCaseFunc(pattern)
 
-	let _tags = &tags
-	try 
-		let $tags = eval(g:LooupFile_TagExpr)
-		let newpattern ='\c' . a:pattern
-		let tags = taglist(newpattern)
-	catch
-		echoh1 ErrorMsg | echo "Exception:" . v:exception | echoh1 NONE
-		return ""
-	finally
-		let &tags = _tags
-	endtry
+    let _tags = &tags
+    try 
+        let $tags = eval(g:LooupFile_TagExpr)
+        let newpattern ='\c' . a:pattern
+        let tags = taglist(newpattern)
+    catch
+        echoh1 ErrorMsg | echo "Exception:" . v:exception | echoh1 NONE
+        return ""
+    finally
+        let &tags = _tags
+    endtry
 
-	" show the matches for what is typed so far.
-	let files = map(tags, 'v:val["filename"]')
-	return files
+    " show the matches for what is typed so far.
+    let files = map(tags, 'v:val["filename"]')
+    return files
 endfunction
 "let g:LookupFile_LookupFunc = 'LookupFile_IgnoreCaseFunc'
 " 映射LookupFile 为,lk
@@ -236,7 +226,7 @@ endif
 " --------------------------------------------------
 " 终端下禁用
 if !has('gui_running')
-	let g:loaded_minibufexplorer = 1
+    let g:loaded_minibufexplorer = 1
 endif
 " minibuf splits
 let g:miniBufExplSplitBelow = 0
@@ -300,22 +290,22 @@ let g:neocomplcache_temporary_dir = "~/.vim/temp/neocaches"
 "let g:neocomplcache_disable_auto_complete = 1
 " 根据文件类型配置 字典文件
 let g:neocomplcache_dictionary_filetype_lists = {
-\	'default': '',
-\	'vishell': '',
-\	'css': '',
-\	'php': '',
-\	'python': $VIMFILES."/dict/python.dict",
+\   'default': '',
+\   'vishell': '',
+\   'css': '',
+\   'php': '',
+\   'python': $VIMFILES."/dict/python.dict",
 \}
 " 自定义source
 if !exists("g:neocomplcache_sources_list")
-	let g:neocomplcache_sources_list = {}
+    let g:neocomplcache_sources_list = {}
 endif
 let g:neocomplcache_sources_list.python = [
-\	"omni_complete",
-\	"buffer_complete",
-\	"filename_complete",
-\	"dictionary_complete",
-\	"tags_complete",
+\   "omni_complete",
+\   "buffer_complete",
+\   "filename_complete",
+\   "dictionary_complete",
+\   "tags_complete",
 \]
 " 自动补全的最小输入控制
 let g:neocomplcache_auto_completion_start_length = 3
@@ -334,7 +324,7 @@ let g:neocomplcache_enable_auto_select = 0
 let g:neocomplcache_enable_quick_match = 1
 " define keyword
 if !exists('g:neocomplcache_keyword_patterns')
-	let g:neocomplcache_keyword_patterns = {}
+    let g:neocomplcache_keyword_patterns = {}
 endif
 let g:neocomplcache_keyword_patterns['default'] = '\h\w*'
 
@@ -345,7 +335,7 @@ ino <expr> <C-g> neocomplcache#cancel_completion()
 "ino <expr> <C-z> neocomplcache#undo_completion()
 " enable heavy omni completion.
 if !exists('g:neocomplcache_omni_patterns')
-	let g:neocomplcache_omni_patterns = {}
+    let g:neocomplcache_omni_patterns = {}
 endif
 "let g:neocomplcache_omni_patterns.ruby = '[^. *\t]\.\w*\|\h\w*::'
 "let g:neocomplcache_omni_patterns.php = '[^ \t]->\h\w*\|\h\w*::'
@@ -409,29 +399,29 @@ nn <Leader>qt :PyLintToggle<CR>
 " --------------------------------------------------
 " TODO: read doc and start to use
 if has("cscope")
-	set csprg=/usr/bin/cscope
-	set nocsverb
-	if filereadable("./cscope.out")
-		cs add cscope.out
-	elseif $CSCOPE_DB != ""
-		cs add $CSCOPE_DB
-	endif
-	set csverb
-	" 设置是否使用quickfix
-	"set csqf=s+,g+,d-,c+,t+,e+,f-,i-
-	set csqf=s+,g-,d-,c-,t-,e-,f-,i-
-	" 设置文件查找顺序
-	set csto=0
-	" 设置是否使用tags文件
-	"set cst
-	nmap <A-@>s :scs find s <C-R>=expand("<cword>")<CR><CR>
-	nmap <C-2>g :scs find g <C-R>=expand("<cword>")<CR><CR>
-	nmap <C-2>c :scs find c <C-R>=expand("<cword>")<CR><CR>
-	nmap <C-2>t :scs find t <C-R>=expand("<cword>")<CR><CR>
-	nmap <C-2>e :scs find e <C-R>=expand("<cword>")<CR><CR>
-	nmap <C-2>f :scs find f <C-R>=expand("<cfile>")<CR><CR>
-	nmap <C-2>i :scs find i <C-R>=expand("<cfile>")<CR>$<CR>
-	nmap <C-2>d :scs find d <C-R>=expand("<cword>")<CR><CR>
+    set csprg=/usr/bin/cscope
+    set nocsverb
+    if filereadable("./cscope.out")
+        cs add cscope.out
+    elseif $CSCOPE_DB != ""
+        cs add $CSCOPE_DB
+    endif
+    set csverb
+    " 设置是否使用quickfix
+    "set csqf=s+,g+,d-,c+,t+,e+,f-,i-
+    set csqf=s+,g-,d-,c-,t-,e-,f-,i-
+    " 设置文件查找顺序
+    set csto=0
+    " 设置是否使用tags文件
+    "set cst
+    nmap <A-@>s :scs find s <C-R>=expand("<cword>")<CR><CR>
+    nmap <C-2>g :scs find g <C-R>=expand("<cword>")<CR><CR>
+    nmap <C-2>c :scs find c <C-R>=expand("<cword>")<CR><CR>
+    nmap <C-2>t :scs find t <C-R>=expand("<cword>")<CR><CR>
+    nmap <C-2>e :scs find e <C-R>=expand("<cword>")<CR><CR>
+    nmap <C-2>f :scs find f <C-R>=expand("<cfile>")<CR><CR>
+    nmap <C-2>i :scs find i <C-R>=expand("<cfile>")<CR>$<CR>
+    nmap <C-2>d :scs find d <C-R>=expand("<cword>")<CR><CR>
 endif
 "1}}}
 " ----------------------------------------------------------
