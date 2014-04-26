@@ -17,7 +17,7 @@ Plugin 'gmarik/Vundle.vim'
 
 " nertree
 Plugin 'scrooloose/nerdtree'
-			\
+
 " tagbar
 Plugin 'majutsushi/tagbar'
 
