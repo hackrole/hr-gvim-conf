@@ -8,59 +8,10 @@
 " -------------------------------------------------------------------------
 
 " --------------------------------------------------
-" [已加载插件说明] {{{1
-" --------------------------------------------------
-"  TODO:
-" 1、VE 目录浏览工具
-" 2、NERDTree 树浏览工具
-" 3、ZenCoding 快速编写html、css代码
-" 4、Gtrans 翻译 *需python，进行修改
-" 5、Conque 打开终端 *需python
-" 6、CssColor 高亮css中颜色
-" 7、actionscript 添加actionscript语法高亮支持
-" 8、vimdoc vim中文文档
-" 9、NERDCommenter 自动注释
-" 10、Taglist 文档中标签提示
-" 11、Tabular 用来缩排列表
-" 1}}}
-
-" --------------------------------------------------
 " [netrw相关配置]{{{1
 " --------------------------------------------------
 " 支持ftp/ssh等协议编辑远程文件的插件
 let g:netrw_home = "~/.vim/temp/netrw"
-" 1}}}
-" --------------------------------------------------
-" [ZenCoding相关配置] {{{1
-" --------------------------------------------------
-"  TODO: keymap and others
-"  WARNING: plugin rename to Emmet. the conf below now unuseful. remove some
-"  later.
-" 自定义缩写
-let g:user_zen_settings = {
-\   'indentation':'    ',
-\   'lang':'zh-cn',
-\   'html':{
-\       'indentation': '  ',
-\       'snippets':{
-\           'nocache':'<!--[if lte IE 6]><script type="text/javascript"> try{ document.execCommand("BackgroundImageCache", false, true); } catch(e){}; </script><![endif]-->',
-\       }
-\   },
-\   'css':{
-\       'indentation': '  ',
-\       'snippets':{
-\           'bg2':'background:url(|) 0 0;',
-\           'bg3':'background:url(|) 0 0 no-repeat;',
-\           'zo':'_zoom:1;',
-\           '@c':'@charset "|";',
-\           '@c:u':'@charset "utf-8";',
-\           'bgc:t':'background-color:transparent;',
-\       }
-\   },
-\}
-" ZenCoding展开快键
-"let g:user_zen_loader_key = '<C-y>'
-"let g:user_zen_expandabbr_key = "<A-e>"
 " 1}}}
 " --------------------------------------------------
 "  [Emmet相关配置] {{{1
@@ -180,6 +131,22 @@ let g:TagmaTaskTokens = ['FIEXME', 'TODO', 'NOTE', 'WARNING']
 " -------------------------------------------------
 " key to translate zh word to en
 nn <leader>gT :Gtrans('en')
+"1}}}
+" -------------------------------------------------
+"  [grep配置]{{{1
+" -------------------------------------------------
+" TODO: conf and use
+"1}}}
+" -------------------------------------------------
+"  [c.vim配置]{{{1
+" -------------------------------------------------
+"
+"1}}}
+" -------------------------------------------------
+"  [a.vim配置]{{{1
+" -------------------------------------------------
+" not create one when header file not exists.
+let g:alternateNoDefaultAlternate = 1
 "1}}}
 " --------------------------------------------------
 " [ lookupfile ] {{{1
