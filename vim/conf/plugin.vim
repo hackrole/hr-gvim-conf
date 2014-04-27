@@ -105,7 +105,7 @@ let NERDTreeIgnore+=['^cscope\.\(files\|in\.out\|out\|po.out\)$']
 " more colourful
 let NERDChristmasTree=1
 " set nerdtree bookmark file path
-let NERDTreeBookmarksFile="~/.vim/temp/nerdtree.bookmarks"
+let NERDTreeBookmarksFile=expand('~')."/.vim/temp/nerdtree.bookmarks"
 " show bookmarks on startup
 let NERDTreeShowBookmarks=1
 " not show hidden file on startup
@@ -166,6 +166,20 @@ let g:tagbar_fold_level=99
 "\   'ctagsbin': 'gotags',
 "\   'ctagsargs': '-sort -silent'
 "\}
+"1}}}
+" -------------------------------------------------
+"  [TagmaTask插件配置]{{{1
+" -------------------------------------------------
+" not jump to the first task when startup
+let g:TagmaTasksJumpTask=0
+" the work as task
+let g:TagmaTaskTokens = ['FIEXME', 'TODO', 'NOTE', 'WARNING']
+"1}}}
+" -------------------------------------------------
+"  [gtrans配置]{{{1
+" -------------------------------------------------
+" key to translate zh word to en
+nn <leader>gT :Gtrans('en')
 "1}}}
 " --------------------------------------------------
 " [ lookupfile ] {{{1
@@ -354,7 +368,10 @@ endif
 " ------------------------------------------------------
 " [ autopair配置 ]{{{1
 " ------------------------------------------------------
-" DONE: 优化按键
+" TODO: add new autopairs and buffer local pairs
+" TODO: 按键优化, wrap/jump
+" let g:AutoPairs = 
+" let b:AUtoPairs = 
 " key to toggle the auto_pair on/off
 let g:AutoPairsShortcutToggle = "<leader>pt"
 " key to jump the next closed pair

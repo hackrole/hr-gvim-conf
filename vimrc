@@ -45,7 +45,7 @@ Plugin 'Rykka/riv.vim'
 " error with other go plugin ??
 " Plugin 'Blackrush/vim-gocode'
 Plugin 'jinja'
-Plugin 'gtrans'
+Plugin 'bolasblack/gtrans.vim'
 Plugin 'UltiSnips'
 Plugin 'matchit.zip'
 Plugin 'winmanager'
