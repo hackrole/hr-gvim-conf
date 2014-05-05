@@ -55,6 +55,8 @@ Plugin 'TagmaTasks'
 Plugin 'neocomplcache'
 Plugin 'lookupfile'
 
+Plugin 'CmdlineComplete'
+Plugin 'hughbien/md-vim'
 
 call vundle#end()
 filetype plugin indent on
