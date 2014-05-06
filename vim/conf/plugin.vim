@@ -291,12 +291,17 @@ if !exists("g:neocomplcache_sources_list")
     let g:neocomplcache_sources_list = {}
 endif
 let g:neocomplcache_sources_list.python = [
-\   "omni_complete",
 \   "buffer_complete",
 \   "filename_complete",
 \   "dictionary_complete",
 \   "tags_complete",
 \]
+" fix the . crash error
+if !exists('g:neocomplcache_omni_patterns')
+  let g:neocomplcache_omni_patterns = {}
+endif
+let g:neocomplcache_omni_patterns.python = ''
+let g:neocomplcache_omni_patterns.ruby = ''
 " 自动补全的最小输入控制
 let g:neocomplcache_auto_completion_start_length = 3
 " use smartcase

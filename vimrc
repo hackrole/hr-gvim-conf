@@ -55,6 +55,9 @@ Plugin 'TagmaTasks'
 Plugin 'neocomplcache'
 Plugin 'lookupfile'
 
+" fix sudo vim error
+Plugin 'sudo.vim'
+
 
 call vundle#end()
 filetype plugin indent on
