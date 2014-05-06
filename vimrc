@@ -58,6 +58,8 @@ Plugin 'lookupfile'
 " fix sudo vim error
 Plugin 'sudo.vim'
 
+Plugin 'CmdlineComplete'
+Plugin 'hughbien/md-vim'
 
 call vundle#end()
 filetype plugin indent on
