@@ -229,7 +229,7 @@ let g:miniBufExplSplitBelow = 0
 " max lines
 let g:miniBufExplmaxSize = 3
 " num of buf to show minibufexpl, big to deny adn start by keymap
-let g:miniBufExplorerMoreThanOne = 15
+let g:miniBufExplorerMoreThanOne = 35
 " enbale [hjkl] key
 let g:miniBufExplMapWindowNavVim = 1
 let g:miniBufExplMapWindowNavArrows = 1
@@ -334,14 +334,6 @@ ino <expr> <A-1> neocomplcache#start_manual_complete()
 ino <expr> <A-g> neocomplcache#close_popup()
 ino <expr> <C-g> neocomplcache#cancel_completion()
 "ino <expr> <C-z> neocomplcache#undo_completion()
-" enable heavy omni completion.
-if !exists('g:neocomplcache_omni_patterns')
-    let g:neocomplcache_omni_patterns = {}
-endif
-"let g:neocomplcache_omni_patterns.ruby = '[^. *\t]\.\w*\|\h\w*::'
-"let g:neocomplcache_omni_patterns.php = '[^ \t]->\h\w*\|\h\w*::'
-"" TODO: python 补全 keyworo
-"let g:neocomplcache_omni_patterns.python = '[^ \t]\.\h\w*\|\h\w*' 
 "1}}}
 " ------------------------------------------------------
 " [ autopair配置 ]{{{1

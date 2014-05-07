@@ -116,7 +116,7 @@ nn <A-t>j :set ft=javascript<CR>
 " --------------------------------------------------
 " [快捷编辑配置文件] {{{1
 " --------------------------------------------------
-nn <leader>ev :tabnew /home/daipeng/.vimrc<CR>
+nn <leader>ev :tabnew $HOME/.vimrc<CR>
 nn <leader>em :tabnew $VIMFILES/conf/main.vim<CR>
 nn <leader>es :tabnew $VIMFILES/conf/set.vim<CR>
 nn <leader>ef :tabnew $VIMFILES/conf/function.vim<CR>
@@ -126,7 +126,7 @@ nn <leader>ec :tabnew $VIMFILES/conf/command.vim<CR>
 nn <leader>ea :tabnew $VIMFILES/conf/ab.vim<CR>
 nn <leader>eu :tabnew $VIMFILES/log/update.log<CR>
 
-nn <leader>Ev :split /home/daipeng/.vimrc<CR>
+nn <leader>Ev :split $HOME/.vimrc<CR>
 nn <leader>Em :split $VIMFILES/conf/main.vim<CR>
 nn <leader>Es :split $VIMFILES/conf/set.vim<CR>
 nn <leader>Ef :split $VIMFILES/conf/function.vim<CR>
