@@ -76,6 +76,12 @@ let g:ConqueTerm_StartMessages = 1
 " TODO: setlocal listchars
 " 1}}}
 " --------------------------------------------------
+"  [Riv相关配置]{{{1
+" -------------------------------------------------
+" set never fold
+let g:riv_fold_level=0
+"1}}}
+" --------------------------------------------------
 "  [Tagbar相关配置]{{{1
 " --------------------------------------------------
 " taglist的替代插件
@@ -268,14 +274,14 @@ let g:UltiSnipsJumpBackwardTrigger = "<C-j>"
 " TODO: not finish yet
 "启动 neocomplcache
 let g:neocomplcache_enable_at_startup = 1
+" 缓存dir
+let g:neocomplcache_temporary_dir = "~/.vim/temp/neocaches"
 " 补全弹出窗list-max
-let g:neocomplcache_max_list = 12
+let g:neocomplcache_max_list = 18
 " 补全不忽略大小写
 "let g:neocomplcache_enable_ignore_case = 0
 " smart case
 let g:neocomplcache_enable_smart_case = 1
-" 缓存dir
-let g:neocomplcache_temporary_dir = "~/.vim/temp/neocaches"
 " 不自动弹出不全列表
 "let g:neocomplcache_disable_auto_complete = 1
 " 根据文件类型配置 字典文件
@@ -298,7 +304,7 @@ let g:neocomplcache_sources_list.python = [
 \   "tags_complete",
 \]
 " 自动补全的最小输入控制
-let g:neocomplcache_auto_completion_start_length = 3
+let g:neocomplcache_auto_completion_start_length = 2
 " use smartcase
 let g:neocomplcache_enable_smart_case = 1
 " set the skip auto_completion time
