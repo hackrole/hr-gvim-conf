@@ -382,7 +382,9 @@ let g:pymode_lint_maxheight = 14
 " disable the fold
 let g:pymode_folding = 0
 " rope complete keys
+let g:pymode_rope_complete_on_dot = 0
 let g:pymode_rope_autocomplete_map = "<A-2>"
+let g:pymode_rope_lookup_project = 0
 " key for pylint
 nn <leader>ql :PyLint<CR>
 " key for auto pep8 fix
