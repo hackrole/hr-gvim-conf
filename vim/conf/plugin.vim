@@ -76,6 +76,12 @@ let g:ConqueTerm_StartMessages = 1
 " TODO: setlocal listchars
 " 1}}}
 " --------------------------------------------------
+"  [Riv相关配置]{{{1
+" -------------------------------------------------
+" set never fold
+let g:riv_fold_level=0
+"1}}}
+" --------------------------------------------------
 "  [Tagbar相关配置]{{{1
 " --------------------------------------------------
 " taglist的替代插件
@@ -223,7 +229,7 @@ let g:miniBufExplSplitBelow = 0
 " max lines
 let g:miniBufExplmaxSize = 3
 " num of buf to show minibufexpl, big to deny adn start by keymap
-let g:miniBufExplorerMoreThanOne = 15
+let g:miniBufExplorerMoreThanOne = 35
 " enbale [hjkl] key
 let g:miniBufExplMapWindowNavVim = 1
 let g:miniBufExplMapWindowNavArrows = 1
@@ -269,14 +275,14 @@ let g:UltiSnipsJumpBackwardTrigger = "<C-j>"
 " TODO: not finish yet
 "启动 neocomplcache
 let g:neocomplcache_enable_at_startup = 1
+" 缓存dir
+let g:neocomplcache_temporary_dir = "~/.vim/temp/neocaches"
 " 补全弹出窗list-max
-let g:neocomplcache_max_list = 12
+let g:neocomplcache_max_list = 18
 " 补全不忽略大小写
 "let g:neocomplcache_enable_ignore_case = 0
 " smart case
 let g:neocomplcache_enable_smart_case = 1
-" 缓存dir
-let g:neocomplcache_temporary_dir = "~/.vim/temp/neocaches"
 " 不自动弹出不全列表
 "let g:neocomplcache_disable_auto_complete = 1
 " 根据文件类型配置 字典文件
@@ -304,7 +310,7 @@ endif
 let g:neocomplcache_omni_patterns.python = ''
 let g:neocomplcache_omni_patterns.ruby = ''
 " 自动补全的最小输入控制
-let g:neocomplcache_auto_completion_start_length = 3
+let g:neocomplcache_auto_completion_start_length = 2
 " use smartcase
 let g:neocomplcache_enable_smart_case = 1
 " set the skip auto_completion time
@@ -329,14 +335,6 @@ ino <expr> <A-1> neocomplcache#start_manual_complete()
 ino <expr> <A-g> neocomplcache#close_popup()
 ino <expr> <C-g> neocomplcache#cancel_completion()
 "ino <expr> <C-z> neocomplcache#undo_completion()
-" enable heavy omni completion.
-if !exists('g:neocomplcache_omni_patterns')
-    let g:neocomplcache_omni_patterns = {}
-endif
-"let g:neocomplcache_omni_patterns.ruby = '[^. *\t]\.\w*\|\h\w*::'
-"let g:neocomplcache_omni_patterns.php = '[^ \t]->\h\w*\|\h\w*::'
-"" TODO: python 补全 keyworo
-"let g:neocomplcache_omni_patterns.python = '[^ \t]\.\h\w*\|\h\w*' 
 "1}}}
 " ------------------------------------------------------
 " [ autopair配置 ]{{{1
@@ -385,7 +383,9 @@ let g:pymode_lint_maxheight = 14
 " disable the fold
 let g:pymode_folding = 0
 " rope complete keys
+let g:pymode_rope_complete_on_dot = 0
 let g:pymode_rope_autocomplete_map = "<A-2>"
+let g:pymode_rope_lookup_project = 0
 " key for pylint
 nn <leader>ql :PyLint<CR>
 " key for auto pep8 fix

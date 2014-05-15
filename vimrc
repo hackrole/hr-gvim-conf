@@ -61,6 +61,24 @@ Plugin 'sudo.vim'
 Plugin 'CmdlineComplete'
 Plugin 'hughbien/md-vim'
 
+" 中文文档
+Plugin 'vimcdoc'
+
+" airline, instead of powerline
+Plugin 'bling/vim-airline'
+
+" draw in vim
+Plugin 'DrawIt'
+
+" generate doxy doc
+Plugin 'DoxygenToolkit.vim'
+
+" compare with minibufexplorer
+Plugin 'bufexplorer'
+
+" sublime-text multiple cursor support
+Plugin 'vim-multiple-cursors'
+
 call vundle#end()
 filetype plugin indent on
 
