@@ -255,6 +255,7 @@ let g:UltiSnipsEditSplit = "horizontal"
 " TODO: 貌似无效;; 定义私有Snips目录
 "let g:UltiSnipsSnippetsDir = "~/.vim/snippets/ultisnips"
 " 定义按键
+nn <C-f7> :UltiSnipsEdit<CR>
 let g:UltiSnipsExpandTrigger = "<C-e>"
 let g:UltiSnipsListSnippets = "<f7>"
 let g:UltiSnipsJumpForwardTrigger = "<C-k>"
