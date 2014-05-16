@@ -261,6 +261,7 @@ let g:UltiSnipsEditSplit = "horizontal"
 " TODO: 貌似无效;; 定义私有Snips目录
 "let g:UltiSnipsSnippetsDir = "~/.vim/snippets/ultisnips"
 " 定义按键
+nn <C-f7> :UltiSnipsEdit<CR>
 let g:UltiSnipsExpandTrigger = "<C-e>"
 let g:UltiSnipsListSnippets = "<f7>"
 let g:UltiSnipsJumpForwardTrigger = "<C-k>"
@@ -393,7 +394,27 @@ let g:pymode_rope_complete_on_dot = 0
 let g:pymode_rope_autocomplete_map = "<A-2>"
 let g:pymode_rope_lookup_project = 0
 "1}}}
+" -------------------------------------------------
+"  [ syntastic配置 ] 多语言语法检查{{{1
 " --------------------------------------------------
+" check on open and save
+let g:syntastic_check_on_open = 0
+let g:syntastic_check_on_wq = 1
+" use all checker at once
+let g:syntastic_aggregate_errors = 1
+" auto open error window while errors
+let g:syntastic_auto_loc_list = 1
+" ignore files
+" let g:syntastic_ignore_files = ['\m^/usr/include/', '\m\c\.h$']
+" default active filetype
+let g:syntastic_mode_map = { 'mode': 'active',
+\  'active_filetypes': ['ruby', 'c', 'php'],
+\  'passive-filetypes': ['python', 'puppet'] }
+
+" set the checker
+let g:syntastic_c_checkers = ['gcc', 'make', 'cppcheck']
+
+"1}}}
 "  [ cscope配置 ] {{{1
 " --------------------------------------------------
 " TODO: read doc and start to use

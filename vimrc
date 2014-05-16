@@ -79,6 +79,17 @@ Plugin 'bufexplorer'
 " sublime-text multiple cursor support
 Plugin 'vim-multiple-cursors'
 
+" program syntax checker, support many language
+" TODO:
+Plugin 'scrooloose/syntastic'
+
+" view doc, TODO
+Plugin 'powerman/vim-plugin-viwdoc'
+Plugin "tycheng/RefVim"
+
+" c IDE? TODO
+Plugin 'fanhed/omnicxx'
+
 call vundle#end()
 filetype plugin indent on
 
