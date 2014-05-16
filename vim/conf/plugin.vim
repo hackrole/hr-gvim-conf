@@ -246,12 +246,6 @@ map <leader>mm :MiniBufExplorer<cr>
 map <leader>mu :UMiniBufExplorer<cr>
 "1}}}
 " --------------------------------------------------
-" [powerline相关配置] {{{
-" --------------------------------------------------
-set ls=2
-let g:Powerline_symbols='fancy'
-" }}}
-" --------------------------------------------------
 " [ UltiSnips配置 ] {{{1
 " --------------------------------------------------
 " 使用python2.7
@@ -409,7 +403,7 @@ let g:syntastic_auto_loc_list = 1
 " default active filetype
 let g:syntastic_mode_map = { 'mode': 'active',
 \  'active_filetypes': ['ruby', 'c', 'php'],
-\  'passive-filetypes': ['python', 'puppet'] }
+\  'passive_filetypes': ['python', 'puppet'] }
 
 " set the checker
 let g:syntastic_c_checkers = ['gcc', 'make', 'cppcheck']

@@ -84,8 +84,8 @@ Plugin 'vim-multiple-cursors'
 Plugin 'scrooloose/syntastic'
 
 " view doc, TODO
-Plugin 'powerman/vim-plugin-viwdoc'
-Plugin "tycheng/RefVim"
+Plugin 'powerman/vim-plugin-viewdoc'
+Plugin 'tycheng/RefVim'
 
 " c IDE? TODO
 Plugin 'fanhed/omnicxx'
