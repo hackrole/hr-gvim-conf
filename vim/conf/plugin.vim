@@ -369,7 +369,7 @@ let g:pymode_breakpoint_bind = "<leader>qb"
 " set pylint checker
 let g:pymode_lint_checker = "pyflaskes,pep8,mccabe"
 " disbale pymode-lint auto checker
-let g:pymode_lint_on_write = 0
+let g:pymode_lint_on_write = 1
 " disable usual errors check
 let g:pymode_lint_select = ""
 " not jump to the first error
@@ -379,18 +379,19 @@ let g:pymode_lint_hold = 0
 " set the check output min and max height
 let g:pymode_lint_minheight = 12
 let g:pymode_lint_maxheight = 14
+" key for pylint
+nn <leader>ql :PymodeLint<CR>
+" key for auto pep8 fix
+nn <Leader>qa :PymodeLintAuto<CR>
+" key for Pylint toggle
+nn <Leader>qt :PymodeLintToggle<CR>
+
 " disable the fold
 let g:pymode_folding = 0
 " rope complete keys
 let g:pymode_rope_complete_on_dot = 0
 let g:pymode_rope_autocomplete_map = "<A-2>"
 let g:pymode_rope_lookup_project = 0
-" key for pylint
-nn <leader>ql :PyLint<CR>
-" key for auto pep8 fix
-nn <Leader>qa :PyLintAuto<CR>
-" key for Pylint toggle
-nn <Leader>qt :PyLintToggle<CR>
 "1}}}
 " --------------------------------------------------
 "  [ cscope配置 ] {{{1
