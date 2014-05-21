@@ -63,6 +63,8 @@ Plugin 'hughbien/md-vim'
 
 " 中文文档
 Plugin 'vimcdoc'
+" man page/pydoc/..
+Plugin 'viewdoc'
 
 " airline, instead of powerline
 Plugin 'bling/vim-airline'
