@@ -85,7 +85,6 @@ endfunction
 " python 编辑环境配置
 autocmd BufNewFile,BufRead *.py,*.pyw :call s:PythonIDE()
 autocmd FileType python set omnifunc=pythoncomplete#Complete
-" TODO: 移动到function.vim
 function! s:PythonIDE()
     setfiletype python
     set autoindent
@@ -95,8 +94,31 @@ function! s:PythonIDE()
     set shiftwidth=4
     set softtabstop=4
     set wrap
-    nn <F9> :!python %<cr>
 endfunction
+
+" c/h 编辑环境配置
+autocmd BufNewFile,BufRead *.c,*.h :call s:CHIDE()
+function! s:CHIDE()
+    set autoindent
+    set smartindent
+    set expandtab
+    set tabstop=2
+    set shiftwidth=2
+    set softtabstop=2
+    set wrap
+endfunction
+
+" makefile 编辑环境配置
+autocmd BufNewFile,BufRead Makefile,makefile,MAKEFILE :call s:MakefileIDE()
+function! s:MakefileIDE()
+    set autoindent
+    set smartindent
+    set tabstop=4
+    set shiftwidth=4
+    set softtabstop=4
+    set wrap
+endfunction
+
 
 " ruby 编辑环境配置
 autocmd BufNewFile,BufRead *.rb, :call s:RubyIDE()
