@@ -32,7 +32,7 @@ let g:user_emmet_settings = {
 let g:user_emmet_mode='i'
 " only use for html/css
 let g:user_emmet_install_global = 1
-let g:user_emmet_expandabbr_key = '<A-e>'
+let g:user_emmet_expandabbr_key = '<C-,>'
 let g:use_emmet_complete_tag = 1
 "  1}}}
 " --------------------------------------------------
@@ -92,7 +92,7 @@ imap <C-F4> :TagbarTogglePause<CR>
 " default sort tags by order in source file
 let g:tagbar_sort=0
 " show line number<1-absolute, 2-relative>
-let g:tagbar_show_linenumbers=2
+let g:tagbar_show_linenumbers=1
 " default not fold the tags
 let g:tagbar_fold_level=99
 " TODO Tagbar golang gotags支持
@@ -136,7 +136,8 @@ let g:TagmaTaskTokens = ['FIEXME', 'TODO', 'NOTE', 'WARNING']
 "  [gtrans配置]{{{1
 " -------------------------------------------------
 " key to translate zh word to en
-nn <leader>gT :Gtrans('en')
+nn <leader>gT :call Gtrans('en')
+vn <leader>gV :call GetTransVis('en')
 "1}}}
 " -------------------------------------------------
 "  [grep配置]{{{1
@@ -144,15 +145,12 @@ nn <leader>gT :Gtrans('en')
 " TODO: conf and use
 "1}}}
 " -------------------------------------------------
-"  [c.vim配置]{{{1
-" -------------------------------------------------
-"
-"1}}}
-" -------------------------------------------------
 "  [a.vim配置]{{{1
 " -------------------------------------------------
 " not create one when header file not exists.
 let g:alternateNoDefaultAlternate = 1
+" set the search path
+let g:alternateSearchPath = "abs:/usr/include/x86_64-linux-gnu,sfr:../lib,sfr:../include,srf../inc"
 "1}}}
 " --------------------------------------------------
 " [ lookupfile ] {{{1
@@ -403,7 +401,7 @@ let g:syntastic_auto_loc_list = 1
 " default active filetype
 let g:syntastic_mode_map = { 'mode': 'active',
 \  'active_filetypes': ['ruby', 'c', 'php'],
-\  'passive_filetypes': ['python', 'puppet'] }
+\  'passive_filetypes': ['python', 'puppet', 'rst'] }
 
 " set the checker
 let g:syntastic_c_checkers = ['gcc', 'make', 'cppcheck']

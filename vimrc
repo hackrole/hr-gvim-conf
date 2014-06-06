@@ -27,7 +27,7 @@ Plugin 'csliu/a.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'EasyMotion'
 Plugin 'mattn/emmet-vim'
-Plugin 'css-color-preview'
+"Plugin 'css-color-preview'
 Plugin 'acx0/Conque-Shell'
 Plugin 'tpope/vim-fugitive'
 Plugin 'minibufexplorerpp'
@@ -35,7 +35,7 @@ Plugin 'skammer/vim-css-color'
 Plugin 'nerdtree-execute'
 Plugin 'mortonfox/nerdtree-iterm'
 Plugin 'scrooloose/nerdcommenter'
-Plugin 'c.vim'
+"Plugin 'c.vim'
 Plugin 'genutils'
 Plugin 'grep.vim'
 Plugin 'TaskList.vim'
@@ -82,7 +82,6 @@ Plugin 'bufexplorer'
 Plugin 'vim-multiple-cursors'
 
 " program syntax checker, support many language
-" TODO:
 Plugin 'scrooloose/syntastic'
 
 " view doc, TODO

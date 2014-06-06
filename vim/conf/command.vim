@@ -69,6 +69,20 @@ function! s:CssIDE()
     set wrap
 endfunction
 
+" yml/yaml文件编辑
+autocmd BufNewFile,BufRead *.yml,*.yaml :call s:YamlIDE()
+
+function! s:YamlIDE()
+    set autoindent
+    set smartindent
+    set listchars=tab:\ \ ,trail:-
+    set expandtab
+    set tabstop=2
+    set shiftwidth=2
+    set softtabstop=2
+    set wrap
+endfunction
+
 " php 编辑环境配置
 autocmd BufNewFile,BufRead *.php :call s:PhpIDE()
 autocmd FileType php :call s:PhpIDE()

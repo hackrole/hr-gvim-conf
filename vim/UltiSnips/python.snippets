@@ -165,3 +165,22 @@ endsnippet
 snippet from "from .. import .." !
 from $1 import $2
 endsnippet
+
+snippet testurl "unittest url and data prepate" !
+url = "$1"
+data = {
+	$2
+}$0
+endsnippet
+
+snippet testdut "dut = json response.content" !
+response = self.client.get(${1:url})
+dut = json.loads(response.content)
+$0
+endsnippet
+
+snippet testdutd "dut = json response.content" !
+response = self.client.get(${1:url}, data)
+dut = json.loads(response.content)
+$0
+endsnippet
