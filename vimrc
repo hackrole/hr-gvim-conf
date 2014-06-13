@@ -44,7 +44,7 @@ Plugin 'Rykka/riv.vim'
 " go get github.com/nsf/gocode
 " error with other go plugin ??
 " Plugin 'Blackrush/vim-gocode'
-Plugin 'jinja'
+Plugin 'lepture/vim-jinja'
 Plugin 'bolasblack/gtrans.vim'
 Plugin 'UltiSnips'
 Plugin 'matchit.zip'
@@ -76,7 +76,7 @@ Plugin 'DrawIt'
 Plugin 'DoxygenToolkit.vim'
 
 " compare with minibufexplorer
-Plugin 'bufexplorer'
+"Plugin 'bufexplorer'
 
 " sublime-text multiple cursor support
 Plugin 'vim-multiple-cursors'

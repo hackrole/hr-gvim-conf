@@ -122,6 +122,20 @@ function! s:CHIDE()
     set wrap
 endfunction
 
+" objective-c 编辑环境配置
+autocmd BufNewFile,BufRead *.m :call s:CobjIDE()
+function! s:CobjIDE()
+    set filetype=objc
+    set autoindent
+    set smartindent
+    set expandtab
+    set tabstop=2
+    set shiftwidth=2
+    set softtabstop=2
+    set wrap
+endfunction
+
+
 " makefile 编辑环境配置
 autocmd BufNewFile,BufRead Makefile,makefile,MAKEFILE :call s:MakefileIDE()
 function! s:MakefileIDE()
