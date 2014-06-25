@@ -96,33 +96,33 @@ let g:tagbar_show_linenumbers=1
 " default not fold the tags
 let g:tagbar_fold_level=99
 " TODO Tagbar golang gotags支持
-"let g:tagbar_type_go = {
-"\   'ctagstype': 'go',
-"\   'kind': [
-"\       'p:package',
-"\       'i:imports:1',
-"\       'c:constants',
-"\       'v:variables',
-"\       't:types',
-"\       'n:interfaces',
-"\       'w:fields',
-"\       'e:embedded',
-"\       'm:methods',
-"\       'r:constructor',
-"\       'f:functions',
-"\   ],
-"\   'sro': '.',
-"\   'kind2scope': {
-"\       't': 'ctype',
-"\       'n': 'ntype',
-"\   },
-"\   'scope2kind': {
-"\       'ctype': 't',
-"\       'ntype': 'n',
-"\   },
-"\   'ctagsbin': 'gotags',
-"\   'ctagsargs': '-sort -silent'
-"\}
+let g:tagbar_type_go = {
+\   'ctagstype': 'go',
+\   'kinds': [
+\       'p:package',
+\       'i:imports:1',
+\       'c:constants',
+\       'v:variables',
+\       't:types',
+\       'n:interfaces',
+\       'w:fields',
+\       'e:embedded',
+\       'm:methods',
+\       'r:constructor',
+\       'f:functions',
+\   ],
+\   'sro': '.',
+\   'kind2scope': {
+\       't': 'ctype',
+\       'n': 'ntype',
+\   },
+\   'scope2kind': {
+\       'ctype': 't',
+\       'ntype': 'n',
+\   },
+\   'ctagsbin': 'gotags',
+\   'ctagsargs': '-sort -silent'
+\}
 "1}}}
 " -------------------------------------------------
 "  [TagmaTask插件配置]{{{1
@@ -131,6 +131,8 @@ let g:tagbar_fold_level=99
 let g:TagmaTasksJumpTask=0
 " the work as task
 let g:TagmaTaskTokens = ['FIEXME', 'TODO', 'NOTE', 'WARNING']
+" list all tasks under current directions
+nn <leader>tP :TagmaTasks **/*.py<CR>
 "1}}}
 " -------------------------------------------------
 "  [gtrans配置]{{{1

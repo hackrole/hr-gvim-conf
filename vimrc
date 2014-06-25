@@ -91,6 +91,14 @@ Plugin 'tycheng/RefVim'
 " c IDE? TODO
 Plugin 'fanhed/omnicxx'
 
+" golang
+" auto imports
+Plugin 'cespare/vim-golang'
+" code jump
+Plugin 'dgryski/vim-godef'
+" gocode for auto-complete
+Bundle 'Blackrush/vim-gocode'
+
 call vundle#end()
 filetype plugin indent on
 

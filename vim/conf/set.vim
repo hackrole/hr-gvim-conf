@@ -52,6 +52,8 @@ set ofu=syntaxcomplete#Complete
 set backspace=indent,eol,start
 " 设置split below
 "set splitbelow
+" expandtab
+set expandtab
 
 "-------------------------------------------------------
 " [ 搜索相关 ] {{{1

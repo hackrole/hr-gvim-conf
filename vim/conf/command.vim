@@ -45,15 +45,17 @@ endfunction
 
 " golang 环境配置
 autocmd BufNewFile,BufRead *.go :call s:GolangIDE()
+autocmd BufWritePre *.go :Fmt
 function! s:GolangIDE()
     set filetype=go
-    set listchars=tab:\ \ ,trail:
+    set listchars=tab:\ \ ,trail:-
     set tabstop=2
     set expandtab " 使用空格替代缩进
     set shiftwidth=2
     set softtabstop=2
     set wrap
 endfunction
+
 
 " for css file edit
 autocmd BufNewFile,BufRead *.css :call s:CssIDE()
@@ -146,6 +148,9 @@ function! s:MakefileIDE()
     set softtabstop=4
     set wrap
 endfunction
+
+" markdown 编辑设置
+autocmd BufNewFile,BufRead *.md set ft=md
 
 
 " ruby 编辑环境配置
