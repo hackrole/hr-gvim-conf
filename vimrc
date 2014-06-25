@@ -91,6 +91,10 @@ Plugin 'tycheng/RefVim'
 " c IDE? TODO
 Plugin 'fanhed/omnicxx'
 
+" vim shell
+Plugin 'Shougo/vimshell'
+Plugin 'Shougo/vimproc'
+
 " golang
 " auto imports
 Plugin 'cespare/vim-golang'
