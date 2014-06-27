@@ -95,6 +95,9 @@ Plugin 'fanhed/omnicxx'
 Plugin 'Shougo/vimshell'
 Plugin 'Shougo/vimproc'
 
+" android development
+Plugin 'adt.vim'
+
 " golang
 " auto imports
 Plugin 'cespare/vim-golang'

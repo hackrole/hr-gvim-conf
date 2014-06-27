@@ -443,3 +443,8 @@ endif
 " TODO: try and conf and 优化
 let g:evervim_devtoken='S=s240:U=1cd8982:E=146e15334f5:C=13f89a208f9:P=1cd:A=en-devtoken:V=2:H=a8cac25918a056c4e1b1243672ec7e76'
 "1}}}
+" -----------------------------------------------------------
+"  [android开发配置]{{{1
+" -----------------------------------------------------------
+let g:adtVimAndroidPath = "/usr/local/app/adt64/sdk"
+"  1}}}
