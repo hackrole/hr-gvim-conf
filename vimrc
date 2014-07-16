@@ -106,6 +106,9 @@ Plugin 'dgryski/vim-godef'
 " gocode for auto-complete
 Bundle 'Blackrush/vim-gocode'
 
+" ruby on rails
+Bundle 'rails.vim'
+
 call vundle#end()
 filetype plugin indent on
 

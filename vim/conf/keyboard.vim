@@ -112,6 +112,8 @@ nn <A-t>h :set ft=html<CR>
 nn <A-t>c :set ft=css<CR>
 nn <A-t>p :set ft=php<CR>
 nn <A-t>j :set ft=javascript<CR>
+" sudo save
+cmap w!! w !sudo tee > /dev/null %
 " }}}
 " --------------------------------------------------
 " [快捷编辑配置文件] {{{1

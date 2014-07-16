@@ -347,6 +347,7 @@ let g:AutoPairsShortcutFastWrap = "<leader>pp"
 " --------------------------------------------------------------
 "  [ python-mode-klen配置 ]{{{1
 " --------------------------------------------------------------
+
 let g:pymode = 1
 " trim unused white spaces on save
 let g:pymode_trim_whitespaces = 1

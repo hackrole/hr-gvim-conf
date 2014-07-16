@@ -103,6 +103,8 @@ autocmd BufNewFile,BufRead *.py,*.pyw :call s:PythonIDE()
 autocmd FileType python set omnifunc=pythoncomplete#Complete
 function! s:PythonIDE()
     setfiletype python
+    " TODO: temp fix the docview plugin add . to keyword, which make search hard to use
+    setlocal iskeyword=@,48-57,_,192-255
     set autoindent
     set smartindent
     set expandtab
