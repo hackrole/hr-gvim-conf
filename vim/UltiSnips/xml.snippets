@@ -1,0 +1,42 @@
+# android id
+snippet adid "android:id= @+id/... " !
+android:id="@+id/${1}"$0
+endsnippet
+
+# android width
+snippet adlw "android layout width" !
+android:layout_width="${1:match_parent}"$0
+endsnippet
+
+# android height
+snippet adlh "android layout height" !
+android:layout_height="${1:match_parent}"$0
+endsnippet
+
+# android weight
+snippet adle "android layout weight" !
+android:layout_weight="${1:1}"$0
+endsnippet
+
+# android hint
+snippet adht "android hint"
+android:hint="${1}"$0
+endsnippet
+
+# android text
+snippet adtt "android text"
+android:text="${1}"$0
+endsnippet
+
+# android orientation horizontal
+snippet adorh "android orientation horizontal"
+android:orientation="horizontal"$0
+endsnippet
+
+# android orientation vertical
+snippet adorv "android orientation vertical"
+android:orientation="vertical"$0
+endsnippet
+
+snippet adCl "android Click"
+android:onClick="$1"$0

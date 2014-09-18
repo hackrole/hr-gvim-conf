@@ -104,10 +104,13 @@ Plugin 'cespare/vim-golang'
 " code jump
 Plugin 'dgryski/vim-godef'
 " gocode for auto-complete
-Bundle 'Blackrush/vim-gocode'
+Plugin 'Blackrush/vim-gocode'
 
 " ruby on rails
-Bundle 'rails.vim'
+Plugin 'rails.vim'
+
+" erlang
+Plugin 'Vimerl'
 
 call vundle#end()
 filetype plugin indent on
