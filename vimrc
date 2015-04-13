@@ -52,7 +52,8 @@ Plugin 'winmanager'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'Python-mode-klen'
 Plugin 'TagmaTasks'
-Plugin 'neocomplcache'
+" Plugin 'neocomplcache'
+Plugin 'Valloric/YouCompleteMe'
 Plugin 'lookupfile'
 
 " fix sudo vim error
@@ -86,7 +87,6 @@ Plugin 'scrooloose/syntastic'
 
 " view doc, TODO
 Plugin 'powerman/vim-plugin-viewdoc'
-Plugin 'tycheng/RefVim'
 
 " c IDE? TODO
 Plugin 'fanhed/omnicxx'
@@ -111,6 +111,13 @@ Plugin 'rails.vim'
 
 " erlang
 Plugin 'Vimerl'
+
+" javascript
+Plugin 'jelera/vim-javascript-syntax'
+Plugin 'JavaScript-Indent'
+Plugin 'othree/javascript-libraries-syntax.vim'
+Plugin 'marijnh/tern_for_vim'
+
 
 call vundle#end()
 filetype plugin indent on
