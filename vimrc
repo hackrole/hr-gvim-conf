@@ -112,6 +112,21 @@ Plugin 'rails.vim'
 " erlang
 Plugin 'Vimerl'
 
+" lua plugins
+Plugin 'vim-misc'
+Plugin 'lua.vim'
+
+" javascript/nodjs
+Plugin 'pangloss/vim-javascript'
+Plugin 'jelera/vim-javascript-syntax'
+Plugin 'marijnh/tern_for_vim'
+Plugin 'othree/javascript-libraries-syntax.vim'
+Plugin 'moll/vim-node'
+
+
+" supertab 试用
+" Plugin 'ervandew/supertab'
+
 call vundle#end()
 filetype plugin indent on
 

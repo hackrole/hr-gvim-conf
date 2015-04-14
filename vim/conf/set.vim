@@ -40,6 +40,8 @@ set nu " number
 set linespace=2
 " 行高亮
 set cursorline
+" 自动scroll
+set scrolloff=5
 " 色彩高亮
 "colorscheme desert
 colorscheme tabula

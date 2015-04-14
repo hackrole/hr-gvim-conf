@@ -403,11 +403,15 @@ let g:syntastic_auto_loc_list = 1
 " let g:syntastic_ignore_files = ['\m^/usr/include/', '\m\c\.h$']
 " default active filetype
 let g:syntastic_mode_map = { 'mode': 'active',
-\  'active_filetypes': ['ruby', 'c', 'php'],
+\  'active_filetypes': ['ruby', 'c', 'php', 'lua', 'javascript'],
 \  'passive_filetypes': ['python', 'puppet', 'rst'] }
 
 " set the checker
 let g:syntastic_c_checkers = ['gcc', 'make', 'cppcheck']
+
+" TODO not working now. set lua checker
+let g:syntastic_lua_checkers = ["luac", "luacheck"]
+let g:syntastic_lua_luacheck_args = "--no-unused-args"
 
 "1}}}
 "  [ cscope配置 ] {{{1

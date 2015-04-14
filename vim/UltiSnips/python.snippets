@@ -184,3 +184,8 @@ response = self.client.get(${1:url}, data)
 dut = json.loads(response.content)
 $0
 endsnippet
+
+snippet defstr "def __str__():.." !
+def __str__(self):
+	return $0
+endsnippet

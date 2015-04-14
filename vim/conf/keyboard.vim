@@ -61,8 +61,8 @@ ino <A-k> <ESC>O
 ino <A-j> <CR>
 ino <A-n> <Down>
 ino <A-m> <Up>
-ino <A-f> <C-o>$
-ino <A-b> <C-o>^
+"ino <A-f> <C-o>$
+"ino <A-b> <C-o>^
 nn <leader>hh :noh<CR>
 " 命令行下粘贴
 cmap <A-p> <C-R>+
@@ -80,8 +80,10 @@ exe 'vnoremap <script> <A-p>' paste#paste_cmd['v']
 " [normal-mode 下防emacs快捷键]
 "---------------------------------------------------
 "TODO: consider it.
-ino <C-n> <Down>
-ino <C-p> <Up>
+"ino <C-n> <Down>
+"ino <C-p> <Up>
+ino <A-e> <Esc>$a
+ino <A-a> <Esc>0i
 ino <C-f> <Right>
 ino <C-b> <left>
 " --------------------------------------------------
