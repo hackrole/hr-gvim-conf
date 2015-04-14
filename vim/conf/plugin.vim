@@ -453,3 +453,10 @@ let g:evervim_devtoken='S=s240:U=1cd8982:E=146e15334f5:C=13f89a208f9:P=1cd:A=en-
 " -----------------------------------------------------------
 let g:adtVimAndroidPath = "/usr/local/app/adt64/sdk"
 "  1}}}
+
+" -----------------------------------------------------------
+" [javascirpt-libraries-syntax.vim]配置{{{1
+" -----------------------------------------------------------
+let g:used_javascript_libs = 'underscore,backbone,jQuery'
+" 1}}}
+
