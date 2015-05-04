@@ -42,8 +42,6 @@ inoremap <C-\>t3 :tabnext 3<CR>
 inoremap <C-\>t4 :tabnext 4<CR>
 
 " 1}}}
-
-
 " --------------------------------------------------
 " [窗口操作] {{{1
 " --------------------------------------------------
@@ -76,8 +74,6 @@ inoremap ˚ <Esc><C-w>k
 inoremap ¬ <Esc><C-w>l
 
 " 1}}}
-
-
 " --------------------------------------------------
 " [复制粘贴] {{{1
 " --------------------------------------------------
@@ -92,9 +88,6 @@ nnoremap π "+p
 inoremap π <Esc>"+pi
 
 " 1}}}
-"----------------------------------------------------
-
-
 " -------------------------------------------------
 " [vim ConqueTerm快捷键]{{{1
 " -------------------------------------------------
@@ -106,21 +99,30 @@ nn <leader>Bp :tabnew<cr>:ConqueTerm ipython<CR>
 nn <leader>bp :botright 15split<CR>:ConqueTerm ipython<CR>
 ino <leader>bp <Esc>:tabnew<cr>:ConqueTerm ipython<CR>
 ino <leader>Bp <Esc>:botright 15split<CR>:ConqueTerm ipython<CR>
-
+" 1}}}
+" 窗口间移动操作 {{{1
+" ================================================================
+nn <A-h> <C-w>h
+nn <A-l> <C-w>l
+nn <A-j> <C-w>j
+nn <A-k> <C-W>k
+nn <D-h> <C-w>h
+nn <D-l> <C-w>l
+nn <D-j> <C-w>j
+nn <D-k> <C-w>k
 " 1}}}
 
 
-" --------------------------------------------------
-" [文本编辑] {{{1
-" --------------------------------------------------
+" [快捷按鍵] {{{1
+" ===============
 " 补全
 ino <A-o> <ESC>o
 ino <A-k> <ESC>O
 ino <A-j> <CR>
 ino <A-n> <Down>
 ino <A-m> <Up>
-ino <A-f> <C-o>$
-ino <A-b> <C-o>^
+"ino <A-f> <C-o>$
+"ino <A-b> <C-o>^
 nn <leader>hh :noh<CR>
 " 命令行下粘贴
 cmap <A-p> <C-R>+
@@ -134,12 +136,13 @@ exe 'vnoremap <script> <A-p>' paste#paste_cmd['v']
 "snoremap <C-A> <C-C>gggH<C-O>G
 "xnoremap <C-A> <C-C>ggVG
 " 1}}}
-"---------------------------------------------------
 " [normal-mode 下防emacs快捷键]
-"---------------------------------------------------
+" =============================
 "TODO: consider it.
-ino <C-n> <Down>
-ino <C-p> <Up>
+"ino <C-n> <Down>
+"ino <C-p> <Up>
+ino <A-e> <Esc>$a
+ino <A-a> <Esc>0i
 ino <C-f> <Right>
 ino <C-b> <left>
 " --------------------------------------------------
@@ -173,9 +176,10 @@ nn <A-t>j :set ft=javascript<CR>
 " sudo save
 cmap w!! w !sudo tee > /dev/null %
 " }}}
-" --------------------------------------------------
-" [快捷编辑配置文件] {{{1
-" --------------------------------------------------
+
+
+" 快捷编辑配置文件 {{{1
+" =====================
 nn <leader>ev :tabnew $HOME/.vimrc<CR>
 nn <leader>em :tabnew $VIMFILES/conf/main.vim<CR>
 nn <leader>es :tabnew $VIMFILES/conf/set.vim<CR>

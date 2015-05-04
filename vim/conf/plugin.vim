@@ -7,37 +7,56 @@
 " TOOD: 考虑每个插件单独配置，最后统一source
 " -------------------------------------------------------------------------
 
-" --------------------------------------------------
-" [netrw相关配置]{{{1
-" --------------------------------------------------
+" [netrw相关配置] {{{1
+" =========================================================================
 " 支持ftp/ssh等协议编辑远程文件的插件
 let g:netrw_home = "~/.vim/temp/netrw"
+
 " 1}}}
-" --------------------------------------------------
-"  [Emmet相关配置] {{{1
-" --------------------------------------------------
+
+" [Emmet相关配置] {{{1
+" =========================================================================
 let g:user_emmet_settings = {
 \  'indentation' : '  ',
-\  'perl' : {
-\    'aliases' : {
-\      'req' : 'require '
-\    },
-\    'snippets' : {
-\      'use' : "use strict\nuse warnings\n\n",
-\      'warn' : "warn \"|\";",
-\    }
-\  }
+\  'variables': {
+\       'lang': 'en',
+\   },
+\   'html': {
+\       'filters': 'html',
+\       'expandos': {},
+\       'default_attributes': {
+\           'a': {'href': '#'},
+\           'script': [{'type': 'text/javscript'}],
+\           'link': [{'rel': 'stylesheet'}, {'href': ''}],
+\       },
+\       'aliases': {
+\           'scp': 'script',
+\           'bq': 'blockquote',
+\           'obj': 'object',
+\           'hd': 'header',
+\           'st': 'section',
+\       },
+\       'empty_element_suffix': ' />',
+\   },
+\   'css': {
+\       'filters': 'fc',
+\   },
 \}
 " only insert mode
-let g:user_emmet_mode='i'
+let g:user_emmet_mode='a'
 " only use for html/css
 let g:user_emmet_install_global = 1
-let g:user_emmet_expandabbr_key = '<C-;>'
-let g:use_emmet_complete_tag = 1
+
+" key bind
+let g:user_emmet_leader_key  = '<C-y>'
+let g:user_emmet_expandabbr_key = '<C-3>'
+let g:user_emmet_next_key = '<C-y>n'
+let g:user_emmet_prev_key = '<C-y>p'
+
 "  1}}}
-" --------------------------------------------------
+
 " [NERDTree相关配置] {{{1
-" --------------------------------------------------
+" ==================================================================
 " TODO: doc reaad and <f2>
 " 映射切换按键
 map <silent> <F3> :NERDTreeToggle<CR>
@@ -65,10 +84,11 @@ let NERDTreeShowHidden=0
 let NERDTreeShowLineNumbers=1
 " nerdtree positioin
 let NERDTreeWinPos="left"
+
 " 1}}}
-" --------------------------------------------------
+
 " [Conque相关配置] {{{1
-" --------------------------------------------------
+" =================================================
 " Conque指定Python版本
 let g:ConqueTerm_PyVersion=2
 " 取消警告信息
@@ -250,16 +270,17 @@ map <leader>mu :UMiniBufExplorer<cr>
 " --------------------------------------------------
 " 使用python2.7
 let g:UltiSnipsUsePythonVersion = 2
-" how window is opened
 let g:UltiSnipsEditSplit = "horizontal"
-" TODO: 貌似无效;; 定义私有Snips目录
-"let g:UltiSnipsSnippetsDir = "~/.vim/snippets/ultisnips"
-" 定义按键
+" keys
 nn <C-f7> :UltiSnipsEdit<CR>
 let g:UltiSnipsExpandTrigger = "<C-e>"
 let g:UltiSnipsListSnippets = "<f7>"
 let g:UltiSnipsJumpForwardTrigger = "<C-k>"
 let g:UltiSnipsJumpBackwardTrigger = "<C-j>"
+
+augroup ultisnips_sub
+    autocmd FileType jinja :UltiSnipsAddFiletypes jinja.html
+augroup END
 
 " 1}}}
 
@@ -398,16 +419,31 @@ let g:syntastic_check_on_wq = 1
 " use all checker at once
 let g:syntastic_aggregate_errors = 1
 " auto open error window while errors
-let g:syntastic_auto_loc_list = 1
-" ignore files
-" let g:syntastic_ignore_files = ['\m^/usr/include/', '\m\c\.h$']
-" default active filetype
-let g:syntastic_mode_map = { 'mode': 'active',
-\  'active_filetypes': ['ruby', 'c', 'php'],
-\  'passive_filetypes': ['python', 'puppet', 'rst'] }
+let g:syntastic_auto_loc_list = 0
+" set sign symbol
+let g:syntastic_error_symbol = 'EE'
+let g:syntastic_style_error_symbol = 'E>'
+let g:syntastic_warning_symbol = 'WW'
+let g:syntastic_style_warning_symbol = 'W>'
+" never mouse
+let g:syntastic_enable_balloons = 0
+" use highlight
+let g:syntastic_enable_highlighting = 0
+" error window height
+let g:syntastic_loc_list_height = 5
+
+" always active, use toggle to passive
+let g:syntastic_mode_map = {
+            \   'mode': 'active',
+            \   'active_filetypes': [],
+            \   'passive_filetypes': ['python']}
 
 " set the checker
 let g:syntastic_c_checkers = ['gcc', 'make', 'cppcheck']
+
+" not working now. set lua checker
+let g:syntastic_lua_checkers = ["luac", "luacheck"]
+let g:syntastic_lua_luacheck_args = "--no-unused-args"
 
 "1}}}
 "  [ cscope配置 ] {{{1
