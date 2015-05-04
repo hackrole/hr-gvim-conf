@@ -29,9 +29,10 @@ nn <A--> 3<C-w>-
 nn <A-=> 3<C-w>=
 nn <A-+> 3<C-w>+
 " 1}}}
-" -------------------------------------------------
-" [vim ConqueTerm快捷键]{{{1
-" -------------------------------------------------
+
+
+" vim ConqueTerm快捷键{{{1
+" ================================================================
 nn <leader>Bb :tabnew<CR>:ConqueTerm bash<CR>
 nn <leader>bb :botright 15split<CR>:ConqueTerm bash<CR>
 ino <leader>Bb <Esc>:tabnew<CR>:ConqueTerm bash<CR>
@@ -40,12 +41,11 @@ nn <leader>Bp :tabnew<cr>:ConqueTerm ipython<CR>
 nn <leader>bp :botright 15split<CR>:ConqueTerm ipython<CR>
 ino <leader>bp <Esc>:tabnew<cr>:ConqueTerm ipython<CR>
 ino <leader>Bp <Esc>:botright 15split<CR>:ConqueTerm ipython<CR>
-
 " 1}}}
-" -------------------------------------------------
-" --------------------------------------------------
-" [窗口间移动操作] {{{1
-" --------------------------------------------------
+
+
+" 窗口间移动操作 {{{1
+" ================================================================
 nn <A-h> <C-w>h
 nn <A-l> <C-w>l
 nn <A-j> <C-w>j
@@ -55,9 +55,10 @@ nn <D-l> <C-w>l
 nn <D-j> <C-w>j
 nn <D-k> <C-w>k
 " 1}}}
-" --------------------------------------------------
+
+
 " [快捷按鍵] {{{1
-" --------------------------------------------------
+" ===============
 " 补全
 ino <A-p> <ESC>"+pi
 ino <A-o> <ESC>o
@@ -80,9 +81,10 @@ exe 'vnoremap <script> <A-p>' paste#paste_cmd['v']
 "snoremap <C-A> <C-C>gggH<C-O>G
 "xnoremap <C-A> <C-C>ggVG
 " 1}}}
-"---------------------------------------------------
+
+
 " [normal-mode 下防emacs快捷键]
-"---------------------------------------------------
+" =============================
 "TODO: consider it.
 "ino <C-n> <Down>
 "ino <C-p> <Up>
@@ -121,9 +123,10 @@ nn <A-t>j :set ft=javascript<CR>
 " sudo save
 cmap w!! w !sudo tee > /dev/null %
 " }}}
-" --------------------------------------------------
-" [快捷编辑配置文件] {{{1
-" --------------------------------------------------
+
+
+" 快捷编辑配置文件 {{{1
+" =====================
 nn <leader>ev :tabnew $HOME/.vimrc<CR>
 nn <leader>em :tabnew $VIMFILES/conf/main.vim<CR>
 nn <leader>es :tabnew $VIMFILES/conf/set.vim<CR>

@@ -52,7 +52,7 @@ Plugin 'winmanager'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'Python-mode-klen'
 Plugin 'TagmaTasks'
-" Plugin 'neocomplcache'
+"Plugin 'neocomplcache'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'lookupfile'
 
@@ -63,9 +63,7 @@ Plugin 'CmdlineComplete'
 Plugin 'hughbien/md-vim'
 
 " 中文文档
-Plugin 'vimcdoc'
-" man page/pydoc/..
-Plugin 'viewdoc'
+" Plugin 'vimcdoc'
 
 " airline, instead of powerline
 Plugin 'bling/vim-airline'
@@ -86,7 +84,7 @@ Plugin 'vim-multiple-cursors'
 Plugin 'scrooloose/syntastic'
 
 " view doc, TODO
-Plugin 'powerman/vim-plugin-viewdoc'
+" Plugin 'powerman/vim-plugin-viewdoc'
 
 " c IDE? TODO
 Plugin 'fanhed/omnicxx'

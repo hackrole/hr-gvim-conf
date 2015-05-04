@@ -57,6 +57,9 @@ set backspace=indent,eol,start
 " expandtab
 set expandtab
 
+set nofoldenable
+set foldmethod=marker
+
 "-------------------------------------------------------
 " [ 搜索相关 ] {{{1
 "-------------------------------------------------------
