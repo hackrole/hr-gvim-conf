@@ -1,0 +1,21 @@
+# config file header comment
+snippet fcomment "vim conf file comment" !b
+"------------------------------------------------------------------
+" File: `!v expand('%:t)`
+" Author: hackrole
+" Email: daipeng123456@gmail.com
+" Create At: `date + "%Y-%m-%d %H"`
+" Description: $1
+"------------------------------------------------------------------
+$0
+endsnippet
+
+# comment for section
+snippet scomment "vim section comment" !b
+" [${1}] {{{1
+" =====================================
+$0
+
+" 1}}}
+
+endsnippet

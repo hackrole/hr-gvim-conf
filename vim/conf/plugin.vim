@@ -7,15 +7,15 @@
 " TOOD: 考虑每个插件单独配置，最后统一source
 " -------------------------------------------------------------------------
 
-" --------------------------------------------------
-" [netrw相关配置]{{{1
-" --------------------------------------------------
+" [netrw相关配置] {{{1
+" =========================================================================
 " 支持ftp/ssh等协议编辑远程文件的插件
 let g:netrw_home = "~/.vim/temp/netrw"
+
 " 1}}}
-" --------------------------------------------------
-"  [Emmet相关配置] {{{1
-" --------------------------------------------------
+
+" [Emmet相关配置] {{{1
+" =========================================================================
 let g:user_emmet_settings = {
 \  'indentation' : '  ',
 \  'variables': {
@@ -52,10 +52,11 @@ let g:user_emmet_leader_key  = '<C-y>'
 let g:user_emmet_expandabbr_key = '<C-3>'
 let g:user_emmet_next_key = '<C-y>n'
 let g:user_emmet_prev_key = '<C-y>p'
+
 "  1}}}
-" --------------------------------------------------
+
 " [NERDTree相关配置] {{{1
-" --------------------------------------------------
+" ==================================================================
 " TODO: doc reaad and <f2>
 " 映射切换按键
 map <silent> <F3> :NERDTreeToggle<CR>
@@ -83,10 +84,11 @@ let NERDTreeShowHidden=0
 let NERDTreeShowLineNumbers=1
 " nerdtree positioin
 let NERDTreeWinPos="left"
+
 " 1}}}
-" --------------------------------------------------
+
 " [Conque相关配置] {{{1
-" --------------------------------------------------
+" =================================================
 " Conque指定Python版本
 let g:ConqueTerm_PyVersion=2
 " 取消警告信息
@@ -271,7 +273,7 @@ let g:UltiSnipsUsePythonVersion = 2
 let g:UltiSnipsEditSplit = "horizontal"
 " keys
 nn <C-f7> :UltiSnipsEdit<CR>
-let g:UltiSnipsExpandTrigger = "<C-2>"
+let g:UltiSnipsExpandTrigger = "<C-e>"
 let g:UltiSnipsListSnippets = "<f7>"
 let g:UltiSnipsJumpForwardTrigger = "<C-k>"
 let g:UltiSnipsJumpBackwardTrigger = "<C-j>"
