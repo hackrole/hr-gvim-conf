@@ -8,27 +8,93 @@
 "     History: 参见$VIMFILES/log/update.log \ez
 " --------------------------------------------------
 
+
 " --------------------------------------------------
-" [文件切换快捷键] {{{1
+" [tab相关] {{{1
 " --------------------------------------------------
-nn <A-1> :tabn 1<CR>
-nn <A-2> :tabn 2<CR>
-nn <A-3> :tabn 3<CR>
-nn <A-4> :tabn 4<CR>
-nn <A-c> :tabnew<CR>
-nn <A-n> :tabp<CR>
-nn <A-m> :tabn<CR>
-nn <A-x> :tabclose<CR>
-nn <leader>t1 :tabm 0<CR>
-nn <leader>t2 :tabm 1<CR>
-nn <leader>t3 :tabm 2<CR>
-nn <leader>t4 :tabm 3<CR>
-vno <A-y> "+y
-nn <A-p> "+p
-nn <A--> 3<C-w>-
-nn <A-=> 3<C-w>=
-nn <A-+> 3<C-w>+
+nnoremap <A-x> :tabclose<CR>
+nnoremap <A-c> :tabnew<CR>
+inoremap <A-x> <Esc>:tabclose<CR>
+inoremap <A-c> <Esc>:tabnew<CR>
+
+" for mac
+nnoremap ≈ :tabclose<CR>
+inoremap ≈ :tabclose<CR>
+
+nnoremap <A-n> :tabprevious<CR>
+nnoremap <A-m> :tabnext<CR>
+inoremap <A-n> <Esc>:tabprevious<CR>
+inoremap <A-m> <Esc>:tabprevious<CR>
+
+" for mac
+nnoremap ˜ :tabprevious<CR>
+nnoremap µ :tabnext<CR>
+inoremap ˜ <Esc>:tabprevious<CR>
+inoremap µ <Esc>:tabnext<CR>
+
+nnoremap <leader>t1 :tabnext 1<CR>
+nnoremap <leader>t2 :tabnext 2<CR>
+nnoremap <leader>t3 :tabnext 3<CR>
+nnoremap <leader>t4 :tabnext 4<CR>
+inoremap <C-\>t1 :tabnext 1<CR>
+inoremap <C-\>t2 :tabnext 2<CR>
+inoremap <C-\>t3 :tabnext 3<CR>
+inoremap <C-\>t4 :tabnext 4<CR>
+
 " 1}}}
+
+
+" --------------------------------------------------
+" [窗口操作] {{{1
+" --------------------------------------------------
+
+nnoremap <A-=> <C-w>=
+nnoremap <A--> 3<C-w>-
+nnoremap <A-+> 3<C-w>+
+
+" for mac
+nnoremap ≠ <C-w>=
+nnoremap – <C-w>-
+
+nnoremap <A-h> <C-w>h
+nnoremap <A-l> <C-w>l
+nnoremap <A-j> <C-w>j
+nnoremap <A-k> <C-W>k
+inoremap <A-h> <Esc><C-w>h
+inoremap <A-h> <Esc><C-w>l
+inoremap <A-j> <Esc><C-w>j
+inoremap <A-k> <Esc><C-W>k
+
+" for mac
+nnoremap ˙ <C-w>h
+nnoremap ∆ <C-w>j
+nnoremap ˚ <C-w>k
+nnoremap ¬ <C-w>l
+inoremap ˙ <Esc><C-w>h
+inoremap ∆ <Esc><C-w>j
+inoremap ˚ <Esc><C-w>k
+inoremap ¬ <Esc><C-w>l
+
+" 1}}}
+
+
+" --------------------------------------------------
+" [复制粘贴] {{{1
+" --------------------------------------------------
+
+vnoremap <A-y> "+y
+nnoremap <A-p> "+p
+inoremap <A-p> <Esc>"+pi
+
+" for mac
+vnoremap <A-y> "+y
+nnoremap π "+p
+inoremap π <Esc>"+pi
+
+" 1}}}
+"----------------------------------------------------
+
+
 " -------------------------------------------------
 " [vim ConqueTerm快捷键]{{{1
 " -------------------------------------------------
@@ -42,24 +108,12 @@ ino <leader>bp <Esc>:tabnew<cr>:ConqueTerm ipython<CR>
 ino <leader>Bp <Esc>:botright 15split<CR>:ConqueTerm ipython<CR>
 
 " 1}}}
-" -------------------------------------------------
+
+
 " --------------------------------------------------
-" [窗口间移动操作] {{{1
-" --------------------------------------------------
-nn <A-h> <C-w>h
-nn <A-l> <C-w>l
-nn <A-j> <C-w>j
-nn <A-k> <C-W>k
-nn <D-h> <C-w>h
-nn <D-l> <C-w>l
-nn <D-j> <C-w>j
-nn <D-k> <C-w>k
-" 1}}}
-" --------------------------------------------------
-" [快捷按鍵] {{{1
+" [文本编辑] {{{1
 " --------------------------------------------------
 " 补全
-ino <A-p> <ESC>"+pi
 ino <A-o> <ESC>o
 ino <A-k> <ESC>O
 ino <A-j> <CR>

@@ -32,7 +32,7 @@ let g:user_emmet_settings = {
 let g:user_emmet_mode='i'
 " only use for html/css
 let g:user_emmet_install_global = 1
-let g:user_emmet_expandabbr_key = '<A-;>'
+let g:user_emmet_expandabbr_key = '<C-;>'
 let g:use_emmet_complete_tag = 1
 "  1}}}
 " --------------------------------------------------
