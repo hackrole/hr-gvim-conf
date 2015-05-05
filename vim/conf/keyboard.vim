@@ -17,20 +17,10 @@ nnoremap <A-c> :tabnew<CR>
 inoremap <A-x> <Esc>:tabclose<CR>
 inoremap <A-c> <Esc>:tabnew<CR>
 
-" for mac
-nnoremap ≈ :tabclose<CR>
-inoremap ≈ :tabclose<CR>
-
 nnoremap <A-n> :tabprevious<CR>
 nnoremap <A-m> :tabnext<CR>
 inoremap <A-n> <Esc>:tabprevious<CR>
 inoremap <A-m> <Esc>:tabprevious<CR>
-
-" for mac
-nnoremap ˜ :tabprevious<CR>
-nnoremap µ :tabnext<CR>
-inoremap ˜ <Esc>:tabprevious<CR>
-inoremap µ <Esc>:tabnext<CR>
 
 nnoremap <leader>t1 :tabnext 1<CR>
 nnoremap <leader>t2 :tabnext 2<CR>
@@ -50,10 +40,6 @@ nnoremap <A-=> <C-w>=
 nnoremap <A--> 3<C-w>-
 nnoremap <A-+> 3<C-w>+
 
-" for mac
-nnoremap ≠ <C-w>=
-nnoremap – <C-w>-
-
 nnoremap <A-h> <C-w>h
 nnoremap <A-l> <C-w>l
 nnoremap <A-j> <C-w>j
@@ -62,16 +48,6 @@ inoremap <A-h> <Esc><C-w>h
 inoremap <A-h> <Esc><C-w>l
 inoremap <A-j> <Esc><C-w>j
 inoremap <A-k> <Esc><C-W>k
-
-" for mac
-nnoremap ˙ <C-w>h
-nnoremap ∆ <C-w>j
-nnoremap ˚ <C-w>k
-nnoremap ¬ <C-w>l
-inoremap ˙ <Esc><C-w>h
-inoremap ∆ <Esc><C-w>j
-inoremap ˚ <Esc><C-w>k
-inoremap ¬ <Esc><C-w>l
 
 " 1}}}
 " --------------------------------------------------
