@@ -9,6 +9,11 @@
 set nocompatible
 be mswin
 filetype off
+
+if has('gui_mac')
+    set macmeta
+endif
+
 set runtimepath+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 

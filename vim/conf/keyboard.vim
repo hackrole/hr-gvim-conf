@@ -12,15 +12,15 @@
 " --------------------------------------------------
 " [tab相关] {{{1
 " --------------------------------------------------
-nnoremap <A-x> :tabclose<CR>
-nnoremap <A-c> :tabnew<CR>
-inoremap <A-x> <Esc>:tabclose<CR>
-inoremap <A-c> <Esc>:tabnew<CR>
+nnoremap <M-x> :tabclose<CR>
+nnoremap <M-c> :tabnew<CR>
+inoremap <M-x> <Esc>:tabclose<CR>
+inoremap <M-c> <Esc>:tabnew<CR>
 
-nnoremap <A-n> :tabprevious<CR>
-nnoremap <A-m> :tabnext<CR>
-inoremap <A-n> <Esc>:tabprevious<CR>
-inoremap <A-m> <Esc>:tabprevious<CR>
+nnoremap <M-n> :tabprevious<CR>
+nnoremap <M-m> :tabnext<CR>
+inoremap <M-n> <Esc>:tabprevious<CR>
+inoremap <M-m> <Esc>:tabprevious<CR>
 
 nnoremap <leader>t1 :tabnext 1<CR>
 nnoremap <leader>t2 :tabnext 2<CR>
@@ -36,33 +36,32 @@ inoremap <C-\>t4 :tabnext 4<CR>
 " [窗口操作] {{{1
 " --------------------------------------------------
 
-nnoremap <A-=> <C-w>=
-nnoremap <A--> 3<C-w>-
-nnoremap <A-+> 3<C-w>+
+nnoremap <M-=> <C-w>=
+nnoremap <M--> 3<C-w>-
+nnoremap <M-+> 3<C-w>+
 
-nnoremap <A-h> <C-w>h
-nnoremap <A-l> <C-w>l
-nnoremap <A-j> <C-w>j
-nnoremap <A-k> <C-W>k
-inoremap <A-h> <Esc><C-w>h
-inoremap <A-h> <Esc><C-w>l
-inoremap <A-j> <Esc><C-w>j
-inoremap <A-k> <Esc><C-W>k
+nnoremap <M-h> <C-w>h
+nnoremap <M-l> <C-w>l
+nnoremap <M-j> <C-w>j
+nnoremap <M-k> <C-W>k
+inoremap <M-h> <Esc><C-w>h
+inoremap <M-h> <Esc><C-w>l
+inoremap <M-j> <Esc><C-w>j
+inoremap <M-k> <Esc><C-W>k
 
 " 1}}}
 " --------------------------------------------------
 " [复制粘贴] {{{1
 " --------------------------------------------------
 
-vnoremap <A-y> "+y
-nnoremap <A-p> "+p
-inoremap <A-p> <Esc>"+pi
+vnoremap <M-y> "+y
+nnoremap <M-p> "+p
+inoremap <M-p> <Esc>"+pi
 
-" for mac
-vnoremap <A-y> "+y
-nnoremap π "+p
-inoremap π <Esc>"+pi
-
+" 命令行下粘贴
+cnoremap <M-p> <C-R>+
+"inoremap <script> <M-p> paste#paste_cmd['i']
+"vnoremap <script> <M-p> paste#paste_cmd['v']
 " 1}}}
 " -------------------------------------------------
 " [vim ConqueTerm快捷键]{{{1
@@ -76,34 +75,14 @@ nn <leader>bp :botright 15split<CR>:ConqueTerm ipython<CR>
 ino <leader>bp <Esc>:tabnew<cr>:ConqueTerm ipython<CR>
 ino <leader>Bp <Esc>:botright 15split<CR>:ConqueTerm ipython<CR>
 " 1}}}
-" 窗口间移动操作 {{{1
-" ================================================================
-nn <A-h> <C-w>h
-nn <A-l> <C-w>l
-nn <A-j> <C-w>j
-nn <A-k> <C-W>k
-nn <D-h> <C-w>h
-nn <D-l> <C-w>l
-nn <D-j> <C-w>j
-nn <D-k> <C-w>k
-" 1}}}
-
-
 " [快捷按鍵] {{{1
 " ===============
-" 补全
-ino <A-o> <ESC>o
-ino <A-k> <ESC>O
-ino <A-j> <CR>
-ino <A-n> <Down>
-ino <A-m> <Up>
-"ino <A-f> <C-o>$
-"ino <A-b> <C-o>^
+ino <M-o> <ESC>o
+ino <M-k> <ESC>O
+ino <M-j> <CR>
+ino <M-n> <Down>
+ino <M-m> <Up>
 nn <leader>hh :noh<CR>
-" 命令行下粘贴
-cmap <A-p> <C-R>+
-exe 'inoremap <script> <A-p>' paste#paste_cmd['i']
-exe 'vnoremap <script> <A-p>' paste#paste_cmd['v']
 " CTRL-A is Select all(CTRL-A实现全选)
 "noremap <C-A> gggH<C-O>G
 "inoremap <C-A> <C-O>gg<C-O>gH<C-O>G
@@ -117,8 +96,8 @@ exe 'vnoremap <script> <A-p>' paste#paste_cmd['v']
 "TODO: consider it.
 "ino <C-n> <Down>
 "ino <C-p> <Up>
-ino <A-e> <Esc>$a
-ino <A-a> <Esc>0i
+ino <M-e> <Esc>$a
+ino <M-a> <Esc>0i
 ino <C-f> <Right>
 ino <C-b> <left>
 " --------------------------------------------------
@@ -136,19 +115,19 @@ ino <C-b> <left>
 "nn <leader>fr :!gen_LFT<CR>
 " 快捷寄存器剪切复制粘贴
 
-vno <A-a> "
+vno <M-a> "
 " 快捷退出
-nn <A-q> :q!<CR>
+nn <M-q> :q!<CR>
 "nn <C-q> :qa!<CR>
 " Ctrl+s保存
 no <C-s> :up<CR>
 vno <C-s> <C-C>:up<CR>
 ino <C-s> <C-O>:up<CR>
 " 快捷设置文档类型
-nn <A-t>h :set ft=html<CR>
-nn <A-t>c :set ft=css<CR>
-nn <A-t>p :set ft=php<CR>
-nn <A-t>j :set ft=javascript<CR>
+nn <M-t>h :set ft=html<CR>
+nn <M-t>c :set ft=css<CR>
+nn <M-t>p :set ft=php<CR>
+nn <M-t>j :set ft=javascript<CR>
 " sudo save
 cmap w!! w !sudo tee > /dev/null %
 " }}}

@@ -1,0 +1,24 @@
+# express view get/post/put/delete
+snippet exp.vget "express view get" !b
+app.get('${1}', function(req, res){
+	${0}
+});
+endsnippet
+
+snippet exp.vpost "express view post" !b
+app.post('${1}', function(req, res){
+	${0}
+});
+endsnippet
+
+snippet exp.vput "express view put" !b
+app.put('${1}', function(req, res){
+	${0}
+});
+endsnippet
+
+snippet exp.vdel "express view delete" !b
+app.delete('${1}', function(req, res){
+	${0}
+});
+endsnippet
