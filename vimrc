@@ -58,7 +58,7 @@ Plugin 'jiangmiao/auto-pairs'
 Plugin 'Python-mode-klen'
 Plugin 'TagmaTasks'
 "Plugin 'neocomplcache'
-Plugin 'Valloric/YouCompleteMe'
+"Plugin 'Valloric/YouCompleteMe'
 Plugin 'lookupfile'
 
 " fix sudo vim error
