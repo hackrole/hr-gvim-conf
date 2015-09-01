@@ -78,6 +78,8 @@ ino <leader>Bp <Esc>:botright 15split<CR>:ConqueTerm ipython<CR>
 " [快捷按鍵] {{{1
 " ===============
 ino <M-o> <ESC>o
+ino <M-S-o> <ESC>O
+ino <C-o> <CR><ESC>O
 ino <M-k> <ESC>O
 ino <M-j> <CR>
 ino <M-n> <Down>
