@@ -213,3 +213,20 @@ snippet defstr "def __str__():.." !
 def __str__(self):
 	return $0
 endsnippet
+
+
+# pika for rabbitmq
+
+snippet pika.pika "pika conn chan declare" !
+# -*- coding: utf-8 -*-
+
+import pika
+import sys
+
+
+connection = pika.BlockingConnection(pika.ConnectionParameters(
+    host='localhost'
+))
+channel = connection.channel()
+$0
+endsnippet

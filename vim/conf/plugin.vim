@@ -373,6 +373,8 @@ let g:pymode = 1
 let g:pymode_trim_whitespaces = 1
 " pymode folding
 let g:pymode_folding = 1
+" XXX not trim whitespaces now. remeber to remove this!!!
+let g:pymode_trim_whitespaces = 1
 " enable pymode-motion
 let g:pymode_motion = 1
 " keys to view python doc
@@ -450,28 +452,28 @@ let g:syntastic_lua_luacheck_args = "--no-unused-args"
 " TODO: read doc and start to use
 if has("cscope")
     set csprg=/usr/bin/cscope
-    set nocsverb
+    set cst
+    set nocscopeverbose
     if filereadable("./cscope.out")
         cs add cscope.out
     elseif $CSCOPE_DB != ""
         cs add $CSCOPE_DB
     endif
-    set csverb
+    set cscopeverbose
     " 设置是否使用quickfix
-    "set csqf=s+,g+,d-,c+,t+,e+,f-,i-
-    set csqf=s+,g-,d-,c-,t-,e-,f-,i-
+    set cscopequickfix=s-,g-,d-,c-,t-,e-,f-,i-
     " 设置文件查找顺序
-    set csto=0
-    " 设置是否使用tags文件
-    "set cst
+    set cscopetag
     nmap <A-@>s :scs find s <C-R>=expand("<cword>")<CR><CR>
-    nmap <C-2>g :scs find g <C-R>=expand("<cword>")<CR><CR>
-    nmap <C-2>c :scs find c <C-R>=expand("<cword>")<CR><CR>
-    nmap <C-2>t :scs find t <C-R>=expand("<cword>")<CR><CR>
-    nmap <C-2>e :scs find e <C-R>=expand("<cword>")<CR><CR>
-    nmap <C-2>f :scs find f <C-R>=expand("<cfile>")<CR><CR>
-    nmap <C-2>i :scs find i <C-R>=expand("<cfile>")<CR>$<CR>
-    nmap <C-2>d :scs find d <C-R>=expand("<cword>")<CR><CR>
+    nmap <C-\>g :scs find g <C-R>=expand("<cword>")<CR><CR>
+    nmap <C-\>c :scs find c <C-R>=expand("<cword>")<CR><CR>
+    nmap <C-\>t :scs find t <C-R>=expand("<cword>")<CR><CR>
+    nmap <C-\>e :scs find e <C-R>=expand("<cword>")<CR><CR>
+    nmap <C-\>f :scs find f <C-R>=expand("<cfile>")<CR><CR>
+    nmap <C-\>i :scs find i <C-R>=expand("<cfile>")<CR>$<CR>
+    nmap <C-\>d :scs find d <C-R>=expand("<cword>")<CR><CR>
+    " open quickfix bymyself, it is one error now
+    nmap <C-\>o :copen<CR>
 endif
 "1}}}
 " ----------------------------------------------------------

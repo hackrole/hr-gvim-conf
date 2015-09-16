@@ -111,3 +111,42 @@ endsnippet
 snippet tsopt "tsung option"
 <option type="${1:ts_jabber}" name="${2:name}" value="${3:value}"></option>
 endsnippet
+
+
+# snippet for odoo(openerp8)
+
+snippet od.actwin "odoo ir.action.act_window" !
+<record id="${1}" model="ir.actions.act_window">
+	<field name="name">${2}</field>
+	<field name="res_model">${3}</field>
+</record>
+${0}
+endsnippet
+
+snippet od.view "odoo ir.ui.view" !
+<record id="${1}" model="ir.ui.view">
+	<field name="name">${2}</field>
+	<field name="model">${3}</field>
+	<field name="arch" type="xml">
+		${4}
+	</field>
+</record>
+${0}
+endsnippet
+
+snippet od.menu "odoo menuitem" !
+<menuitem id="${1}" sequence="${2}" name="${3}" parent="${4}"></menuitem>
+$0
+endsnippet
+
+snippet od.menut "odoo menuitem" !
+<menuitem id="${1}" sequence="${2}" name="${3}"></menuitem>
+$0
+endsnippet
+
+snippet od.data "odoo record data ususlly demo" !
+<record id="${1}" model="${2}">
+	${3}
+</record>
+${0}
+endsnippet
