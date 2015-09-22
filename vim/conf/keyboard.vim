@@ -56,7 +56,7 @@ inoremap <M-k> <Esc><C-W>k
 
 vnoremap <M-y> "+y
 nnoremap <M-p> "+p
-inoremap <M-p> <Esc>"+pi
+inoremap <M-p> <Esc>"+pa
 
 " 命令行下粘贴
 cnoremap <M-p> <C-R>+

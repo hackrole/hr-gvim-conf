@@ -15,7 +15,13 @@ endsnippet
 snippet impm "import (...)" !b
 import (
 	$1
-)$0
+)
+$0
+endsnippet
+
+snippet impp "import fmt" !b
+import "fmt"
+$0
 endsnippet
 
 snippet func "func name" !b
@@ -43,4 +49,33 @@ snippet derrf "if err panic and defer" !b
 $1, err := $2
 failOnError(err, "$3")
 defer $1.${4:Close}()
+endsnippet
+
+snippet pntf "fmt.Printf(...)" !b
+fmt.Printf("$1")
+$0
+endsnippet
+
+snippet pntfv "fmt.Printf(... ...)" !b
+fmt.Printf("$1", $2)
+$0
+endsnippet
+
+snippet pntl "fmt.Println(...)" !b
+fmt.Println($1)
+$0
+endsnippet
+
+snippet struct "type .. struct {...}" !b
+type $1 struct {
+	$2
+}
+$0
+endsnippet
+
+snippet interface "type .. interface {...}" !b
+type $1 interface {
+	$2
+}
+$0
 endsnippet
