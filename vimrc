@@ -23,6 +23,12 @@ Plugin 'gmarik/Vundle.vim'
 " nertree
 Plugin 'scrooloose/nerdtree'
 
+" vim-doc 中文
+Plugin 'foursking/vim-doc-cn'
+
+" vim colorschemes主题
+Plugin 'flazz/vim-colorschemes'
+
 " tagbar
 Plugin 'majutsushi/tagbar'
 
