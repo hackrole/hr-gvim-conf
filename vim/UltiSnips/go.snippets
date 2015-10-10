@@ -31,7 +31,13 @@ func $1($2) ($3){
 endsnippet
 
 snippet main "func main..." !b
-func main(){
+func main() {
+	$0
+}
+endsnippet
+
+snippet init "func init ..." !b
+func init() {
 	$0
 }
 endsnippet
@@ -78,4 +84,10 @@ type $1 interface {
 	$2
 }
 $0
+endsnippet
+
+snippet httphandler "func *handler (rw http.ResponsWrite, r *http.Request){...}" !b
+func $1(rw http.ResponseWriter, r *http.Request) {
+	$0
+}
 endsnippet

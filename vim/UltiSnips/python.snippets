@@ -11,6 +11,11 @@ snippet hde "header for python file encode" !b
 ${0}
 endsnippet
 
+# pytest
+snippet pyts.st "import pytest;pytest.set_trace()" !
+import pytest; pytest.set_trace()
+endsnippet
+
 # ft.unc
 snippet ft.unc "from __future import unicode.. " !b
 from __future__ import unicode_literals
@@ -184,6 +189,21 @@ endsnippet
 snippet ifmain "if __name__ == __main__ .. " !b
 if __name__ == "__main__":
     ${1:main()}
+endsnippet
+
+snippet imp.np "import numpy as np" !
+import numpy as np
+$0
+endsnippet
+
+snippet imp.plt "import matplotlib.pyplot as plt" !
+import matplotlib.pyplot as plt
+$0
+endsnippet
+
+snippet imp.pd "import pandas as pd" !
+import pandas as pd
+$0
 endsnippet
 
 snippet from "from .. import .." !
