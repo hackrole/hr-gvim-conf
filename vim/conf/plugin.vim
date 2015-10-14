@@ -374,8 +374,6 @@ let g:pymode = 1
 let g:pymode_trim_whitespaces = 0
 " pymode folding
 let g:pymode_folding = 1
-" XXX not trim whitespaces now. remeber to remove this!!!
-let g:pymode_trim_whitespaces = 1
 " enable pymode-motion
 let g:pymode_motion = 1
 " keys to view python doc
@@ -390,7 +388,7 @@ let g:pymode_breakpoint_bind = "<leader>qb"
 " XXX not use pep8 when on odoo-rubish
 let g:pymode_lint_checker = "pyflaskes,mccabe"
 " disbale pymode-lint auto checker
-let g:pymode_lint_on_write = 0
+let g:pymode_lint_on_write = 1
 " disable usual errors check
 let g:pymode_lint_select = ""
 " not jump to the first error

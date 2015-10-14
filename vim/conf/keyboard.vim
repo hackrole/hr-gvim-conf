@@ -134,6 +134,10 @@ nn <M-t>j :set ft=javascript<CR>
 cmap w!! w !sudo tee > /dev/null %
 " }}}
 
+" pytest keyboard{{{1
+" ======================
+" XXX try more beautiful way
+noremap <leader>ps Oimport pytest; pytest.set_trace()<Esc>
 
 " 快捷编辑配置文件 {{{1
 " =====================
