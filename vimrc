@@ -29,6 +29,11 @@ Plugin 'foursking/vim-doc-cn'
 " vim colorschemes主题
 Plugin 'flazz/vim-colorschemes'
 
+" unittest for vim-script
+Plugin 'h1mesuke/vim-unittest'
+" BDD-test for vim-script
+Plugin 'kana/vim-vspec'
+
 " tagbar
 Plugin 'majutsushi/tagbar'
 
@@ -50,7 +55,12 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'genutils'
 Plugin 'grep.vim'
 Plugin 'TaskList.vim'
+
+" rst plugin
 Plugin 'Rykka/riv.vim'
+" markdown plugin
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
 " Plugin 'fatih/vim-go'
 " go get github.com/nsf/gocode
 " error with other go plugin ??

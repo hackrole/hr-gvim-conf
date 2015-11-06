@@ -32,15 +32,15 @@ autocmd FileType html,css EmmetInstall
 autocmd BufNewFile,BufRead *.html,*.htm,*.erb :call s:HtmlIDE()
 
 function! s:HtmlIDE()
-    set ft=jinja
-    set autoindent
-    set smartindent
-    set listchars=tab:\ \ ,trail:-
-    set tabstop=2
-    set expandtab " 使用空格替代缩进
-    set shiftwidth=2
-    set softtabstop=2
-    set wrap
+    setlocal ft=jinja
+    setlocal autoindent
+    setlocal smartindent
+    setlocal listchars=tab:\ \ ,trail:-
+    setlocal tabstop=2
+    setlocal expandtab " 使用空格替代缩进
+    setlocal shiftwidth=2
+    setlocal softtabstop=2
+    setlocal wrap
 endfunction
 
 " golang 环境配置

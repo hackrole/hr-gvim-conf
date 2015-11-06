@@ -55,6 +55,13 @@ let g:user_emmet_prev_key = '<C-y>p'
 
 "  1}}}
 
+"------------------------------------------------------------------
+" [CmdlineComplete相关配置] {{{1
+"------------------------------------------------------------------
+"cmap <unique> <silent> <M-p> <Plug>CmdlineCompleteBackward
+"cmap <unique> <silent> <M-n> <Plug>CmdlineCompleteForward
+" 1}}}
+
 " [NERDTree相关配置] {{{1
 " ==================================================================
 " TODO: doc reaad and <f2>

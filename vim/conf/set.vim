@@ -44,7 +44,9 @@ set cursorline
 set scrolloff=5
 " 色彩高亮
 "colorscheme desert
-colorscheme tabula
+if has('gui_running')
+    colorscheme tabula
+endif
 " 设置命令行高度
 set cmdheight=1
 "1}}}
