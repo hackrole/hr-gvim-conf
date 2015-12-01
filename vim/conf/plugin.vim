@@ -377,8 +377,7 @@ let g:AutoPairsShortcutFastWrap = "<leader>pp"
 " --------------------------------------------------------------
 let g:pymode = 1
 " trim unused white spaces on save
-" XXX tmp not remove whitespaces while in odoo, stuped.
-let g:pymode_trim_whitespaces = 0
+let g:pymode_trim_whitespaces = 1
 " pymode folding
 let g:pymode_folding = 1
 " enable pymode-motion
@@ -391,9 +390,7 @@ let g:pymode_run_key = "<leader>qr"
 let g:pymode_breakpoint_bind = "<leader>qb"
 
 " set pylint checker
-"let g:pymode_lint_checker = "pyflaskes,pep8,mccabe"
-" XXX not use pep8 when on odoo-rubish
-let g:pymode_lint_checker = "pyflaskes,mccabe"
+let g:pymode_lint_checker = "pyflaskes,pep8,mccabe"
 " disbale pymode-lint auto checker
 let g:pymode_lint_on_write = 1
 " disable usual errors check

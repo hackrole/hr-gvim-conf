@@ -47,13 +47,13 @@ endfunction
 autocmd BufNewFile,BufRead *.go :call s:GolangIDE()
 autocmd BufWritePre *.go :Fmt
 function! s:GolangIDE()
-    set filetype=go
-    set listchars=tab:\ \ ,trail:-
-    set tabstop=2
-    set expandtab " 使用空格替代缩进
-    set shiftwidth=2
-    set softtabstop=2
-    set wrap
+    setlocal filetype=go
+    setlocal listchars=tab:\ \ ,trail:-
+    setlocal tabstop=2
+    setlocal expandtab " 使用空格替代缩进
+    setlocal shiftwidth=2
+    setlocal softtabstop=2
+    setlocal wrap
 endfunction
 
 
@@ -61,28 +61,28 @@ endfunction
 autocmd BufNewFile,BufRead *.css :call s:CssIDE()
 
 function! s:CssIDE()
-    set autoindent
-    set smartindent
-    set listchars=tab:\ \ ,trail:-
-    set expandtab
-    set tabstop=2
-    set shiftwidth=2
-    set softtabstop=2
-    set wrap
+    setlocal autoindent
+    setlocal smartindent
+    setlocal listchars=tab:\ \ ,trail:-
+    setlocal expandtab
+    setlocal tabstop=2
+    setlocal shiftwidth=2
+    setlocal softtabstop=2
+    setlocal wrap
 endfunction
 
 " yml/yaml文件编辑
 autocmd BufNewFile,BufRead *.yml,*.yaml :call s:YamlIDE()
 
 function! s:YamlIDE()
-    set autoindent
-    set smartindent
-    set listchars=tab:\ \ ,trail:-
-    set expandtab
-    set tabstop=2
-    set shiftwidth=2
-    set softtabstop=2
-    set wrap
+    setlocal autoindent
+    setlocal smartindent
+    setlocal listchars=tab:\ \ ,trail:-
+    setlocal expandtab
+    setlocal tabstop=2
+    setlocal shiftwidth=2
+    setlocal softtabstop=2
+    setlocal wrap
 endfunction
 
 " php 编辑环境配置
