@@ -91,6 +91,8 @@ let NERDTreeShowHidden=0
 let NERDTreeShowLineNumbers=1
 " nerdtree positioin
 let NERDTreeWinPos="left"
+" nerdtree width
+let NERDTreeWinSize = 35
 
 " 1}}}
 
@@ -420,7 +422,7 @@ let g:pymode_rope_lookup_project = 0
 "  [ syntastic配置 ] 多语言语法检查{{{1
 " --------------------------------------------------
 " check on open and save
-let g:syntastic_check_on_open = 0
+let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 1
 " use all checker at once
 let g:syntastic_aggregate_errors = 1
@@ -446,6 +448,7 @@ let g:syntastic_mode_map = {
 
 " set the checker
 let g:syntastic_c_checkers = ['gcc', 'make', 'cppcheck']
+let g:syntastic_javascript_checkers = ['jshint', "eslint"]
 
 " not working now. set lua checker
 let g:syntastic_lua_checkers = ["luac", "luacheck"]

@@ -248,5 +248,14 @@ connection = pika.BlockingConnection(pika.ConnectionParameters(
     host='localhost'
 ))
 channel = connection.channel()
-$0
+${0}
+endsnippet
+
+# snippet for mongoengine
+snippet rq "require=True" !
+required=True, ${0}
+endsnippet
+
+snippet ht "help_text=" !
+help_text="${1}"
 endsnippet

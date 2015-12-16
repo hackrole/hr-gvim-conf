@@ -140,6 +140,7 @@ Plugin 'jelera/vim-javascript-syntax'
 Plugin 'JavaScript-Indent'
 Plugin 'marijnh/tern_for_vim'
 Plugin 'othree/javascript-libraries-syntax.vim'
+Plugin 'kchmck/vim-coffee-script'
 Plugin 'moll/vim-node'
 
 
