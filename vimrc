@@ -135,13 +135,19 @@ Plugin 'Vimerl'
 Plugin 'vim-misc'
 Plugin 'lua.vim'
 
+" show indent level
+" Plugin 'Yggdroot/indentLine'
+
 " javascript/nodjs
 Plugin 'jelera/vim-javascript-syntax'
 Plugin 'JavaScript-Indent'
 Plugin 'marijnh/tern_for_vim'
 Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'kchmck/vim-coffee-script'
+Plugin 'gkz/vim-ls'
 Plugin 'moll/vim-node'
+Plugin 'digitaltoad/vim-jade'
+Plugin 'derekwyatt/vim-scala'
 
 
 " supertab 试用

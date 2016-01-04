@@ -411,8 +411,6 @@ nn <Leader>qa :PymodeLintAuto<CR>
 " key for Pylint toggle
 nn <Leader>qt :PymodeLintToggle<CR>
 
-" disable the fold
-let g:pymode_folding = 0
 " rope complete keys
 let g:pymode_rope_complete_on_dot = 0
 let g:pymode_rope_autocomplete_map = "<A-2>"
