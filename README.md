@@ -17,6 +17,4 @@ need vim version 7.4 or higher.
 
 3) install plugin
 
-    # open gvim
-    gvim
-    # run :PluginInstall in vim
+    gvim +PluginInstall +qall
