@@ -20,6 +20,6 @@ need vim version 7.4 or higher.
     ln -s `pwd`/vim ~/.vim
     ln -s `pwd`/vimrc ~/.vimrc
 
-3) install plugin
+4) install plugin
 
     gvim +PluginInstall +qall
