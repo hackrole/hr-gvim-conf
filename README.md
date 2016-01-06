@@ -15,6 +15,11 @@ need vim version 7.4 or higher.
     cd hr-gvim-conf
     git submodule update --init --recursive
 
+3) link config file
+
+    ln -s `pwd`/vim ~/.vim
+    ln -s `pwd`/vimrc ~/.vimrc
+
 3) install plugin
 
     gvim +PluginInstall +qall
