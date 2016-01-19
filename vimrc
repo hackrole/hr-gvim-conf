@@ -149,6 +149,9 @@ Plugin 'moll/vim-node'
 Plugin 'digitaltoad/vim-jade'
 Plugin 'derekwyatt/vim-scala'
 
+" buffer explorers
+Plugin 'jlanzarotta/bufexplorer'
+
 
 " supertab 试用
 " Plugin 'ervandew/supertab'
