@@ -23,6 +23,19 @@ snippet pn.mt "note meta header for tags,date" !b
 :author: hackrole
 :email: daipeng123456@gmail.com
 :date: `date +"%Y-%m-%d %H:%M:%S"`
+:status: draft
 :tags: ${1}
 $0
+endsnippet
+
+snippet td "mark this is TODO" !
+**TODO**
+endsnippet
+
+snippet pn.pb "make this published" !b
+:status: published
+endsnippet
+
+snippet pn.df "make this draft" !b
+:status: draft
 endsnippet
