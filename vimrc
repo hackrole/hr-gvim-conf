@@ -152,6 +152,9 @@ Plugin 'derekwyatt/vim-scala'
 " buffer explorers
 Plugin 'jlanzarotta/bufexplorer'
 
+" plantuml
+Plugin 'aklt/plantuml-syntax'
+
 
 " supertab 试用
 " Plugin 'ervandew/supertab'

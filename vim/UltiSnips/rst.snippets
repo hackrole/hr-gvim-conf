@@ -39,3 +39,20 @@ endsnippet
 snippet pn.df "make this draft" !b
 :status: draft
 endsnippet
+
+snippet pn.cb "code-block direct" !b
+.. code-block:: $1
+
+	$2
+endsnippet
+
+snippet pn.cbli "code-block direct with linenos inline" !b
+.. code-block:: $1
+	linenos: inline
+
+	$2
+endsnippet
+
+snippet pn.rb "code-block ruby" !b
+.. code-block:: ruby
+endsnippet
