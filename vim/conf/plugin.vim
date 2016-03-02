@@ -26,7 +26,7 @@ let g:user_emmet_settings = {
 \       'expandos': {},
 \       'default_attributes': {
 \           'a': {'href': '#'},
-\           'script': [{'type': 'text/javscript'}],
+\           'script': [{'type': 'text/javascript'}],
 \           'link': [{'rel': 'stylesheet'}, {'href': ''}],
 \       },
 \       'aliases': {
@@ -394,7 +394,7 @@ let g:pymode_breakpoint_bind = "<leader>qb"
 " set pylint checker
 let g:pymode_lint_checker = "pyflaskes,pep8,mccabe"
 " disbale pymode-lint auto checker
-let g:pymode_lint_on_write = 1
+let g:pymode_lint_on_write = 0
 " disable usual errors check
 let g:pymode_lint_select = ""
 " not jump to the first error
@@ -416,16 +416,23 @@ let g:pymode_rope_complete_on_dot = 0
 let g:pymode_rope_autocomplete_map = "<A-2>"
 let g:pymode_rope_lookup_project = 0
 "1}}}
+"------------------------------------------------------------------
+" [python my-virtualenv配置] {{{1
+"------------------------------------------------------------------
+noremap <leader>pv :VirtualEnvActivate<space><C-D>
+" 1}}}
+
 " -------------------------------------------------
 "  [ syntastic配置 ] 多语言语法检查{{{1
 " --------------------------------------------------
 " check on open and save
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 1
+let g:syntastic_check_on_open = 0
+let g:syntastic_check_on_wq = 0
 " use all checker at once
 let g:syntastic_aggregate_errors = 1
 " auto open error window while errors
-let g:syntastic_auto_loc_list = 0
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_always_populate_loc_list = 1
 " set sign symbol
 let g:syntastic_error_symbol = 'EE'
 let g:syntastic_style_error_symbol = 'E>'
@@ -442,15 +449,19 @@ let g:syntastic_loc_list_height = 5
 let g:syntastic_mode_map = {
             \   'mode': 'active',
             \   'active_filetypes': [],
-            \   'passive_filetypes': ['python']}
+            \   'passive_filetypes': ["python", "javascript",]}
 
 " set the checker
 let g:syntastic_c_checkers = ['gcc', 'make', 'cppcheck']
 let g:syntastic_javascript_checkers = ['jshint', "eslint"]
+let g:syntastic_python_checkers = ['python', 'pylint', 'pep8', 'flake8']
 
 " not working now. set lua checker
 let g:syntastic_lua_checkers = ["luac", "luacheck"]
 let g:syntastic_lua_luacheck_args = "--no-unused-args"
+
+" TODO keymap
+
 
 "1}}}
 "  [ cscope配置 ] {{{1
