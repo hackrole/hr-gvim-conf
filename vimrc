@@ -71,11 +71,14 @@ Plugin 'UltiSnips'
 Plugin 'matchit.zip'
 Plugin 'winmanager'
 Plugin 'jiangmiao/auto-pairs'
-Plugin 'Python-mode-klen'
 Plugin 'TagmaTasks'
 "Plugin 'neocomplcache'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'lookupfile'
+
+" python
+Plugin 'Python-mode-klen'
+Plugin 'jmcantrell/vim-virtualenv'
 
 " fix sudo vim error
 Plugin 'sudo.vim'
@@ -148,6 +151,9 @@ Plugin 'gkz/vim-ls'
 Plugin 'moll/vim-node'
 Plugin 'digitaltoad/vim-jade'
 Plugin 'derekwyatt/vim-scala'
+" typescript
+Plugin 'leafgarland/typescript-vim'
+Plugin 'Quramy/tsuquyomi'
 
 " buffer explorers
 Plugin 'jlanzarotta/bufexplorer'

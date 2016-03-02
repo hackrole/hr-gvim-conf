@@ -56,3 +56,26 @@ endsnippet
 snippet pn.rb "code-block ruby" !b
 .. code-block:: ruby
 endsnippet
+
+snippet pn.sr "make this tobe serial" !b
+:serials: $1
+:serials_index: $2
+endsnippet
+
+snippet tb.csv "make a csv table" !b
+.. csv-table:: $1
+	:header: $2
+	:class: ${3:table}
+	:name: ${4:csv-table}
+
+	$0
+endsnippet
+
+snippet tb.list "make a list table" !b
+.. list-table:: $1
+	:class: ${2:table}
+	:name: ${3:list-table}
+
+	$0
+endsnippet
+
