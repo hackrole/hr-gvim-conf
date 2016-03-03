@@ -10,7 +10,7 @@ set nocompatible
 be mswin
 filetype off
 
-if has('gui_mac')
+if has('gui_macvim')
     set macmeta
 endif
 
