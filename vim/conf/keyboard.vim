@@ -49,6 +49,12 @@ inoremap <M-h> <Esc><C-w>l
 inoremap <M-j> <Esc><C-w>j
 inoremap <M-k> <Esc><C-W>k
 
+" scroll other window
+nnoremap <leader>sh <M-h>Mzt
+nnoremap <leader>sj <M-j>Mzt
+nnoremap <leader>sk <M-k>Mzt
+nnoremap <leader>sl <M-l>Mzt
+
 " 1}}}
 " --------------------------------------------------
 " [复制粘贴] {{{1
