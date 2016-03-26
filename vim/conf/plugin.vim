@@ -427,7 +427,7 @@ noremap <leader>pv :VirtualEnvActivate<space><C-D>
 " --------------------------------------------------
 " check on open and save
 let g:syntastic_check_on_open = 0
-let g:syntastic_check_on_wq = 0
+let g:syntastic_check_on_wq = 1
 " use all checker at once
 let g:syntastic_aggregate_errors = 1
 " auto open error window while errors
@@ -449,12 +449,13 @@ let g:syntastic_loc_list_height = 5
 let g:syntastic_mode_map = {
             \   'mode': 'active',
             \   'active_filetypes': [],
-            \   'passive_filetypes': ["python", "javascript",]}
+            \   'passive_filetypes': []}
 
 " set the checker
 let g:syntastic_c_checkers = ['gcc', 'make', 'cppcheck']
 let g:syntastic_javascript_checkers = ['jshint', "eslint"]
-let g:syntastic_python_checkers = ['python', 'pylint', 'pep8', 'flake8']
+"let g:syntastic_python_checkers = ['python', 'pylint', 'pep8', 'flake8']
+let g:syntastic_python_checkers = ['pep8', 'pylint', 'flake8']
 
 " not working now. set lua checker
 let g:syntastic_lua_checkers = ["luac", "luacheck"]
