@@ -49,6 +49,9 @@ inoremap <M-h> <Esc><C-w>l
 inoremap <M-j> <Esc><C-w>j
 inoremap <M-k> <Esc><C-W>k
 
+nnoremap <M-,> 3<C-w><
+nnoremap <M-.> 3<C-w>>
+
 " scroll other window
 nnoremap <leader>sh <M-h>Mzt
 nnoremap <leader>sj <M-j>Mzt
