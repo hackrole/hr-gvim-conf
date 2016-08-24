@@ -278,7 +278,7 @@ map <leader>mu :UMiniBufExplorer<cr>
 " [ UltiSnips配置 ] {{{1
 " --------------------------------------------------
 " 使用python2.7
-let g:UltiSnipsUsePythonVersion = 2
+let g:UltiSnipsUsePythonVersion = 3
 let g:UltiSnipsEditSplit = "horizontal"
 " keys
 nn <C-f7> :UltiSnipsEdit<CR>
