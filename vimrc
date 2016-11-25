@@ -37,6 +37,11 @@ Plugin 'kana/vim-vspec'
 " tagbar
 Plugin 'majutsushi/tagbar'
 
+" ctrlp. quick file-opener
+Plugin 'ctrlpvim/ctrlp.vim'
+" unite quick file/buffer explorer
+Plugin 'Shougo/unite.vim'
+
 Plugin 'csliu/a.vim'
 " load error!
 " Plugin 'kakkyz81/evervim'
@@ -46,7 +51,7 @@ Plugin 'mattn/emmet-vim'
 "Plugin 'css-color-preview'
 Plugin 'acx0/Conque-Shell'
 Plugin 'tpope/vim-fugitive'
-Plugin 'minibufexplorerpp'
+"Plugin 'minibufexplorerpp'
 Plugin 'skammer/vim-css-color'
 Plugin 'nerdtree-execute'
 Plugin 'mortonfox/nerdtree-iterm'
@@ -55,6 +60,9 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'genutils'
 Plugin 'grep.vim'
 Plugin 'TaskList.vim'
+
+" elixir plugin
+Plugin 'elixir-lang/vim-elixir'
 
 " rst plugin
 Plugin 'Rykka/riv.vim'
@@ -121,8 +129,6 @@ Plugin 'Shougo/vimproc'
 Plugin 'adt.vim'
 
 " golang
-" auto imports
-Plugin 'cespare/vim-golang'
 " code jump
 Plugin 'dgryski/vim-godef'
 " gocode for auto-complete

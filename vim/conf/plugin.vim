@@ -77,6 +77,7 @@ let NERDTreeIgnore+=['\.bak$']
 let NERDTreeIgnore+=['\.elc']
 let NERDTreeIgnore+=['^ctags$']
 let NERDTreeIgnore+=['^etags$']
+let NERDTreeIgnore+=['^__pycache__$']
 let NERDTreeIgnore+=['^filenametags$']
 let NERDTreeIgnore+=['^cscope\.\(files\|in\.out\|out\|po.out\)$']
 " more colourful
@@ -274,6 +275,24 @@ map <Leader>mt :TMiniBufExplorer<cr>
 map <leader>mm :MiniBufExplorer<cr>
 map <leader>mu :UMiniBufExplorer<cr>
 "1}}}
+"---------------------------------------------------
+"[ ctrlp配置 ] {{{1
+"---------------------------------------------------
+" window positon and size
+let g:ctrlp_match_window = 'top,order:ttb,min:1,max:10,results:10'
+" jump method
+let g:ctrlp_switch_buffer = 'Et'
+" how-to find work-dir
+let g:ctrlp_working_path_mode = 'ra'
+" cache dir
+let g:ctrlp_cache_dir = $HOME.'/.vim/temp/ctrlp_cache'
+" clear cache
+let g:ctrlp_clear_cache_on_exit = 1
+" show hide file/dir
+let g:ctrlp_show_hidden = 0
+
+
+"1}}}
 " --------------------------------------------------
 " [ UltiSnips配置 ] {{{1
 " --------------------------------------------------
@@ -455,7 +474,7 @@ let g:syntastic_mode_map = {
 let g:syntastic_c_checkers = ['gcc', 'make', 'cppcheck']
 let g:syntastic_javascript_checkers = ['jshint', "eslint"]
 "let g:syntastic_python_checkers = ['python', 'pylint', 'pep8', 'flake8']
-let g:syntastic_python_checkers = ['pep8', 'pylint', 'flake8']
+let g:syntastic_python_checkers = ['pylint']
 
 " not working now. set lua checker
 let g:syntastic_lua_checkers = ["luac", "luacheck"]

@@ -81,8 +81,8 @@ ino <leader>Bb <Esc>:tabnew<CR>:ConqueTerm bash<CR>
 ino <Leader>bb <Esc>:botright 15split<CR>:ConqueTerm bash<CR>
 nn <leader>Bp :tabnew<cr>:ConqueTerm ipython<CR>
 nn <leader>bp :botright 15split<CR>:ConqueTerm ipython<CR>
-ino <leader>bp <Esc>:tabnew<cr>:ConqueTerm ipython<CR>
-ino <leader>Bp <Esc>:botright 15split<CR>:ConqueTerm ipython<CR>
+ino <leader>Bp <Esc>:tabnew<cr>:ConqueTerm ipython<CR>
+ino <leader>bp <Esc>:botright 15split<CR>:ConqueTerm ipython<CR>
 " 1}}}
 " [快捷按鍵] {{{1
 " ===============
@@ -141,6 +141,7 @@ nn <M-t>p :set ft=php<CR>
 nn <M-t>j :set ft=javascript<CR>
 " sudo save
 cmap w!! w !sudo tee > /dev/null %
+cmap s!! w !sudo -u www-data tee > /dev/null %
 " }}}
 
 " pytest keyboard{{{1
