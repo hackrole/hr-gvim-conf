@@ -297,7 +297,7 @@ let g:ctrlp_show_hidden = 0
 " [ UltiSnips配置 ] {{{1
 " --------------------------------------------------
 " 使用python2.7
-let g:UltiSnipsUsePythonVersion = 3
+let g:UltiSnipsUsePythonVersion = 2
 let g:UltiSnipsEditSplit = "horizontal"
 " keys
 nn <C-f7> :UltiSnipsEdit<CR>
