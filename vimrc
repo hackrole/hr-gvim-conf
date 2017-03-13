@@ -59,10 +59,12 @@ Plugin 'scrooloose/nerdcommenter'
 "Plugin 'c.vim'
 Plugin 'genutils'
 Plugin 'grep.vim'
+Plugin 'mileszs/ack.vim'
 Plugin 'TaskList.vim'
 
 " elixir plugin
 Plugin 'elixir-lang/vim-elixir'
+Plugin 'slashmili/alchemist.vim'
 
 " rst plugin
 Plugin 'Rykka/riv.vim'

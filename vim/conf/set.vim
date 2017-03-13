@@ -64,6 +64,12 @@ set expandtab
 set nofoldenable
 set foldmethod=marker
 
+" 使用terminal去掉系统弹出框
+autocmd VimEnter * :call s:SetGuioptions_for_mac()
+function! s:SetGuioptions_for_mac()
+    set guioptions+=c
+endfunction
+
 "-------------------------------------------------------
 " [ 搜索相关 ] {{{1
 "-------------------------------------------------------

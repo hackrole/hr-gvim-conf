@@ -153,6 +153,8 @@ let g:tagbar_type_go = {
 \   'ctagsbin': 'gotags',
 \   'ctagsargs': '-sort -silent'
 \}
+" 支持elixir
+let g:tagbar_type_elixir = {'ctagstype': 'elixir', 'kinds': ['f:functions:0:0', 'c:callbacks:0:0', 'd:delegates:0:0', 'e:exceptions:0:0', 'i:implementations:0:0', 'a:macros:0:0', 'o:operators:0:0', 'm:modules:0:0', 'p:protocols:0:0', 'r:records:0:0'], 'sro': '.', 'kind2scope': {'m': 'modules'}, 'scope2kind': {'modules': 'm'}}
 "1}}}
 " -------------------------------------------------
 "  [TagmaTask插件配置]{{{1
@@ -285,11 +287,20 @@ let g:ctrlp_switch_buffer = 'Et'
 " how-to find work-dir
 let g:ctrlp_working_path_mode = 'ra'
 " cache dir
+let g:ctrlp_use_caching = 0
 let g:ctrlp_cache_dir = $HOME.'/.vim/temp/ctrlp_cache'
 " clear cache
 let g:ctrlp_clear_cache_on_exit = 1
 " show hide file/dir
 let g:ctrlp_show_hidden = 0
+" show hidden file
+let g:ctrlp_show_hidden = 1
+" ignore files
+let g:ctrlp_custom_ignore = {
+            \ 'dir':  '\v[\/]\.(git|hg|svn)$',
+            \ 'file': '\v\.(exe|so|dll|pyc)$',
+            \ 'link': 'SOME_BAD_SYMBOLIC_LINKS',
+            \ }
 
 
 "1}}}
@@ -513,6 +524,16 @@ if has("cscope")
     nmap <C-\>o :copen<CR>
 endif
 "1}}}
+"------------------------------------------------------------------
+" [YouCompleteMe] {{{1
+"------------------------------------------------------------------
+" complete for typescript
+if !exists("g:ycm_semantic_triggers")
+    let g:ycm_semantic_triggers = {}
+endif
+let g:ycm_semantic_triggers['typescript'] = ['.']
+" 1}}}
+
 " ----------------------------------------------------------
 "  [ evernote配置 ]{{{1
 " TODO: try and conf and 优化
@@ -528,5 +549,16 @@ let g:adtVimAndroidPath = "/usr/local/app/adt64/sdk"
 " [javascirpt-libraries-syntax.vim]配置{{{1
 " -----------------------------------------------------------
 let g:used_javascript_libs = 'underscore,backbone,jQuery'
+" 1}}}
+
+"------------------------------------------------------------------
+" [ack.vim配置] {{{1
+"------------------------------------------------------------------
+" use ag instead of ack for more speed
+let g:ackprg = "ag --vimgrep --smart-case"
+cnoreabbrev ag Ack!
+cnoreabbrev aG Ack!
+cnoreabbrev Ag Ack!
+cnoreabbrev AG Ack!
 " 1}}}
 

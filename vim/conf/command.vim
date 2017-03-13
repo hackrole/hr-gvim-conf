@@ -41,6 +41,21 @@ function! s:JavascriptIDE()
     setlocal wrap
 endfunction
 
+" typescript自动设置
+autocmd BufNewFile,BufRead *.ts :call s:TypescriptIDE()
+
+function! s:TypescriptIDE()
+    setlocal autoindent
+    setlocal smartindent
+    setlocal listchars=tab:\|\ ,trail:-
+    setlocal tabstop=2
+    setlocal expandtab " 使用空格替代缩进
+    setlocal shiftwidth=2
+    setlocal softtabstop=2
+    setlocal wrap
+endfunction
+
+
 " html/jinja2 编辑环境配置
 autocmd BufNewFile,BufRead *.html,*.htm,*.erb :call s:HtmlIDE()
 

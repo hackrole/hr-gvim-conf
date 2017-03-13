@@ -148,6 +148,7 @@ cmap s!! w !sudo -u www-data tee > /dev/null %
 " ======================
 " XXX try more beautiful way
 noremap <leader>ps Oimport pytest; pytest.set_trace()<Esc>
+noremap <leader>pS Oimport ipdb; ipdb.set_trace()<Esc>
 
 " 快捷编辑配置文件 {{{1
 " =====================
