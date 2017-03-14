@@ -307,11 +307,11 @@ let g:ctrlp_custom_ignore = {
 " --------------------------------------------------
 " [ UltiSnips配置 ] {{{1
 " --------------------------------------------------
-" 使用python2.7
-let g:UltiSnipsUsePythonVersion = 2
+" ultisnips回自动监测has(python) or has(python3), 监测失败可以自己手动设置
+"let g:UltiSnipsUsePythonVersion = 2
 let g:UltiSnipsEditSplit = "horizontal"
 " keys
-nn <C-f7> :UltiSnipsEdit<CR>
+nn <M-F7> :UltiSnipsEdit<CR>
 let g:UltiSnipsExpandTrigger = "<C-e>"
 let g:UltiSnipsListSnippets = "<f7>"
 let g:UltiSnipsJumpForwardTrigger = "<C-k>"
