@@ -65,6 +65,11 @@ Plugin 'TaskList.vim'
 " elixir plugin
 Plugin 'elixir-lang/vim-elixir'
 Plugin 'slashmili/alchemist.vim'
+" TODO
+Plugin 'neomake/neomake'
+Plugin 'c-brenn/phoenix.vim'
+Plugin 'tpope/vim-projectionist'
+Plugin 'ludovicchabant/vim-gutentags'
 
 " rst plugin
 Plugin 'Rykka/riv.vim'

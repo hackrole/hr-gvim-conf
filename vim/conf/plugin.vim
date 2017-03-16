@@ -486,6 +486,9 @@ let g:syntastic_c_checkers = ['gcc', 'make', 'cppcheck']
 let g:syntastic_javascript_checkers = ['jshint', "eslint"]
 "let g:syntastic_python_checkers = ['python', 'pylint', 'pep8', 'flake8']
 let g:syntastic_python_checkers = ['pylint']
+" elixir checker
+let g:syntastic_enable_elixir_checker = 1
+let g:syntastic_elixir_checkers = ['elixir']
 
 " not working now. set lua checker
 let g:syntastic_lua_checkers = ["luac", "luacheck"]
@@ -560,5 +563,23 @@ cnoreabbrev ag Ack!
 cnoreabbrev aG Ack!
 cnoreabbrev Ag Ack!
 cnoreabbrev AG Ack!
+" 1}}}
+
+"------------------------------------------------------------------
+" [neomake config] {{{1
+"------------------------------------------------------------------
+autocmd! BufWritePost * NeoMake
+" 1}}}
+
+"------------------------------------------------------------------
+" [vim-gutentags] {{{1
+"------------------------------------------------------------------
+let g:gutentags_cache_dir='~/.tags_cache'
+" 1}}}
+
+"------------------------------------------------------------------
+" [Alchemist.vim] {{{1
+"------------------------------------------------------------------
+let g:alchemist_tag_disable = 1
 " 1}}}
 
