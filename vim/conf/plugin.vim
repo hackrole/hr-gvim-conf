@@ -281,7 +281,7 @@ map <leader>mu :UMiniBufExplorer<cr>
 "[ ctrlp配置 ] {{{1
 "---------------------------------------------------
 " window positon and size
-let g:ctrlp_match_window = 'top,order:ttb,min:1,max:10,results:10'
+let g:ctrlp_match_window = 'bottom,order:btt,min:1,max:10,results:10'
 " jump method
 let g:ctrlp_switch_buffer = 'Et'
 " how-to find work-dir
@@ -566,9 +566,17 @@ cnoreabbrev AG Ack!
 " 1}}}
 
 "------------------------------------------------------------------
+" [vim-dotoo配置] {{{1
+"------------------------------------------------------------------
+let g:dotoo#agenda#files = ['~/.vim/agendas/*.dotoo']
+let g:dotoo#capture#refile = expand('~/.vim/refile.dotoo')
+" 1}}}
+
+
+"------------------------------------------------------------------
 " [neomake config] {{{1
 "------------------------------------------------------------------
-autocmd! BufWritePost * NeoMake
+"autocmd! BufWritePost * NeoMake
 " 1}}}
 
 "------------------------------------------------------------------

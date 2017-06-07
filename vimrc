@@ -22,12 +22,21 @@ Plugin 'gmarik/Vundle.vim'
 
 " nertree
 Plugin 'scrooloose/nerdtree'
+Plugin 'mihaifm/vimpanel'
 
 " vim-doc 中文
 Plugin 'foursking/vim-doc-cn'
 
 " vim colorschemes主题
 Plugin 'flazz/vim-colorschemes'
+
+" vim session manager
+Plugin 'tpope/vim-obsession'
+Plugin 'dhruvasagar/vim-prosession'
+
+" vim tasks agenda
+Plugin 'dhruvasagar/vim-dotoo'
+Plugin 'jceb/vim-orgmode'
 
 " unittest for vim-script
 Plugin 'h1mesuke/vim-unittest'
@@ -47,9 +56,13 @@ Plugin 'csliu/a.vim'
 " Plugin 'kakkyz81/evervim'
 Plugin 'tpope/vim-surround'
 Plugin 'EasyMotion'
+Plugin 'tommcdo/vim-exchange'
+Plugin 'tpope/vim-scriptease'
 Plugin 'mattn/emmet-vim'
 "Plugin 'css-color-preview'
 Plugin 'acx0/Conque-Shell'
+Plugin 'christoomey/vim-tmux-navigator'
+
 Plugin 'tpope/vim-fugitive'
 "Plugin 'minibufexplorerpp'
 Plugin 'skammer/vim-css-color'
@@ -163,10 +176,17 @@ Plugin 'kchmck/vim-coffee-script'
 Plugin 'gkz/vim-ls'
 Plugin 'moll/vim-node'
 Plugin 'digitaltoad/vim-jade'
-Plugin 'derekwyatt/vim-scala'
 " typescript
 Plugin 'leafgarland/typescript-vim'
 Plugin 'Quramy/tsuquyomi'
+" scala
+Plugin 'derekwyatt/vim-scala'
+Bundle "megaannum/self"
+Bundle "megaannum/forms" 
+Bundle "Shougo/vimproc"
+Bundle "Shougo/vimshell"
+Bundle "aemoncannon/ensime"
+Bundle "megaannum/vimside"  
 
 " buffer explorers
 Plugin 'jlanzarotta/bufexplorer'
