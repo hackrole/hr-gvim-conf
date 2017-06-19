@@ -26,6 +26,8 @@ Plugin 'mihaifm/vimpanel'
 
 " vim-doc 中文
 Plugin 'foursking/vim-doc-cn'
+" vim font size
+Plugin 'drmikehenry/vim-fontsize'
 
 " vim colorschemes主题
 Plugin 'flazz/vim-colorschemes'
@@ -62,6 +64,7 @@ Plugin 'mattn/emmet-vim'
 "Plugin 'css-color-preview'
 Plugin 'acx0/Conque-Shell'
 Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'christoomey/vim-tmux-runner'
 
 Plugin 'tpope/vim-fugitive'
 "Plugin 'minibufexplorerpp'
@@ -181,12 +184,12 @@ Plugin 'leafgarland/typescript-vim'
 Plugin 'Quramy/tsuquyomi'
 " scala
 Plugin 'derekwyatt/vim-scala'
-Bundle "megaannum/self"
-Bundle "megaannum/forms" 
-Bundle "Shougo/vimproc"
-Bundle "Shougo/vimshell"
-Bundle "aemoncannon/ensime"
-Bundle "megaannum/vimside"  
+Plugin 'ensime/ensime-vim'
+
+Plugin 'megaannum/self'
+Plugin 'megaannum/forms' 
+Plugin 'aemoncannon/ensime'
+Plugin 'megaannum/vimside'  
 
 " buffer explorers
 Plugin 'jlanzarotta/bufexplorer'

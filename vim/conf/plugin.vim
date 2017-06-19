@@ -568,7 +568,7 @@ cnoreabbrev AG Ack!
 "------------------------------------------------------------------
 " [vim-dotoo配置] {{{1
 "------------------------------------------------------------------
-let g:dotoo#agenda#files = ['~/.vim/agendas/*.dotoo']
+let g:dotoo#agenda#files = [expand('~/.vim/agendas/works.dotoo'), expand("~/.vim/agendas/home.dotoo"), expand("~/.vim/agendas/dotoo.dotoo")]
 let g:dotoo#capture#refile = expand('~/.vim/refile.dotoo')
 " 1}}}
 
@@ -590,4 +590,11 @@ let g:gutentags_cache_dir='~/.tags_cache'
 "------------------------------------------------------------------
 let g:alchemist_tag_disable = 1
 " 1}}}
+"
+"------------------------------------------------------------------
+" [scala ensime config] {{{1
+"------------------------------------------------------------------
+autocmd BufWritePost *.scala silent :EnTypeCheck
+" 1}}}
+
 

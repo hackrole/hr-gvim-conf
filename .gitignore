@@ -3,3 +3,4 @@ vim/bundle/*
 !/vim/temp/.git-keeper
 *.sw
 *.swo
+/vim/session
