@@ -46,9 +46,16 @@ set cursorline
 set scrolloff=5
 " 色彩高亮
 "colorscheme desert
-if has('gui_running')
-    colorscheme tabula
+"if has('gui_running')
+"    colorscheme tabula
+"endif
+" nvim settings
+colorscheme tabula
+
+if exists(':tnoremap')
+    tnoremap <Esc> <C-\><C-n>
 endif
+
 " 设置命令行高度
 set cmdheight=1
 "1}}}
