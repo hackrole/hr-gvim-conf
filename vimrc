@@ -34,7 +34,7 @@ Plugin 'flazz/vim-colorschemes'
 
 " vim session manager
 Plugin 'tpope/vim-obsession'
-Plugin 'dhruvasagar/vim-prosession'
+"Plugin 'dhruvasagar/vim-prosession'
 
 " vim tasks agenda
 Plugin 'dhruvasagar/vim-dotoo'
@@ -184,7 +184,7 @@ Plugin 'leafgarland/typescript-vim'
 Plugin 'Quramy/tsuquyomi'
 " scala
 Plugin 'derekwyatt/vim-scala'
-Plugin 'ensime/ensime-vim'
+"Plugin 'ensime/ensime-vim'
 
 Plugin 'megaannum/self'
 Plugin 'megaannum/forms' 

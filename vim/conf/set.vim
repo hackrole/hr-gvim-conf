@@ -51,9 +51,18 @@ set scrolloff=5
 "endif
 " nvim settings
 colorscheme tabula
+" gui font size
+set guifont=MonoSpace\ 18
+
 
 if exists(':tnoremap')
     tnoremap <Esc> <C-\><C-n>
+    tnoremap <M-n> <C-\><C-n>:tabprevious<CR>
+    tnoremap <M-n> <C-\><C-n>:tabnext<CR>
+    tnoremap <M-h> <C-\><C-n><C-w>h
+    tnoremap <M-j> <C-\><C-n><C-w>j
+    tnoremap <M-k> <C-\><C-n><C-w>k
+    tnoremap <M-l> <C-\><C-n><C-w>l
 endif
 
 " 设置命令行高度
