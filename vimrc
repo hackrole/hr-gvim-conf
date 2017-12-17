@@ -1,4 +1,4 @@
-" ------------------------------------------------------------------------
+"" ------------------------------------------------------------------------
 " File: .vimrc
 " Author: hackrole
 " Email: daipeng123456@gmail.com
@@ -52,6 +52,8 @@ Plugin 'majutsushi/tagbar'
 Plugin 'ctrlpvim/ctrlp.vim'
 " unite quick file/buffer explorer
 Plugin 'Shougo/unite.vim'
+Plugin 'Shougo/denite.nvim'
+Plugin 'Shougo/vimfiler.vim'
 
 Plugin 'csliu/a.vim'
 " load error!
@@ -65,6 +67,11 @@ Plugin 'mattn/emmet-vim'
 Plugin 'acx0/Conque-Shell'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'christoomey/vim-tmux-runner'
+
+" lisp config
+Plugin 'kovisoft/slimv'
+Plugin 'kovisoft/paredit'
+Plugin 'kien/rainbow_parentheses.vim'
 
 Plugin 'tpope/vim-fugitive'
 "Plugin 'minibufexplorerpp'
@@ -104,7 +111,7 @@ Plugin 'winmanager'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'TagmaTasks'
 "Plugin 'neocomplcache'
-Plugin 'Valloric/YouCompleteMe'
+"Plugin 'Valloric/YouCompleteMe'
 Plugin 'lookupfile'
 
 " python

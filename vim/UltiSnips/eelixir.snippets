@@ -1,0 +1,31 @@
+snippet form.for "form for" !b
+<%= form_for @changeset, $1, fn f -> %>
+	$0
+<% end %>
+endsnippet
+
+snippet form.text "text input" !b
+<%= text_input f, :$1, placeholder: "$2", class: "${3:form-control}" %>
+endsnippet
+
+snippet form.submit "form submit" !b
+<%= submit "$1", class: "${2:btn btn-primary}" %>
+endsnippet
+
+snippet if "template if" !b
+<%= if $1 do %>
+$0
+<% end %>
+endsnippet
+
+snippet form.err "form err_tag" !b
+<%= error_tag ${1:f}, :$2 %>
+endsnippet
+
+snippet form.lab "form label.for" !b
+<%= label ${1:f}, :$2, "$3", class: "$4" %>
+endsnippet
+
+snippet form.select "from select" !b
+<%= select ${1:f}, :$2, @$3, class: "$4", prompt: "$5" %>
+endsnippet

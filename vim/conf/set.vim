@@ -50,7 +50,9 @@ set scrolloff=5
 "    colorscheme tabula
 "endif
 " nvim settings
+" ???? what's the fuck
 colorscheme tabula
+"colorscheme gruvbox
 " gui font size
 set guifont=MonoSpace\ 18
 
