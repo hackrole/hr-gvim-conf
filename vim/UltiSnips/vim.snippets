@@ -19,3 +19,17 @@ $0
 " 1}}}
 
 endsnippet
+
+# function
+snippet func "vim function define" !b
+function! s:${1:name}(${2})
+$0
+endfunction
+endsnippet
+
+snippet if "if .. endif" !b
+if $1
+	$0
+endif
+endsnippet
+

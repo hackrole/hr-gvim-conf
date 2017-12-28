@@ -52,8 +52,11 @@ set scrolloff=5
 " nvim settings
 colorscheme tabula
 " gui font size
-set guifont=MonoSpace\ 18
-
+if has('macunix')
+    set guifont=Consolas:h24
+else
+    set guifont=consoles:h21
+endif
 
 if exists(':tnoremap')
     tnoremap <Esc> <C-\><C-n>

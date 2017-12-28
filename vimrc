@@ -52,6 +52,8 @@ Plugin 'majutsushi/tagbar'
 Plugin 'ctrlpvim/ctrlp.vim'
 " unite quick file/buffer explorer
 Plugin 'Shougo/unite.vim'
+Plugin 'Shougo/denite.nvim'
+Plugin 'Shougo/vimfiler.vim'
 
 Plugin 'csliu/a.vim'
 " load error!

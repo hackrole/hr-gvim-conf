@@ -215,3 +215,49 @@ nn <silent> <A-u> :call ReferenceLine('sub')<CR>
 nn <silent> <A-o> :call ReferenceLine('add')<CR>
 " }}}
 
+"------------------------------------------------------------------
+" [font resize] {{{1
+"------------------------------------------------------------------
+"
+"let g:hr_fnt_types = ['Menlo Regular']
+let g:hr_fnt_type = "Menlo Regular"
+let g:hr_fnt_sizes = ['12', '14', '18', '24', '36']
+let g:hr_fnt_index = 3
+let g:hr_fnt_size = 24
+
+function! CycleFont()
+    let g:hr_fnt_index = (g:hr_fnt_index + 1) % len(g:fnt_sizes)
+    let g:fnt_size = g:hr_fnt_sizes[g:hr_fnt_index]
+    call ResetFont()
+endfunction
+
+function! ResetFont()
+    if has('gui_running')
+        exe ':set guifont=' . g:hr_fnt_type . 'h:' . string(g:hr_fnt_sizes[g:hr_fnt_index])
+    endif
+endfunction
+
+function! FontLarge()
+    let g:hr_fnt_index = g:hr_fnt_index + 1
+    if g:hr_fnt_size > len(g:hr_fnt_sizes)
+        echom "font cannot be larger any more"
+        exit
+    endif
+    let g:fnt_size = g:hr_fnt_sizes[g:hr_fnt_index]
+    call ResetFont()
+endfunction
+
+function! FontSmall()
+    let g:hr_fnt_index = g:hr_fnt_index - 1
+    if g:hr_fnt_size < 0
+        echom "font cannot be smaller any more"
+        exit
+    endif
+    let g:fnt_size = g:hr_fnt_sizes[g:hr_fnt_index]
+    call ResetFont()
+endfunction
+
+nnoremap <leader>+ :call FontLarge()<CR>
+nnoremap <leader>- :call FontSmall()<CR>
+" 1}}}
+
