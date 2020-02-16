@@ -123,6 +123,7 @@ nnoremap <leader>dd :<C-u>Denite -default-action=ex directory_mru<cr>
 nnoremap <leader>dh :<C-u>Denite help<cr>
 nnoremap <leader>dm :<C-u>Denite menu<cr>
 nnoremap <leader>dr :<C-u>Denite -mode=normal register<cr>
+nnoremap <leader>uB :<C-u>Unite bookmark<CR>
 "1}}}
 
 " c

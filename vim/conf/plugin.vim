@@ -10,7 +10,7 @@
 " [netrw相关配置] {{{1
 " =========================================================================
 " 支持ftp/ssh等协议编辑远程文件的插件
-let g:netrw_home = "~/.vim/temp/netrw"
+"let g:netrw_home = "~/.vim/temp/netrw"
 
 " 1}}}
 
@@ -461,7 +461,7 @@ let g:syntastic_check_on_wq = 1
 " use all checker at once
 let g:syntastic_aggregate_errors = 1
 " auto open error window while errors
-let g:syntastic_auto_loc_list = 1
+let g:syntastic_auto_loc_list = 2
 let g:syntastic_always_populate_loc_list = 1
 " set sign symbol
 let g:syntastic_error_symbol = 'EE'
@@ -605,4 +605,29 @@ let g:alchemist_tag_disable = 1
 autocmd BufWritePost *.scala silent :EnTypeCheck
 " 1}}}
 
+"------------------------------------------------------------------
+" [Unite-config] {{{1
+"------------------------------------------------------------------
+nnoremap <leader>ub :Unite buffer<CR>
+nnoremap <leader>uB :Unite bookmark<CR>
+nnoremap <leader>um :Unite menu<CR>
+nnoremap <leader>uM :Unite -start-insert mapping<CR>
+nnoremap <leader>ur :Unite file_mru<CR>
+if has('nvim')
+    nnoremap <leader>uf :Denite file<CR>
+else
+    nnoremap <leader>uf :Unite -start-insert -complete -direction=botright file_rec<CR>
+endif
+autocmd FileType unite call s:unite_my_settings()
+function! s:unite_my_settings()
+    nmap <silent><buffer><expr> F unite#do_action('vimfiler')
+endfunction
+" 1}}}
+"------------------------------------------------------------------
+" [mirror.vim] {{{1
+"------------------------------------------------------------------
+nnoremap <leader>mc :MirrorConfig<CR>
+nnoremap <leader>ms :MirrorEdit staging<CR>
+nnoremap <leader>mp :MirrorEdit product<CR>
+" 1}}}
 

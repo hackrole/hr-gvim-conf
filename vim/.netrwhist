@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='scp://ubuntu@118.25.25.118/'
+let g:netrw_dirhist_2='scp://ubuntu@118.25.25.118/red_env/'
+let g:netrw_dirhist_3='scp://ubuntu@118.25.25.118/redpacket/'
+let g:netrw_dirhist_4='scp://ubuntu@118.25.25.118/redpacket/wx/'
+let g:netrw_dirhist_5='scp://ubuntu@118.25.25.118/'
+let g:netrw_dirhist_6='scp://ubuntu@118.25.25.118//home/ubuntu/redpacket/'
+let g:netrw_dirhist_7='scp://ubuntu@118.25.25.118//home/'
+let g:netrw_dirhist_8='scp://ubuntu@118.25.25.118//home/ubuntu/'
+let g:netrw_dirhist_9='/Users/daipeng/projects/redpacket'

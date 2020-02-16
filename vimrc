@@ -199,6 +199,9 @@ Plugin 'jlanzarotta/bufexplorer'
 " plantuml
 Plugin 'aklt/plantuml-syntax'
 
+" edit remote-file
+Plugin 'zenbro/mirror.vim'
+
 
 " supertab 试用
 " Plugin 'ervandew/supertab'

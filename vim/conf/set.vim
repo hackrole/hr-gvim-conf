@@ -37,7 +37,8 @@ set pumheight=8
 " 右下角显示光标位置状态行
 set ruler
 " 显示行号
-set nu " number
+set number " number
+set relativenumber
 " 行间距
 set linespace=2
 " 行高亮
@@ -50,7 +51,10 @@ set scrolloff=5
 "    colorscheme tabula
 "endif
 " nvim settings
-colorscheme tabula
+"colorscheme tabula
+set background=dark
+colorscheme gruvbox
+
 " gui font size
 if has('macunix')
     set guifont=Consolas:h24
@@ -174,7 +178,7 @@ set nobackup
 " 忽略备份
 "set backupskip += "*.log, *.pyc, *.tmp"
 " 设定临时文件目录
-set directory=$VIMFILES/temp
+"set directory=$VIMFILES/temp
 " 1}}}
 
 " --------------------------------------------------
